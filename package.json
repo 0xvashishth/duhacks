@@ -2,7 +2,7 @@
   "name": "duhacks",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://628f87c5815b25733e70574b--papaya-tulumba-c4079f.netlify.app/",
+  "homepage": "https://duhacks.tech/",
   "dependencies": {
     "@devexpress/dx-core": "^2.7.6",
     "@devexpress/dx-react-core": "^2.7.6",
