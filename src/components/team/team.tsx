@@ -10,13 +10,13 @@ interface IJoinTeam {
 
 const JoinTeam: React.FC<IJoinTeam> = ({placeholder, formLink, content}) => {
   return (
-    <div className="joinT">
-      <h3>{content} </h3>
-      <a href={formLink}>
-        <Btn type={placeholder} overlay="Fill the form" link={formLink} />
-      </a>
-    </div>
-  );
+    // <div className="joinT">
+    //   <h3>{content} </h3>
+    //   <a href={formLink}>
+    //     <Btn type={placeholder} overlay="Fill the form" link={formLink} />
+    //   </a>
+    // </div>
+    <div><h1>Coming Soon</h1></div>  );
 };
 
 function Member({info}: {info: any}) {

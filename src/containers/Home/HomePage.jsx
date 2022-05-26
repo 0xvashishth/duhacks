@@ -133,7 +133,8 @@ export default function HomePage() {
         {/* ********Prizes here ***** */}
         <Row className="prizesection" id="prizes">
           <PrizeHeading type="Prize section" />
-          {Prizeinfo.map(PrizeGroup)}
+          {/*{Prizeinfo.map(PrizeGroup)}*/}
+          <h2>coming soon</h2>
         </Row>
         {/* ********Prizes ending here ***** */}
 
@@ -147,7 +148,7 @@ export default function HomePage() {
         <Row className="sponsorSection" id="sponsors">
           <SponsorsHead />
           <SponsorUS />
-          {sponsorLogos.map(SponsorGroup)}
+          {/*{sponsorLogos.map(SponsorGroup)}*/}
         </Row>
         {/* ********Sponsors ending here ***** */}
 
