@@ -57,7 +57,7 @@ const SOCIALS = {
 const MIDDLE_SECTION = {
   TITLE: "What is DUHacks?",
   LONG_DESCRIPTION:
-    "It is an offline/hybrid hackathon in which all participants can hone their skills and connect with people to grow together. The Hackathon is designed to spark innovation, attract and education new talent and create new channels for collaboration between performance and capacity professionals. We want to spread the idea that programming is a useful skill that can be enjoyed by anyone. We plan to host approximately 300 - 350 students during the event with a similar gender ratio.",
+    "It is an offline/hybrid hackathon in which all participants can sharpen their skills and connect with people to grow together. The Hackathon is designed to spark innovation, attract and educate new talent and create new channels for collaboration between performance and capacity professionals. We want to spread the idea that programming and is a useful skill that can be enjoyed by anyone. We are planning to host approximately 150 students offline in the college with proper arrangement and 100+ students online .",
   LOGO_EFFECT: true,
   LOGO: ""
 };
