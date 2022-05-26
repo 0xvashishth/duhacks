@@ -1,0 +1,69 @@
+<html lang="en">
+  <head>
+    <title>DUHacks</title>
+    <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+    <meta name="author" content="DUHacks">
+    <meta name="description" content="Join us on 16-17th July 2022 with over 400 students for 36 hours of creation, innovation, & fun." />
+    <meta itemprop="name" content="DUHacks">
+    <meta name="google-site-verification" content="bbrVrhB_49iICKc-JLwkQG6qCWAQABQpCJ_ghVXOi2E" />
+ <meta property="og:title" content="DUHacks 2021"/>
+    <meta property="og:type" content="website"/>
+    <meta name="twitter:card" content="summary_large_image"/>
+    <meta name="twitter:site" content="@duhacks"/>
+    <meta name="twitter:creator" content="@duhacks"/>
+    <meta property="og:url" content="https://duhacks.tech"/>
+    <meta property="og:image:type" content="image/jpeg"/>
+    <meta property="og:image:width" content="851"/>
+    <meta property="og:image:height" content="315"/>
+    <meta property="og:image:alt" content="DUHacks"/>
+    <meta property="og:image" content="https://i.imgur.com/bxP3Jz1.png"/>
+    <meta property="og:image:secure_url" content="https://i.imgur.com/bxP3Jz1.png"/>
+    <meta name="twitter:image" content="https://i.imgur.com/bxP3Jz1.png"/>
+<meta property="og:description" content="Join us on 16-17th July 2022 with over 400 students for 36 hours of creation, innovation, & fun."/>
+
+<link rel="icon"  type="image/png" href="https://i.imgur.com/KLinaFO.png">
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="./index.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script
+      src="https://kit.fontawesome.com/fe697e6552.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>React App</title>
+  </head>
+  <body onload="removeLoader()" class="day-mode">
+    <div id="loader"></div>
+    <div id="body"></div>
+    <div id="footer"></div>
+    <style>
+      body {
+        position: relative;
+        background-repeat: no-repeat;
+      }
+      #body {
+        position: relative;
+        overflow: hidden;
+      }
+      @media (max-width: 900px) {
+        body {
+          text-align: center;
+          position: relative;
+        }
+      }
+    </style>
+    <script src="../js/main.js"></script>
+    <script>
+      function removeLoader() {
+        setTimeout(() => {
+          document.getElementById("footer").style.display = "none";
+        }, 200);
+      }
+    </script>
+  </body>
+</html>
