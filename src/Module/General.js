@@ -1,9 +1,4 @@
-// Importing all sponsors logos from Assets
-/** Put all your Team member image inside folder `Team Images`
- * and import them like in the above and update src in TeamInfo
- * or you can provide a cloud link in src also
- */
-import boy from "./Assets/boy.png";
+import team from "./Assets/team.gif";
 import pass from "./Assets/sponsorsLogos/1pass.png";
 import ACF from "./Assets/sponsorsLogos/ACF.png";
 import cfc from "./Assets/sponsorsLogos/cfc.png";
@@ -17,11 +12,7 @@ import Replit from "./Assets/sponsorsLogos/replit.png";
 import sublime from "./Assets/sponsorsLogos/sublime.png";
 import taskade from "./Assets/sponsorsLogos/taskade.png";
 import lyin from "./Assets/teami/lyin.jpg";
-/** Put all your sponsors logo inside folder `sponsorLogos`
- * and import them in the above and update `src` in sponsorLogos
- * or you can provide a cloud link in src
- */
-// Importing all Team members images  from Assets
+
 import me from "./Assets/teami/me.png";
 import moon from "./Assets/teami/moon.png";
 import Ryah from "./Assets/teami/Ryah.jpg";
@@ -38,7 +29,7 @@ const TOP_SECTION = {
   Typed_effect: ["36 hours of creation", "Win awesome prizes", "Events And Sessions"],
   SHORT_DESCRIPTION:
     "Join us on 16-17th July 2022 with over 400 students for 36 hours of creation, innovation, & fun.",
-  IMG_SRC: boy,
+  IMG_SRC: team,
   DISCORD_LINK: "https://discord.gg/NY7K3ph4",
   JUDGES_FORM_LINK:
     "#Jugdes Form Link",
@@ -50,8 +41,8 @@ const SOCIALS = {
   discord: "https://discord.gg/NY7K3ph4",
   linkedin: "#instagramlink",
   twitter: "#linkedinlink",
-  email: "mailto:duhacks.1@gmail.com",
-  mail: "duhacks.1@gmail.com"
+  email: "mailto:contact@duhacks.tech",
+  mail: "contact@duhacks.tech"
 };
 
 const MIDDLE_SECTION = {
@@ -169,144 +160,138 @@ const Prizeinfo = [
       icon: <i className="first fas fa-4x fa-trophy"></i>,
       type: "Overall First",
       content:
-        "First Overall prize will be given to a project that outstands all other submissions. They will win some awesome prizes"
+        "First Overall prize will be given to a project that outstands all other submissions"
     },
     {
       icon: <i className=" second fas fa-4x fa-medal"></i>,
       type: "Overall Second",
       content:
-        "Second Overall prize will be given to the second best project of the hackathon. They will win some awesome prizes"
+        "Second Overall prize will be given to the second best project of the hackathon"
     },
     {
       icon: <i className=" third fas fa-4x fa-skiing-nordic"></i>,
-      type: "Overall Third",
+      type: "Third Second",
       content:
         "Best third overall project of the hackathon will win some awesome prizes"
-    },
-    {
-      icon: <i className="first fas fa-4x fa-trophy"></i>,
-      type: " Best Beginner Team",
-      content: "Your project will qualify for this category if your all team members are participating first time in the hackathon."
-    },
-    {
-      icon: <i className=" fifth fa-3x fas fa-book-open"></i>,
-      type: "Best UI/UX",
-      content: "Project with most creative designs will win UI/UX track."
-    },
-    {
-      icon: <i className="fas fa-user-friends seventh fa-3x "></i>,
-      type: "More prizes",
-      content: "More prizes will be revealed soon."
     }
   ],
   [
-// prize section array 2
+    //Array 2
+    {
+      icon: <i className="first fas fa-4x fa-trophy"></i>,
+      type: " Best Women Team",
+      content: "Your project will qualify for this category if your all team members are women."
+    },
+    {
+      icon: <i className="first fas fa-4x fa-trophy"></i>,
+      type: "Best DDU Team",
+      content: "Your project will qualify for this category if your all team members are from DDU."
+    },
+        {
+      icon: <i className="fas fa-user-friends seventh fa-3x "></i>,
+      type: "More prizes",
+      content: "More prizes will be revealed later"
+    }
   ],
   [
-// prize section array 3
+    //Array 3
   ]
 ];
 
-/** Instructions
- * Insert only 3 or less then 3 members per array in `TeamInfo`, you can
- * create as many arrays you want all team members will be rendered
- * in a group of 3.
- */
-
 const TeamInfo = [
   [
-    //Array 1
-    // {
-    //   Name: "Rehan",
-    //   role: "Organizer",
-    //   github: "https://github.com/vasu-1/duhacks",
-    //   linkedin: "",
-    //   img: me
-    // },
-    // {
-    //   Name: "Moon",
-    //   role: "Organizer",
-    //   github: "",
-    //   linkedin: "",
-    //   img: moon
-    // },
-    // {
-    //   Name: "Erika",
-    //   role: "Organizer",
-    //   github: "",
-    //   linkedin: "",
-    //   img: Ryah
-    // }
+    // Array 1
+    {
+      Name: "Rehan",
+      role: "Organizer",
+      github: "https://github.com/vasu-1/duhacks",
+      linkedin: "",
+      img: me
+    },
+    {
+      Name: "Moon",
+      role: "Organizer",
+      github: "",
+      linkedin: "",
+      img: moon
+    },
+    {
+      Name: "Erika",
+      role: "Organizer",
+      github: "",
+      linkedin: "",
+      img: Ryah
+    }
   ],
   [
-    //Array 2
-    // {
-    //   Name: "Lyanola",
-    //   role: "Organizer",
-    //   github: "",
-    //   linkedin: "",
-    //   img: lyin
-    // },
-    // {
-    //   Name: "Zoheb",
-    //   role: "Organizer",
-    //   github: "",
-    //   linkedin: "",
-    //   img: zoha
-    // },    
+    // Array 2
+    {
+      Name: "Lyanola",
+      role: "Organizer",
+      github: "",
+      linkedin: "",
+      img: lyin
+    },
+    {
+      Name: "Zoheb",
+      role: "Organizer",
+      github: "",
+      linkedin: "",
+      img: zoha
+    }
   ] 
 ];
 
 const JudgesInfo = [
   [
-    //Array 1
-    // {
-    //   Name: "Rehan",
-    //   role: "Organizer",
-    //   github: "",
-    //   linkedin: "",
-    //   img: me
-    // },
-    // {
-    //   Name: "Moon",
-    //   role: "Organizer",
-    //   github: "",
-    //   linkedin: "",
-    //   img: moon
-    // },
-    // {
-    //   Name: "Ryah Garcia",
-    //   role: "Organizer",
-    //   github: "",
-    //   linkedin: "",
-    //   img: Ryah
-    // }
+    // Array 1
+    {
+      Name: "Rehan",
+      role: "Organizer",
+      github: "",
+      linkedin: "",
+      img: me
+    },
+    {
+      Name: "Moon",
+      role: "Organizer",
+      github: "",
+      linkedin: "",
+      img: moon
+    },
+    {
+      Name: "Ryah Garcia",
+      role: "Organizer",
+      github: "",
+      linkedin: "",
+      img: Ryah
+    }
   ],
   [
-    //Array 2
-    // {
-    //   Name: "Lyanola",
-    //   role: "Organizer",
-    //   github: "",
-    //   linkedin: "",
-    //   img: lyin
-    // },
-    // {
-    //   Name: "Zoheb",
-    //   role: "Organizer",
-    //   github: "",
-    //   linkedin: "",
-    //   img: zoha
-    // },    
+    // Array 2
+    {
+      Name: "Lyanola",
+      role: "Organizer",
+      github: "",
+      linkedin: "",
+      img: lyin
+    },
+    {
+      Name: "Zoheb",
+      role: "Organizer",
+      github: "",
+      linkedin: "",
+      img: zoha
+    }
   ] 
 ];
 
 
-/** Instructions
- * Only put 3 logos per array inside `sponsorLogos`, you can
- * create as many arrays you want all logos will be rendered
- * in a group of 3.
- */
+// /** Instructions
+//  * Only put 3 logos per array inside `sponsorLogos`, you can
+//  * create as many arrays you want all logos will be rendered
+//  * in a group of 3.
+//  */
 
 const sponsorLogos = [
   [{src: cfc}, {src: sublime}, {src: echoAR}], //Array 1
