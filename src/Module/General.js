@@ -11,12 +11,15 @@ import qoom from "./Assets/sponsorsLogos/qoom.svg";
 import Replit from "./Assets/sponsorsLogos/replit.png";
 import sublime from "./Assets/sponsorsLogos/sublime.png";
 import taskade from "./Assets/sponsorsLogos/taskade.png";
-import lyin from "./Assets/teami/lyin.jpg";
+import zenisha from "./Assets/teami/Zenisha_Savaliya.jpeg";
+import dhruvi from "./Assets/teami/Dhruvi_Sherathiya.jpg";
 
 import me from "./Assets/teami/Vashishth_Patel.jpg";
-import moon from "./Assets/teami/moon.png";
+import dharmesh from "./Assets/teami/Dharmesh_Poriya.jpg";
 import Ryah from "./Assets/teami/Ryah.jpg";
-import zoha from "./Assets/teami/zoha.png";
+import nirali from "./Assets/teami/Nirali.jpeg";
+import smit from "./Assets/teami/smit.jpeg";
+import parshwa from "./Assets/teami/Parshwa_Mehta.jpg";
 
 
 
@@ -202,18 +205,11 @@ const TeamInfo = [
   [
     // Array 1
     {
-      Name: "Rehan",
+      Name: "Vashishth Patel",
       role: "Organizer",
       github: "https://github.com/vasu-1",
       linkedin: "https://www.linkedin.com/in/vashishth-patel-312a52204/",
       img: me
-    },
-    {
-      Name: "Moon",
-      role: "Organizer",
-      github: "",
-      linkedin: "",
-      img: moon
     },
     {
       Name: "Erika",
@@ -221,24 +217,62 @@ const TeamInfo = [
       github: "",
       linkedin: "",
       img: Ryah
+    },
+    {
+      Name: "Smit Padaliya",
+      role: "Organizer",
+      github: "https://github.com/Smit-05",
+      linkedin: "https://www.linkedin.com/in/smit-padaliya-aa03291b8/",
+      img: smit
     }
   ],
   [
     // Array 2
     {
-      Name: "Lyanola",
-      role: "Organizer",
-      github: "",
-      linkedin: "",
-      img: lyin
+      Name: "Zenisha Savaliya",
+      role: "Manager",
+      github: "https://github.com/zenishasavaliya",
+      linkedin: "https://www.linkedin.com/in/zenishasavaliya/",
+      img: zenisha
     },
     {
-      Name: "Zoheb",
+      Name: "Parshwa Mehta",
+      role: "Manager",
+      github: "https://github.com/PARSHWA0510",
+      linkedin: "https://www.linkedin.com/in/parshwa-mehta-949306205",
+      img: parshwa
+    },
+    {
+      Name: "Dharmesh Poriya",
+      role: "Manager",
+      github: "https://github.com/Dharmesh-Poriya07",
+      linkedin: "https://www.linkedin.com/in/dharmesh-poriya/",
+      img: dharmesh
+    },
+  ],
+    [
+    // Array 2
+    {
+      Name: "Erika",
       role: "Organizer",
       github: "",
       linkedin: "",
-      img: zoha
-    }
+      img: Ryah
+    },
+    {
+      Name: "Nirali Darji",
+      role: "Design Lead",
+      github: "#",
+      linkedin: "https://www.linkedin.com/in/nirali-darji-1b766a209",
+      img: nirali
+    },
+    {
+      Name: "Dhruvi Sherathiya",
+      role: "Outreach Lead",
+      github: "https://github.com/DhruviSherathiya",
+      linkedin: "https://www.linkedin.com/in/dhruvisherathiya",
+      img: dhruvi
+    },
   ] 
 ];
 
@@ -254,10 +288,10 @@ const JudgesInfo = [
     },
     {
       Name: "Moon",
-      role: "Organizer",
+      role: "Manager",
       github: "",
       linkedin: "",
-      img: moon
+      img: Ryah
     },
     {
       Name: "Ryah Garcia",
@@ -274,14 +308,14 @@ const JudgesInfo = [
       role: "Organizer",
       github: "",
       linkedin: "",
-      img: lyin
+      img: Ryah
     },
     {
       Name: "Zoheb",
       role: "Organizer",
       github: "",
       linkedin: "",
-      img: zoha
+      img: Ryah
     }
   ] 
 ];
