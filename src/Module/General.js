@@ -13,7 +13,7 @@ import sublime from "./Assets/sponsorsLogos/sublime.png";
 import taskade from "./Assets/sponsorsLogos/taskade.png";
 import lyin from "./Assets/teami/lyin.jpg";
 
-import me from "./Assets/teami/me.png";
+import me from "./Assets/teami/Vashishth_Patel.jpg";
 import moon from "./Assets/teami/moon.png";
 import Ryah from "./Assets/teami/Ryah.jpg";
 import zoha from "./Assets/teami/zoha.png";
@@ -204,8 +204,8 @@ const TeamInfo = [
     {
       Name: "Rehan",
       role: "Organizer",
-      github: "https://github.com/vasu-1/duhacks",
-      linkedin: "",
+      github: "https://github.com/vasu-1",
+      linkedin: "https://www.linkedin.com/in/vashishth-patel-312a52204/",
       img: me
     },
     {
