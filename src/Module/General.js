@@ -19,7 +19,9 @@ import dharmesh from "./Assets/teami/Dharmesh_Poriya.jpg";
 import Ryah from "./Assets/teami/Ryah.jpg";
 import nirali from "./Assets/teami/Nirali.jpeg";
 import smit from "./Assets/teami/smit.jpeg";
+import ruchit from "./Assets/teami/Ruchit_Parekh.jpg";
 import parshwa from "./Assets/teami/Parshwa_Mehta.jpg";
+
 
 
 
@@ -273,6 +275,16 @@ const TeamInfo = [
       linkedin: "https://www.linkedin.com/in/dhruvisherathiya",
       img: dhruvi
     },
+  ],
+  [
+    // Array 2
+    {
+      Name: "Ruchit Parekh",
+      role: "Web Developer",
+      github: "https://github.com/ruchit2106",
+      linkedin: "https://www.linkedin.com/in/ruchit-parekh-37a6a3212/",
+      img: ruchit
+    }
   ] 
 ];
 
