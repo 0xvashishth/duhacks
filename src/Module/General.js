@@ -170,7 +170,7 @@ const Prizeinfo = [
     },
     {
       icon: <i className=" third fas fa-4x fa-skiing-nordic"></i>,
-      type: "Third Second",
+      type: "Overall Third",
       content:
         "Best third overall project of the hackathon will win some awesome prizes"
     }
