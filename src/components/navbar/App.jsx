@@ -15,14 +15,14 @@ const Wrapper = styled.div`
   @media (max-width: 470px) {
     margin: 0;
     display: ${props => (props.toggle ? "none" : "static")};
-    height: 100vh;
+    height: 160vh;
     width: 100vw;
     position: fixed;
     top: ${props => (props.toggle ? "-1000px" : "0px")};
-    transition: top 1s;
+    transition: top 2s;
     .nav-content {
       height: 50%;
-      background-color: rgba(50, 13, 136);
+      background-color: #121930;
     }
   }
 `;
@@ -43,18 +43,18 @@ const NAVBAR = () => {
 
   const navigation = useRef();
 
-  const listenScrollEvent = e => {
-    if (window.scrollY > 800) {
-      setColor("rgba(50, 13, 136)");
-    } else {
-      setColor("#121930");
-    }
-  };
+  // const listenScrollEvent = e => {
+  //   if (window.scrollY > 800) {
+  //     setColor("rgba(57, 174, 247)");
+  //   } else {
+  //     setColor("#121930");
+  //   }
+  // };
 
-  useEffect(() => {
-    window.addEventListener("scroll", listenScrollEvent);
-    console.log(navigation);
-  }, []);
+  // useEffect(() => {
+  //   window.addEventListener("scroll", listenScrollEvent);
+  //   console.log(navigation);
+  // }, []);
 
   const handleOutsideCick = (event, ref) => {
     if (!ref.current.contains(event.target)) {
