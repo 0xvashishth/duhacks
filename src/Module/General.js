@@ -45,9 +45,10 @@ const TOP_SECTION = {
 };
 
 const SOCIALS = {
+  instagram: "https://instagram.com/duhacks2022?igshid=YmMyMTA2M2Y=",
   discord: "https://discord.gg/NY7K3ph4",
-  linkedin: "#instagramlink",
-  twitter: "#linkedinlink",
+  linkedin: "https://www.linkedin.com/in/du-hacks-878119240",
+  twitter: "https://twitter.com/DuHacks?t=CPjNJmQX1JxhIHb_YI0Tuw&s=09",
   email: "mailto:contact@duhacks.tech",
   mail: "contact@duhacks.tech"
 };
@@ -93,57 +94,57 @@ const calenderStartingDate = {
 }
 
 
- const schedule = [
+const schedule = [
   {
-      "day": "16-7-2022",
-      "events": [
-          {
-              "title": "Opening Ceremoney",
-              "timings": "8 AM - 9 AM",
-               "link" : "https://google.com"
-          }
-      ]
+    "day": "16-7-2022",
+    "events": [
+      {
+        "title": "Opening Ceremoney",
+        "timings": "8 AM - 9 AM",
+        "link": "https://google.com"
+      }
+    ]
   },
   {
-      "day": "16-7-2022",
-      "events": [
-          {
-              "title": "Event",
-              "timings": "11 AM - 12 PM",
-              "link" : "https://google.com"
-          }
-      ]
+    "day": "16-7-2022",
+    "events": [
+      {
+        "title": "Event",
+        "timings": "11 AM - 12 PM",
+        "link": "https://google.com"
+      }
+    ]
   },
   {
-      "day": "16-7-2022",
-      "events": [
-          {
-              "title": "Event",
-              "timings": "12 AM - 1 Pm",
-              "link" : "https://google.com"
-          }
-      ]
-  },
-  {
-      "day": "17-7-2022",
-      "events": [
-          {
-              "title": "Event",
-              "timings": "12 AM - 1 Pm",
-              "link" : "https://google.com"
-          }
-      ]
+    "day": "16-7-2022",
+    "events": [
+      {
+        "title": "Event",
+        "timings": "12 AM - 1 Pm",
+        "link": "https://google.com"
+      }
+    ]
   },
   {
     "day": "17-7-2022",
     "events": [
-        {
-            "title": "Closing Ceremoney",
-            "timings": "6 PM - 7 PM",
-             "link" : "https://google.com"
-        }
+      {
+        "title": "Event",
+        "timings": "12 AM - 1 Pm",
+        "link": "https://google.com"
+      }
     ]
-},
+  },
+  {
+    "day": "17-7-2022",
+    "events": [
+      {
+        "title": "Closing Ceremoney",
+        "timings": "6 PM - 7 PM",
+        "link": "https://google.com"
+      }
+    ]
+  },
 ]
 
 
@@ -194,7 +195,7 @@ const Prizeinfo = [
       type: "Best DDU Team",
       content: "Your project will qualify for this category if your all team members are from DDU."
     },
-        {
+    {
       icon: <i className="fas fa-user-friends seventh fa-3x "></i>,
       type: "More prizes",
       content: "More prizes will be revealed later"
@@ -254,7 +255,7 @@ const TeamInfo = [
       img: dharmesh
     },
   ],
-    [
+  [
     // Array 2
     {
       Name: "Aneri Sonani",
@@ -287,7 +288,7 @@ const TeamInfo = [
       linkedin: "https://www.linkedin.com/in/ruchit-parekh-37a6a3212/",
       img: ruchit
     }
-  ] 
+  ]
 ];
 
 const JudgesInfo = [
@@ -331,7 +332,7 @@ const JudgesInfo = [
       linkedin: "",
       img: Ryah
     }
-  ] 
+  ]
 ];
 
 
@@ -342,22 +343,23 @@ const JudgesInfo = [
 //  */
 
 const sponsorLogos = [
-  [{src: cfc}, {src: sublime}, {src: echoAR}], //Array 1
-  [{src: taskade}, {src: Replit}, {src: qoom}], //Array 2
-  [{src: interviewC}, {src: pass}, {src: glimpse}], //Array 3
-  [{src: egg}, {src: ll}, {src: ACF}] //Array 4
+  [{ src: cfc }, { src: sublime }, { src: echoAR }], //Array 1
+  [{ src: taskade }, { src: Replit }, { src: qoom }], //Array 2
+  [{ src: interviewC }, { src: pass }, { src: glimpse }], //Array 3
+  [{ src: egg }, { src: ll }, { src: ACF }] //Array 4
 ];
 
 /** Instructions
  * Follow the strcuture provided below to add as many as FAQ's you want
  */
-const frequentlyAskedQuestions  = [
+const frequentlyAskedQuestions = [
   [
     [
       {
         label: "What is a hackathon?",
         content:
-        'A hackathon is a 36 hour event where "hackers" will collaborate on creating a functioning software and hardware by the end of the event.'      },
+          'A hackathon is a 36 hour event where "hackers" will collaborate on creating a functioning software and hardware by the end of the event.'
+      },
       {
         label: "Who can attend?",
         content: "DUHacks is open to all undergraduate, high school students and middle school students from all schools. Unfortunately only DDU students can attend this evet offline. For rest of others event would be online."
