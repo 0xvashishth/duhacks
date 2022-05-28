@@ -241,7 +241,7 @@ const TeamInfo = [
     },
     {
       Name: "Parshwa Mehta",
-      role: "Manager",
+      role: "Manager & Content",
       github: "https://github.com/PARSHWA0510",
       linkedin: "https://www.linkedin.com/in/parshwa-mehta-949306205",
       img: parshwa
@@ -258,7 +258,7 @@ const TeamInfo = [
     // Array 2
     {
       Name: "Aneri Sonani",
-      role: "Web Developer",
+      role: "Manager & Web",
       github: "https://github.com/AneriSonani09",
       linkedin: "https://www.linkedin.com/in/aneri-sonani-061b44204/",
       img: aneri

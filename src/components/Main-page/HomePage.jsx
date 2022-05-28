@@ -130,15 +130,10 @@ export default function HomePage(props) {
           </Col>
         </Row>
 
-        {/* ********Frequently asked Questions here ***** */}
-        <div className="Myfaqs" id="faq">
-          {frequentlyAskedQuestions.map(FrequentlyAsked)}
-          {/* ********Frequently asked Questions ending here ***** */}
-        </div>
 
         {/* ********Prizes here ***** */}
         <Row className="prizesection" id="prizes">
-          <PrizeHeading type="What's in it for you ?" />
+          <PrizeHeading type="Prizes" /><br/>
           <div className="prize--cards">
           {Prizeinfo.map(PrizeGroup)}
           </div>
@@ -178,6 +173,14 @@ export default function HomePage(props) {
         {/* ********Team ending here ***** */}
 
         {/* ********Team ending here ***** */}
+
+        <br/><br/>
+          <h1 id="team">FAQs</h1>
+          {/* ********Frequently asked Questions here ***** */}
+        <div className="Myfaqs" id="faq">
+          {frequentlyAskedQuestions.map(FrequentlyAsked)}
+          {/* ********Frequently asked Questions ending here ***** */}
+        </div>
       </Container>
       <Footer />
     </div>
