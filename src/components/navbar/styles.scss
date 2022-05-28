@@ -1,15 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap");
 nav {
   list-style-type: none;
-  height: 10vh;
-  font-size: 2rem;
+  height: 12vh;
+  font-size: 2.5rem;
   display: flex;
   align-items: center;
   position: fixed;
   width: 100%;
   z-index: 10;
   transition: 0.4s;
-  box-shadow: 0px 5px 10px rgba(50, 13, 136, 0.25);
+ 
   img {
     z-index: 1000000;
     &:hover {
@@ -25,9 +25,15 @@ nav {
 .header--logo {
   width: 110px;
 }
-// .header_logo{
-//   padding-left: 50vw;
-// }
+
+.header--logo1 {
+  width: 80px;
+  margin-left: -18vw;
+  margin-top: -0vw;
+}
+ .padd{
+   padding-left: 50vw;
+ }
 .s-open,
 .s-close {
   display: none;
@@ -53,7 +59,6 @@ ul {
 }
 nav ul li {
   display: inline-block;
-  // margin: 2rem 0 5rem 6rem;
 }
 .links {
   color: rgb(231, 228, 228);
@@ -68,8 +73,11 @@ a:link {
   text-decoration: none;
   padding: 1px;
 }
+.logi_none{
+  display: none;
+}
 
-@media (max-width: 470px) {
+@media (max-width: 712px) {
   .ease {
     background: #484848;
     height: 75%;
@@ -77,7 +85,7 @@ a:link {
     pointer-events: none;
   }
   .header_logo {
-    padding: 0vw;
+    padding: 0vw 10vw 00vw 23vw;
   }
   ul {
     flex-direction: column;
@@ -86,14 +94,22 @@ a:link {
   .s-open {
     display: inline;
     position: absolute;
-    right: 10px;
-    top: 10px;
+    right: 5vw;
+    top: 6.7vw;
     z-index: -1;
   }
   .s-close {
     display: block;
     position: absolute;
-    right: 10px;
-    top: 10px;
+    right: 5.7vw;
+    top: 7.9vw;
   }
+.logi_none{
+  display: inline;
+  padding: 20vw 10vw 100vw 23vw;
+}
+.headerlogo_container1{
+  margin-right: 50vw;
+  margine-top: 100px;
+}
 }

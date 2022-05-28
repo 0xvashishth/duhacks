@@ -16,7 +16,7 @@
   border-radius: 50%;
   display: block;
   margin: 0 auto;
-  border: 5px solid rgb(255, 194, 252);
+  border: 5px solid #67e9e6;
   object-fit: cover;
 }
 .members-link {

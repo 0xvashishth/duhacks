@@ -57,8 +57,8 @@ align-items: center;
   /* padding: 0 4vh 0 4vh; */
   padding: 8vh 14vh 4vh 14vh;
   /* border-radius: 14px; */
-  margin-top: 4vh;
-  background-color: #f3effe;
+  margin-top: 6vh;
+  background-color: #ffefe6;
 }
 .sponsorSection {
   padding: 17vh 18vh 0 18vh;
@@ -96,7 +96,7 @@ align-items: center;
 
   .prizesection {
     margin: 5vh 0 0 0;
-    padding: 17vh 0 0 4vh;
+    padding: 3vh 0 0 2vh;
   }
   .sponsorSection {
     padding: 0;

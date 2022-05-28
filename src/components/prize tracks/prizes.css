@@ -4,13 +4,7 @@
   width: fit-content;
   margin: 0 auto;
   text-align: center;
-  margin-top: 1.7rem;
-}
-.PrizeHeading h1 {
-  font-size: 5rem;
-  margin-bottom: 2rem;
-  font-weight: 700;
-  font-family: "Nunito", sans-serif;
+  margin-top: 2.5rem;
 }
 
 .Prizes p {
@@ -49,4 +43,11 @@
 .Prizes .seventh {
   color: #e4bad4;
   height: 6rem;
+}
+
+
+@media  (max-width: 570px){
+.Prizes {
+  margin-right: 2.1rem;
+}
 }

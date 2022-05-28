@@ -17,7 +17,7 @@
 }
 .Logo{
     /* width: 60%; */
-    width: 38rem;
+    width: 45rem;
 }
 
 .logoS img{
@@ -90,6 +90,7 @@ transition: 0.4s;
     }
     .Logo{
      margin: 0 auto;
+     width: 30rem;
     }
   }
 
@@ -102,9 +103,7 @@ transition: 0.4s;
     }
     .Logo{
      margin: 0 auto;
+     width: 30rem;
     }
-    /* .darklogo{
-      left: 10rem;
-    } */
   }
- 
+

@@ -12,7 +12,7 @@ const Wrapper = styled.div`
   display: block;
   width: 40%;
   margin-top: 20px;
-  @media (max-width: 470px) {
+  @media (max-width: 712px) {
     margin: 0;
     display: ${props => (props.toggle ? "none" : "static")};
     height: 160vh;
@@ -79,7 +79,13 @@ const NAVBAR = () => {
   return (
     <Router>
       <nav className="nav_bar" style={{ backgroundColor: color }}>
+      <li className="headerlogo_container1">
+                <div className="logi_none">
+                  <img alt="img"className="header--logo1" src={mainlogo} />
+                </div>
+              </li>
         <Wrapper toggle={toggle} className="nav-wrapper">
+
           <div className="nav-content" ref={navigation}>
             <ul>
               <li className="headerlogo_container">
@@ -87,7 +93,10 @@ const NAVBAR = () => {
                   <img alt="img" style={{ width: "60px;", height: "100px"}} className="header--logo" src={mainlogo} />
                 </div>
               </li>
-              <li className="list--general">
+              <div className="padd">
+                
+              </div>
+              <li className=" list--general">
                 <Link to={`#home`}>
                   <span className="links">Home </span>{" "}
                 </Link>

@@ -131,6 +131,15 @@ export default function HomePage(props) {
         </Row>
 
 
+      {/*Theme Section*/}
+               <Row className="prizesection non-coding">
+          <PrizeHeading type="Hackathon Themes" />
+          <h2>coming soon</h2>
+        </Row> 
+
+      {/*Theme end*/}
+
+
         {/* ********Prizes here ***** */}
         <Row className="prizesection" id="prizes">
           <PrizeHeading type="Prizes" /><br/>
@@ -140,10 +149,6 @@ export default function HomePage(props) {
         </Row>
         {/* ********Prizes ending here ***** */}
 
-        {/* <Row className="prizesection non-coding">
-          <PrizeHeading type="Non-coding prizes" />
-          <h2>coming soon</h2>
-        </Row> */}
 
         {/* ********Sponsors here ***** */}
 

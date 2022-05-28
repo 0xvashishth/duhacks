@@ -1,4 +1,4 @@
-import React from 'react';
+  import React from 'react';
 import './logoSection.css';
 // import sym from './sym.png';
 
