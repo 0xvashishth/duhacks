@@ -21,6 +21,8 @@ import nirali from "./Assets/teami/Nirali.jpeg";
 import smit from "./Assets/teami/smit.jpeg";
 import ruchit from "./Assets/teami/Ruchit_Parekh.jpg";
 import parshwa from "./Assets/teami/Parshwa_Mehta.jpg";
+import ayush from "./Assets/teami/Ayush_Rudani.jpg";
+import aneri from "./Assets/teami/Aneri_Sonani.jpg";
 
 
 
@@ -214,11 +216,11 @@ const TeamInfo = [
       img: me
     },
     {
-      Name: "Erika",
+      Name: "Ayush Rudani",
       role: "Organizer",
-      github: "",
-      linkedin: "",
-      img: Ryah
+      github: "https://github.com/R-Ayush777",
+      linkedin: "https://www.linkedin.com/in/ayush-rudani-7a3516204/",
+      img: ayush
     },
     {
       Name: "Smit Padaliya",
@@ -255,11 +257,11 @@ const TeamInfo = [
     [
     // Array 2
     {
-      Name: "Erika",
-      role: "Organizer",
-      github: "",
-      linkedin: "",
-      img: Ryah
+      Name: "Aneri Sonani",
+      role: "Web Developer",
+      github: "https://github.com/AneriSonani09",
+      linkedin: "https://www.linkedin.com/in/aneri-sonani-061b44204/",
+      img: aneri
     },
     {
       Name: "Nirali Darji",

@@ -1,7 +1,7 @@
-import React, {useState, useEffect, useRef} from "react";
+import React, { useState, useEffect, useRef } from "react";
 import HomePage from "../Main-page/HomePage";
-import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
-import {HashLink as Link} from "react-router-hash-link";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { HashLink as Link } from "react-router-hash-link";
 import hamLogo from "./ham.svg";
 import logoClose from "./ham-c.svg";
 import mainlogo from "./LOGO.png";
@@ -78,15 +78,15 @@ const NAVBAR = () => {
 
   return (
     <Router>
-      <nav className="nav_bar" style={{backgroundColor: color}}>
+      <nav className="nav_bar" style={{ backgroundColor: color }}>
         <Wrapper toggle={toggle} className="nav-wrapper">
           <div className="nav-content" ref={navigation}>
             <ul>
               <li className="headerlogo_container">
                 <div className="header_logo">
-                  <img alt="img" className="header--logo" src={mainlogo} />
+                  <img alt="img" style={{ width: "60px;", height: "100px"}} className="header--logo" src={mainlogo} />
                 </div>
-            </li>
+              </li>
               <li className="list--general">
                 <Link to={`#home`}>
                   <span className="links">Home </span>{" "}
