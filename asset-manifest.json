@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.907792e5.chunk.css",
-    "main.js": "/static/js/main.a6cbe3b5.chunk.js",
-    "main.js.map": "/static/js/main.a6cbe3b5.chunk.js.map",
+    "main.js": "/static/js/main.dd0900a6.chunk.js",
+    "main.js.map": "/static/js/main.dd0900a6.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.488acc42.js",
     "runtime-main.js.map": "/static/js/runtime-main.488acc42.js.map",
     "static/js/2.6e6dd875.chunk.js": "/static/js/2.6e6dd875.chunk.js",
@@ -12,10 +12,11 @@
     "static/js/2.6e6dd875.chunk.js.LICENSE.txt": "/static/js/2.6e6dd875.chunk.js.LICENSE.txt",
     "static/media/1pass.5ab4b9e8.png": "/static/media/1pass.5ab4b9e8.png",
     "static/media/ACF.6971b921.png": "/static/media/ACF.6971b921.png",
+    "static/media/Aneri_Sonani.d2839e56.jpg": "/static/media/Aneri_Sonani.d2839e56.jpg",
+    "static/media/Ayush_Rudani.8aacdbc8.jpg": "/static/media/Ayush_Rudani.8aacdbc8.jpg",
     "static/media/Dharmesh_Poriya.12c97557.jpg": "/static/media/Dharmesh_Poriya.12c97557.jpg",
     "static/media/Dhruvi_Sherathiya.b4805da7.jpg": "/static/media/Dhruvi_Sherathiya.b4805da7.jpg",
-    "static/media/LOGO.020f7c93.png": "/static/media/LOGO.020f7c93.png",
-    "static/media/LOGO.abd32d50.png": "/static/media/LOGO.abd32d50.png",
+    "static/media/LOGO.f83e121d.png": "/static/media/LOGO.f83e121d.png",
     "static/media/Nirali.c8aa6029.jpeg": "/static/media/Nirali.c8aa6029.jpeg",
     "static/media/Parshwa_Mehta.58ff16de.jpg": "/static/media/Parshwa_Mehta.58ff16de.jpg",
     "static/media/Privacy policy.9854a808.pdf": "/static/media/Privacy policy.9854a808.pdf",
@@ -50,6 +51,6 @@
     "static/js/runtime-main.488acc42.js",
     "static/js/2.6e6dd875.chunk.js",
     "static/css/main.907792e5.chunk.css",
-    "static/js/main.a6cbe3b5.chunk.js"
+    "static/js/main.dd0900a6.chunk.js"
   ]
 }
