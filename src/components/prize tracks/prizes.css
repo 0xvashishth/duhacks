@@ -1,0 +1,53 @@
+.Prizes {
+  width: 32rem;
+  height: 25rem;
+  width: fit-content;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 2.5rem;
+}
+
+.Prizes p {
+  color: rgb(145, 143, 143);
+}
+.Prizes .first {
+  color: #a239ea;
+  height: 6rem;
+}
+
+.Prizes .second {
+  color: #39a2db;
+  height: 6rem;
+}
+
+.Prizes .third {
+  color: #ff616d;
+  height: 6rem;
+}
+
+.Prizes .fourth {
+  color: #3c8dad;
+  height: 6rem;
+}
+
+.Prizes .fifth {
+  color: #bf1363;
+  height: 6rem;
+}
+
+.Prizes .sixth {
+  color: #ff96ad;
+  height: 6rem;
+}
+
+.Prizes .seventh {
+  color: #e4bad4;
+  height: 6rem;
+}
+
+
+@media  (max-width: 570px){
+.Prizes {
+  margin-right: 2.1rem;
+}
+}

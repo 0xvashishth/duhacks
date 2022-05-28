@@ -1,3 +1,19 @@
+.dev-button-footer {
+  align-items: center;
+  background-color: #3770ff;
+  border-radius: 4px;
+  color: #fff;
+  display: flex;
+  font-size: 20px;
+  font-weight: 600;
+  height: 44px;
+  justify-content: center;
+  outline: none;
+  padding: 0 32px;
+  transition: all 0.1s ease-in 0s;
+  white-space: nowrap;
+  width: 100%;
+}
 .social-icons-container {
   padding: 20px;
   display: flex;
@@ -36,6 +52,8 @@
 .Register_a {
   padding: 70px 0;
   background-color: #121930;
+  display: flex;
+  justify-content: center;
 }
 .Register_a a {
   margin-left: 10px;
@@ -94,4 +112,5 @@
   a {
     color: #43b7be;
   }
+
 }

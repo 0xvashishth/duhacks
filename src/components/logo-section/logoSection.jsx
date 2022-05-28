@@ -1,10 +1,10 @@
-import React from 'react';
+  import React from 'react';
 import './logoSection.css';
-import sym from './sym.png';
+// import sym from './sym.png';
 
-import logo1 from './logo4.png';
-import logo2 from './logo2.png';
-import logo3 from './logo3.png';
+// import logo1 from './logo4.png';
+import mainlogo from './LOGO.png';
+// import logo3 from './logo3.png';
 
 import {MIDDLE_SECTION} from '../../Module/General';
 
@@ -22,17 +22,14 @@ function Logo() {
   if (MIDDLE_SECTION.LOGO_EFFECT) {
     myLogo = (
       <div className="logoS">
-        <img className="Logo sym" src={sym} alt="DUHacks" />
-        <img className="Logo logo1" src={logo1} alt="DUHacks" />
-        <img className="Logo logo2" src={logo2} alt="DUHacks" />
-        <img className="Logo logo3" src={logo3} alt="DUHacks" />
+        <img alt="img" className="Logo" src={mainlogo}></img>
       </div>
     );
   } else {
     myLogo = (
       <div className="logoS">
-        <img className="Logo sym" src={sym} alt="DUHacks" />
-        <img className="Logo logo1" src={logo1} alt="DUHacks" />
+        {/*<img className="Logo sym" src={sym} alt="DUHacks" />
+        <img className="Logo logo1" src={logo1} alt="DUHacks" />*/}
       </div>
     );
   }

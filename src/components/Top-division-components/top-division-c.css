@@ -1,13 +1,44 @@
-/* @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"); */
-
-/* @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;800;900&display=swap'); */
-
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap");
 .h1 {
   margin: 0;
 }
+.dev-logo {
+  fill: rgb(255, 255, 255);
+}
+.dev-button {
+  align-items: center;
+  background-color: #3770ff;
+  border-radius: 4px;
+  color: #fff;
+  display: inline-flex;
+  font-size: 20px;
+  font-weight: 600;
+  height: 60px;
+  justify-content: center;
+  outline: none;
+  padding: 0 32px;
+  transition: all 0.1s ease-in 0s;
+  white-space: nowrap;
+  width: 50%;
 
+}
+.dis-button {
+  align-items: center;
+  background-color: #7289da;
+  border-radius: 4px;
+  color: #fff;
+  display: inline-flex;
+  font-size: px;
+  font-weight: 600;
+  height: 60px;
+  justify-content: center;
+  outline: none;
+  padding: 0 20px;
+  transition: all 0.1s ease-in 0s;
+  white-space: nowrap;
+  width: 10%;
+}
 button {
   width: 22rem;
   height: 6rem;
@@ -15,14 +46,14 @@ button {
   border-radius: 19px;
   font-size: 2rem;
   color: rgb(255, 255, 255);
-  background-color: #6A63B7;
+  background-color: #6a63b7;
   font-weight: 300;
   position: relative;
 }
 
 .join_disco {
   width: 25rem;
-  background: linear-gradient(90deg, #9796F0 0%, #FBC7D4 100%);
+  background: linear-gradient(90deg, #ae67fa -13.86%, #f49867 100%);
 }
 
 .join_disco i {
@@ -32,29 +63,31 @@ button {
 .join_dis {
   margin-bottom: 29px;
   margin-top: 19px;
-  
 }
 
-.buttom-group{
-  width: 100%;
-  overflow: auto;
+.linkclass{
+  display: inline;
 }
 
 .register {
-  margin-left: 1rem;
+  margin-left: 9rem;
   border: 2px solid rgb(255, 255, 255);
   background-color: transparent;
 }
 
 .AboutMe h2 {
-  font-size: 8rem;
-  font-family: 'Noto Sans', sans-serif;
+  font-size: 10rem;
+  font-family: "Noto Sans", sans-serif;
 }
 
 p {
   font-size: 2rem;
   line-height: 1.6;
   font-weight: 300;
+}
+
+.shortjoin{
+  font-size: 2rem;
 }
 
 .Myinfo {
@@ -77,13 +110,13 @@ p {
   overflow: hidden;
   width: 0;
   height: 100%;
-  transition: .3s ease;
+  transition: 0.3s ease;
   border-radius: 12px;
 }
 
 .overlay-text {
   font-weight: 300;
-  color: #2C4677;
+  color: #2c4677;
   font-size: 17px;
   position: absolute;
   top: 50%;
@@ -128,9 +161,21 @@ button:hover .overlay {
   .AboutMe {
     text-align: center;
   }
+  .dev-button{
+      font-size: 10px;
+      font-weight: 500;
+      width: 60%;
+  }
+  .dis-button{
+      width: 30%;
+  }
+  .svgbtn{
+    height: "12px";
+    width: "12px";
+  }
 }
 
-@media (max-width: 330px) {
+@media (max-width: 659px) {
   .register {
     margin-left: 0;
     margin-top: 3vh;
@@ -140,5 +185,67 @@ button:hover .overlay {
   }
   .Myinfo p {
     font-size: 1.6rem;
+  }
+  .dev-button{
+      font-size: 15px;
+      font-weight: 500;
+      width: 50%;
+  }
+  .dis-button{
+      width: 20%;
+  }
+  .svgbtn{
+    height: "12px";
+    width: "12px";
+  }
+}
+
+@media (max-width: 478px) {
+  .register {
+    margin-left: 0;
+    margin-top: 3vh;
+  }
+  .AboutMe h1 {
+    font-size: 2.2em;
+  }
+  .Myinfo p {
+    font-size: 1.6rem;
+  }
+  .dev-button{
+      font-size: 15px;
+      font-weight: 500;
+      width: 70%;
+  }
+  .dis-button{
+      width: 25%;
+  }
+  .svgbtn{
+    height: "12px";
+    width: "12px";
+  }
+}
+
+@media (max-width: 360px) {
+  .register {
+    margin-left: 0;
+    margin-top: 3vh;
+  }
+  .AboutMe h1 {
+    font-size: 2.2em;
+  }
+  .Myinfo p {
+    font-size: 1.6rem;
+  }
+  .dev-button{
+      font-size: 10px;
+      font-weight: 500;
+      width: 70%;
+  }
+  .dis-button{
+      width: 25%;
+  }
+  .svgbtn{
+    height: "12px";
+    width: "12px";
   }
 }
