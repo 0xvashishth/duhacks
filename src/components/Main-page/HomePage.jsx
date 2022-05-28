@@ -178,6 +178,9 @@ export default function HomePage(props) {
         {/* ********Team ending here ***** */}
 
         {/* ********Team ending here ***** */}
+        <Birds top="250vh" left="0vh" type="" />
+        <Birds top="450vh" left="0vh" type="" />
+        <Birds top="750vh" left="0vh" type="" />
 
         <br/><br/>
           <h1 id="team">FAQs</h1>
