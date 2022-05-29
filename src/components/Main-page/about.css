@@ -137,8 +137,8 @@ align-items: center;
     border-radius: 5px;
     box-shadow: 0px 30px 40px -20px var(--grayishBlue);
     padding: 30px;
-    margin: 20px;
-
+    margin: 20px;  
+    background-color: rgb(255, 253, 248);
 }
 
 .imgright {
