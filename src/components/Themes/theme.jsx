@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './theme.css';
-// import anu from './images/Aneri_Sonani.jpg';
 
 
 function ThemeType(props) {

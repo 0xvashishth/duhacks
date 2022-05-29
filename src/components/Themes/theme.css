@@ -28,7 +28,8 @@
 	width: 33%;
 }
 .card_inner{
-	box-shadow: 5px 10px 15px -5px black;
+	/* box-shadow: 5px 10px 15px -5px black; */
+	box-shadow: 5px 5px 20px -7px black;
 	border-radius: 20px;
 }
 
@@ -62,7 +63,7 @@
 	height: 230px;
 	margin-bottom: 5px;
 	border-radius: 9px;
-	margin-top: 10px;
+	margin-top: 20px;
 }
 
 .cards_wrap .card_item .role_name{
