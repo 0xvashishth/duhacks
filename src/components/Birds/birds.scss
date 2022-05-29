@@ -5,7 +5,7 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	min-height: 450rem;
+	min-height: 30rem;
     width: 100%;
 	background-blend-mode: soft-light;
 	background-size: cover;
@@ -158,14 +158,14 @@
 		transform: translateY(0vh) translateX(110vw) scale(0.45);
 	}
 	
-}
+} */
 
-/* @media  (max-width: 570px){
+ @media  (max-width: 570px){
 
 	.container {
-		display: none;
+		min-height: 210rem;
 	}
-} */
+} 
 
 .context {
     width: 100%;
@@ -201,8 +201,8 @@
     position: absolute;
     display: block;
     list-style: none;
-    width: 20px;
-    height: 20px;
+    width: 50px;
+    height: 50px;
     background: rgba(255, 25, 855, 0.2);
     animation: animate 25s linear infinite;
     bottom: -150px;
@@ -211,8 +211,8 @@
 
 .circles li:nth-child(1){
     left: 25%;
-    width: 80px;
-    height: 80px;
+    width: 30px;
+    height: 30px;
     animation-delay: 0s;
 }
 
@@ -234,8 +234,8 @@
 
 .circles li:nth-child(4){
     left: 40%;
-    width: 60px;
-    height: 60px;
+    width: 40px;
+    height: 40px;
     animation-delay: 0s;
     animation-duration: 18s;
 }
@@ -249,15 +249,15 @@
 
 .circles li:nth-child(6){
     left: 75%;
-    width: 110px;
-    height: 110px;
+    width: 70px;
+    height: 70px;
     animation-delay: 3s;
 }
 
 .circles li:nth-child(7){
     left: 35%;
-    width: 150px;
-    height: 150px;
+    width: 50px;
+    height: 50px;
     animation-delay: 7s;
 }
 
@@ -279,8 +279,8 @@
 
 .circles li:nth-child(10){
     left: 85%;
-    width: 150px;
-    height: 150px;
+    width: 35px;
+    height: 35px;
     animation-delay: 0s;
     animation-duration: 11s;
 }

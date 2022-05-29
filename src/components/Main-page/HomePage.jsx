@@ -139,7 +139,7 @@ export default function HomePage(props) {
 
       {/*Theme end*/}
 
-        <Birds top="90vh" left="0vh" type="" />
+        <Birds top="300vh" left="0vh" type="" />
 
         {/* ********Prizes here ***** */}
         <Row className="prizesection" id="prizes">
