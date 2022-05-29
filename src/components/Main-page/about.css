@@ -58,7 +58,7 @@ align-items: center;
   padding: 8vh 14vh 4vh 14vh;
   /* border-radius: 14px; */
   margin-top: 6vh;
-  background-color:;
+  /* background-color:; */
 }
 .sponsorSection {
   padding: 17vh 18vh 0 18vh;
@@ -138,7 +138,7 @@ align-items: center;
     box-shadow: 0px 30px 40px -20px var(--grayishBlue);
     padding: 30px;
     margin: 20px;  
-    background-color: rgb(255, 253, 248);
+    /* background-color: rgb(255, 253, 248); */
 }
 
 .imgright {
