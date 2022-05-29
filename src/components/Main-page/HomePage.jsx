@@ -139,6 +139,7 @@ export default function HomePage(props) {
 
       {/*Theme end*/}
 
+        <Birds top="90vh" left="0vh" type="" />
 
         {/* ********Prizes here ***** */}
         <Row className="prizesection" id="prizes">
@@ -159,10 +160,10 @@ export default function HomePage(props) {
         </Row>
         {/* ********Sponsors ending here ***** */}
 
-        <Birds top="120vh" left="0vh" type="" />
 
         {/* ********Team here ***** */}
         {/* <h1 id="team">Mentor</h1>
+
 
         {JudgesInfo.map(TeamMembers)} */}
 
@@ -178,10 +179,6 @@ export default function HomePage(props) {
         {/* ********Team ending here ***** */}
 
         {/* ********Team ending here ***** */}
-        <Birds top="250vh" left="0vh" type="" />
-        <Birds top="450vh" left="0vh" type="" />
-        <Birds top="750vh" left="0vh" type="" />
-
         <br/><br/>
           <h1 id="team">FAQs</h1>
           {/* ********Frequently asked Questions here ***** */}
