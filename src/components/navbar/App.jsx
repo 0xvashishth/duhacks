@@ -90,7 +90,7 @@ const NAVBAR = () => {
             <ul>
               <li className="headerlogo_container">
                 <div className="header_logo">
-                  <img alt="img" style={{ width: "40px;", height: "60px"}} src={mainlogo} />
+                  <img alt="img" className="percentlogomain"  src={mainlogo} />
                 </div>
               </li>
               <div className="padd">
