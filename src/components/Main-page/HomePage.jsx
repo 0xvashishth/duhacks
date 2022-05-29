@@ -15,6 +15,7 @@ import Footer from "../Footer/footer.jsx";
 import {Member} from "../team/team.jsx";
 import pattern from "./pattern4.png";
 import Media from "../media/media.jsx";
+import ThemeType from "../Themes/theme.jsx";
 
 import {
   TOP_SECTION,
@@ -132,9 +133,10 @@ export default function HomePage(props) {
 
 
       {/*Theme Section*/}
-               <Row className="prizesection non-coding">
+        <Row className="prizesection non-coding">
           <PrizeHeading type="Hackathon Themes" />
-          <h2>coming soon</h2>
+          
+        <ThemeType/>
         </Row> 
 
       {/*Theme end*/}
