@@ -102,8 +102,8 @@ const NAVBAR = () => {
                 </Link>
               </li>
               <li className="list--general">
-                <Link to={`#faq`}>
-                  <span className="links">FAQ </span>{" "}
+                <Link to={`#themes`}>
+                  <span className="links">Themes </span>{" "}
                 </Link>
               </li>
               <li className="list--general">
@@ -119,6 +119,11 @@ const NAVBAR = () => {
               <li className="list--general">
                 <Link to={`#team`}>
                   <span className="links">Team </span>{" "}
+                </Link>
+              </li>
+             <li className="list--general">
+                <Link to={`#faq`}>
+                  <span className="links">FAQ </span>{" "}
                 </Link>
               </li>
               <img

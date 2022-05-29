@@ -134,7 +134,7 @@ export default function HomePage(props) {
 
 
       {/*Theme Section*/}
-        <Row className="prizesection non-coding">
+        <Row className="prizesection non-coding" id="themes">
           <PrizeHeading type="Hackathon Themes" />
           <ThemeType/>
         </Row> 
