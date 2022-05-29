@@ -28,7 +28,7 @@ nav {
   margin-top: -0vw;
 }
  .padd{
-   padding-left: 40vw;
+   padding-left: 35vw;
  }
 .s-open,
 .s-close {
@@ -73,7 +73,24 @@ a:link {
   display: none;
 }
 
+@media (max-width: 953px) {
+   .padd{
+   padding-left: 20vw;
+ }
+}
+
+.percentlogomain{
+  width: 90%;
+  height: 90%;
+}
+
 @media (max-width: 712px) {
+  
+  .percentlogomain{
+  width: 90px;
+  height: 90px;
+  }
+
   .ease {
     background: #484848;
     height: 75%;
@@ -81,7 +98,7 @@ a:link {
     pointer-events: none;
   }
   .header_logo {
-    padding: 0vw 10vw 00vw 23vw;
+    padding: 0vw 10vw 10vw 23vw;
   }
   ul {
     flex-direction: column;
@@ -91,21 +108,30 @@ a:link {
     display: inline;
     position: absolute;
     right: 5vw;
-    top: 6.7vw;
+    top: 4vw;
     z-index: -1;
   }
   .s-close {
     display: block;
     position: absolute;
-    right: 5.7vw;
+    right: 4vw;
     top: 7.9vw;
   }
 .logi_none{
   display: inline;
   padding: 20vw 10vw 100vw 23vw;
 }
-.headerlogo_container1{
-  margin-right: 50vw;
-  margine-top: 100px;
+
 }
+
+@media (max-width: 487px) {
+
+  .s-open {
+    right: 5vw;
+    top: 6.7vw;
+  }
+  .s-close {
+    right: 5.7vw;
+    top: 7.9vw;
+  }
 }

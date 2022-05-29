@@ -90,20 +90,20 @@ const NAVBAR = () => {
             <ul>
               <li className="headerlogo_container">
                 <div className="header_logo">
-                  <img alt="img" style={{ width: "40px;", height: "60px"}} src={mainlogo} />
+                  <img alt="img" className="percentlogomain"  src={mainlogo} />
                 </div>
               </li>
               <div className="padd">
                 
               </div>
               <li className=" list--general">
-                <Link to={`#home`}>
-                  <span className="links">Home </span>{" "}
+                <Link to={`#about`}>
+                  <span className="links">About </span>{" "}
                 </Link>
               </li>
               <li className="list--general">
-                <Link to={`#faq`}>
-                  <span className="links">FAQ </span>{" "}
+                <Link to={`#themes`}>
+                  <span className="links">Themes </span>{" "}
                 </Link>
               </li>
               <li className="list--general">
@@ -117,8 +117,13 @@ const NAVBAR = () => {
                 </Link>
               </li>
               <li className="list--general">
-                <Link to={`#team`}>
+                <Link to={`#teams`}>
                   <span className="links">Team </span>{" "}
+                </Link>
+              </li>
+             <li className="list--general">
+                <Link to={`#faqs`}>
+                  <span className="links">FAQ </span>{" "}
                 </Link>
               </li>
               <img

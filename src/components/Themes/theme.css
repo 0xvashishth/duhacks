@@ -1,0 +1,128 @@
+/* *{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Noto Sans JP', sans-serif;
+}
+ */
+.HackathonTheme{
+    background-color: none;
+    color: black;
+
+}
+.role_name{
+	padding: 5px;
+}
+
+.cards_wrap{
+	padding: 20px;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	
+}
+
+.cards_wrap .card_item{
+	padding: 20px 20px;
+	width: 33%;
+}
+.card_inner{
+	/* box-shadow: 5px 10px 15px -5px black; */
+	box-shadow: 5px 10px 15px -5px black;
+	border-radius: 20px;
+}
+
+.card_inner{
+
+    -webkit-animation: mover 1s infinite  alternate;
+    animation: mover 2s infinite  alternate;
+   }
+   @-webkit-keyframes mover {
+     0% { transform: translateY(0); }
+     100% { transform: translateY(10px); }
+   }
+   @keyframes mover {
+     0% { transform: translateY(0); }
+     100% { transform: translateY(10px); }
+  }
+
+.card_inner{
+	/* background: #f4d7f3; */
+	border-radius: 5px;
+	/* padding: 10px; */
+	min-width: 225px;
+	min-height: 300px;
+	max-height: 500px;
+	/* width: 300px; */
+	border-radius: 7px;
+}
+
+.cards_wrap .card_item img{
+	width: 230px;
+	height: 230px;
+	margin-bottom: 5px;
+	border-radius: 9px;
+	margin-top: 20px;
+}
+
+.cards_wrap .card_item .role_name{
+	color: rgb(39, 35, 35);
+	font-weight: 900;
+	letter-spacing: 2px;
+	/* text-transform: uppercase; */
+	font-size: 20px;
+	white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.cards_wrap .card_item .real_name{
+	color: #b6c0c2;
+	font-size: 12px;
+	font-weight: 100;
+	/* margin: 5px 0 10px; */
+}
+
+.cards_wrap .card_item .film{
+	font-size: 14px;
+	line-height: 24px;
+	color: #7b8ca0;
+}
+
+@media screen and (max-width: 1200px){
+	.cards_wrap .card_item{
+		width: 50%;
+	}
+}
+
+@media screen and (max-width: 1200px){
+	.cards_wrap .card_item{
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 768px){
+	.cards_wrap .card_item{
+		width: 100%
+	}
+	.wrapper .header{
+		font-size: 16px;
+		height: 60px;
+	}
+	.cards_wrap .card_item img{
+	width: 200px;
+	height: 200px;
+	/* margin-bottom: 5px; */
+	border-radius: 9px;
+}
+}
+
+@media screen and (max-width: 568px){
+	.cards_wrap .card_item{
+		width: 100%;
+	}
+	.wrapper .header{
+		font-size: 14px;
+	}
+}
