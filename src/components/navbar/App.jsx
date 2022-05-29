@@ -97,8 +97,8 @@ const NAVBAR = () => {
                 
               </div>
               <li className=" list--general">
-                <Link to={`#home`}>
-                  <span className="links">Home </span>{" "}
+                <Link to={`#about`}>
+                  <span className="links">About </span>{" "}
                 </Link>
               </li>
               <li className="list--general">
@@ -117,12 +117,12 @@ const NAVBAR = () => {
                 </Link>
               </li>
               <li className="list--general">
-                <Link to={`#team`}>
+                <Link to={`#teams`}>
                   <span className="links">Team </span>{" "}
                 </Link>
               </li>
              <li className="list--general">
-                <Link to={`#faq`}>
+                <Link to={`#faqs`}>
                   <span className="links">FAQ </span>{" "}
                 </Link>
               </li>

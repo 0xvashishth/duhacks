@@ -102,7 +102,7 @@ export default function HomePage(props) {
   }, []);
   return (
     <div className="Whole_div" style={{backgroundImage: `url(${pattern})`}}>
-      <div className="color_sectiom" id="home">
+      <div className="color_sectiom">
         <Container fluid>
           <Row className="Row info">
             <Col className="info-div" sm={12} lg={7} md={8}>
@@ -123,7 +123,7 @@ export default function HomePage(props) {
       </div>
       <Container fluid>
         {/* Logo section  */}
-        <Row className=" logoSection">
+        <Row className=" logoSection" id="about">
           <Col className="info-div" sm={12} lg={8} md={8}>
             <LogoSectionAbout />
           </Col>
@@ -140,7 +140,7 @@ export default function HomePage(props) {
         </Row> 
 
 
-        <Row className="prizesection">
+        <Row className="prizesection" id="prizes">
           <PrizeHeading type="Prizes" />
           </Row> 
        <div class="row1-container">
@@ -202,7 +202,7 @@ export default function HomePage(props) {
         {/* ********Sponsors here ***** */}
 
         <Row className="sponsorSection" id="sponsors">
-          <SponsorsHead />
+         <h1 className="margfromsponsor1">Sponsors & Partners</h1>
           {/* <SponsorUS /> */}
           {sponsorLogos.map(SponsorGroup)}
         </Row>
@@ -215,7 +215,7 @@ export default function HomePage(props) {
 
         {JudgesInfo.map(TeamMembers)} */}
 
-        <h1 id="team">Our Team</h1>
+        <h1 id="teams">Our Team</h1>
         {/* {FOOTER.JOIN_TEAM.required && (
           <JoinTeam
             placeholder="Join our team"
@@ -228,9 +228,9 @@ export default function HomePage(props) {
 
         {/* ********Team ending here ***** */}
         <br/><br/>
-          <h1 id="team">FAQs</h1>
+          <h1 id="faqs">FAQs</h1>
           {/* ********Frequently asked Questions here ***** */}
-        <div className="Myfaqs" id="faq">
+        <div className="Myfaqs">
           {frequentlyAskedQuestions.map(FrequentlyAsked)}
           {/* ********Frequently asked Questions ending here ***** */}
         </div>
