@@ -340,3 +340,10 @@ h2 {
   }
 
 }
+
+@media (max-width: 890px) {
+.backtotop p {
+  margin-left: 2px;
+
+}
+}
