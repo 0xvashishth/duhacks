@@ -101,7 +101,7 @@ export default function HomePage(props) {
     };
   }, []);
   return (
-    <div className="Whole_div" style={{backgroundImage: `url(${pattern})`}}>
+    <div id="top" className="Whole_div" style={{backgroundImage: `url(${pattern})`}}>
       <div className="color_sectiom">
         <Container fluid>
           <Row className="Row info">
@@ -113,6 +113,7 @@ export default function HomePage(props) {
               <br />
             </Col>
           </Row>
+
 
 {/*          <Row className="mediaInfo">
             <Col className="" sm={12} lg={12} md={12}>
@@ -235,7 +236,9 @@ export default function HomePage(props) {
           {/* ********Frequently asked Questions ending here ***** */}
         </div>
       </Container>
+      
       <Footer />
+      <div class="backtotop"><a href="#top"><p><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAABmJLR0QA/wD/AP+gvaeTAAAAtklEQVRIie3XsQrCMBSF4T+CoJsddHAo9HH6AD634NbNqTgo6FI6WQdTtJLQpG0CxXsglIRyv0ugCYWZRsUGd8ARKIA0FroFTkCjxxnIYqNRcBsaFO9Dg+Cu6KS4LzoJrnh/Mr5oOwpgaSu+GNqVY6wHTN/Jo4DNz1oJrAzv7oH6a/4Ani7duabCvLVrnyKht1pggQUWWOA/g0vD2o3ulRgkOXDhcx1egYNvkTG/IIl+3nUD88gLIHVaGvUECUcAAAAASUVORK5CYII="/></p></a></div>
     </div>
   );
 }

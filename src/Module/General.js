@@ -56,7 +56,7 @@ const SOCIALS = {
 const MIDDLE_SECTION = {
   TITLE: "What is DUHacks?",
   LONG_DESCRIPTION:
-    "It is an offline/hybrid hackathon in which all participants can sharpen their skills and connect with people to grow together. The Hackathon is designed to spark innovation, attract and educate new talent and create new channels for collaboration between performance and capacity professionals. We want to spread the idea that programming and is a useful skill that can be enjoyed by anyone. We are planning to host approximately 150 students offline in the college with proper arrangement and 100+ students online .",
+    "It is an offline/hybrid hackathon in which all participants can sharpen their skills and connect with people to grow together. The Hackathon is designed to spark innovation, attract and educate new talent and create new channels for collaboration between performance and capacity professionals. We want to spread the idea that programming is a useful skill that can be enjoyed by anyone. We are planning to host approximately 150 students offline in the college with proper arrangement and 100+ students online.",
   LOGO_EFFECT: true,
   LOGO: ""
 };
@@ -79,14 +79,6 @@ const FOOTER = {
     src: ""
   }
 };
-
-
-/** SCHEDULE
- *  
- * INSTRUCTIONS
- * 
- * Date format : 8-11-2021, 18-11-2021 (without trailing zeros)
- */
 
 const calenderStartingDate = {
   month: 7,
@@ -147,20 +139,6 @@ const schedule = [
   },
 ]
 
-
-
-/** ICON
- *
- * icons are from fontawesome visit = https://fontawesome.com
- * and just copy paste icon links and update icon in Prizeinfo
- *
- * INSTRUCTIONS
- *
- * Insert only 3 or less then 3 prizes per array in `Prizeinfo`, you can
- * create as many arrays you want all prizes will be rendered
- * in a group of 3.
- */
-
 const Prizeinfo = [
   [
     //Array 1
@@ -168,19 +146,19 @@ const Prizeinfo = [
       icon: <i className="first fas fa-4x fa-trophy"></i>,
       type: "Overall First",
       content:
-        "First Overall prize will be given to a project that outstands all other submissions"
+        "The first overall prize will be given to a project that outstands all other submissions."
     },
     {
       icon: <i className=" second fas fa-4x fa-medal"></i>,
       type: "Overall Second",
       content:
-        "Second Overall prize will be given to the second best project of the hackathon"
+        "The second overall prize will be given to the second-best project in the hackathon."
     },
     {
       icon: <i className=" third fas fa-4x fa-skiing-nordic"></i>,
       type: "Overall Third",
       content:
-        "Best third overall project of the hackathon will win some awesome prizes"
+        "The third overall prize will be given to the third-best project in the hackathon."
     }
   ],
   [
@@ -242,7 +220,7 @@ const TeamInfo = [
     },
     {
       Name: "Parshwa Mehta",
-      role: "Manager & Content",
+      role: "Manager & Content Writer",
       github: "https://github.com/PARSHWA0510",
       linkedin: "https://www.linkedin.com/in/parshwa-mehta-949306205",
       img: parshwa
@@ -335,13 +313,6 @@ const JudgesInfo = [
   ]
 ];
 
-
-// /** Instructions
-//  * Only put 3 logos per array inside `sponsorLogos`, you can
-//  * create as many arrays you want all logos will be rendered
-//  * in a group of 3.
-//  */
-
 const sponsorLogos = [
   [{ src: cfc }, { src: sublime }, { src: echoAR }], //Array 1
   [{ src: taskade }, { src: Replit }, { src: qoom }], //Array 2
@@ -349,9 +320,7 @@ const sponsorLogos = [
   [{ src: egg }, { src: ll }, { src: ACF }] //Array 4
 ];
 
-/** Instructions
- * Follow the strcuture provided below to add as many as FAQ's you want
- */
+
 const frequentlyAskedQuestions = [
   [
     [
