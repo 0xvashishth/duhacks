@@ -37,7 +37,7 @@ nav {
 .nav-inner {
   width: 30%;
 }
-ul {
+.ulnav {
   width: 100vw;
   margin-top: -2%;
   position: relative;
@@ -53,7 +53,7 @@ ul {
 .headerlogo_container{
   margin-right: 5rem;
 }
-nav ul li {
+.nav_bar .ulnav .liw {
   display: inline-block;
 }
 .links {
@@ -100,7 +100,7 @@ a:link {
   .header_logo {
     padding: 0vw 10vw 10vw 23vw;
   }
-  ul {
+  .ulnav {
     flex-direction: column;
     padding: 30px 20;
   }

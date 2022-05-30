@@ -47,7 +47,7 @@ const TOP_SECTION = {
 const SOCIALS = {
   instagram: "https://instagram.com/duhacks2022?igshid=YmMyMTA2M2Y=",
   discord: "https://discord.gg/NY7K3ph4",
-  linkedin: "https://www.linkedin.com/in/du-hacks-878119240",
+  linkedin: "https://www.linkedin.com/company/duhacks/",
   twitter: "https://twitter.com/DuHacks?t=CPjNJmQX1JxhIHb_YI0Tuw&s=09",
   email: "mailto:contact@duhacks.tech",
   mail: "contact@duhacks.tech"
@@ -354,7 +354,7 @@ const frequentlyAskedQuestions = [
       ,
       {
         label: "Can I volunteer?",
-        content: "Yes we are actively looking for volunteers, fill the form (in footer section) we will be glad to have you."
+        content: "Yes we are actively looking for volunteers, Contact us on contact@duhacks.tech, we will be glad to have you."
       }
       ,
       {

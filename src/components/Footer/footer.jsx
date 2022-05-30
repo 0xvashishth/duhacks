@@ -9,6 +9,8 @@ import PrivacyPolicy from "./Privacy policy.pdf";
 import TermsOfUse from "./Terms of use.pdf";
 import Twitter from "./icons8-twitter.svg";
 import {Btn} from "../Top-division-components/Top-division-components.jsx";
+import logo from "../navbar/LOGO.png";
+import dsc from "./dsc.png";
 // import cross from "./cross.svg";
 import {SOCIALS, FOOTER} from "../../Module/General";
 
@@ -47,78 +49,38 @@ export default function Footer() {
 
   return (
     <div>
-      <div className="footer">
-        <div className="social-icons-container">
-          <div className="social-icon">
-            <a rel="noreferrer" target="_blank" href={SOCIALS.instagram}>
-              <img src={Insta} alt="" />
-            </a>
-          </div>
-          <div className="social-icon">
-            <a rel="noreferrer" target="_blank" href={SOCIALS.discord}>
-              <img src={Dis} alt="" />
-            </a>
-          </div>
-          <div className="social-icon">
-            <a rel="noreferrer" target="_blank" href={SOCIALS.linkedin}>
-              <img src={Linked} alt="" />
-            </a>
-          </div>
-          <div className="social-icon">
-            <a rel="noreferrer" target="_blank" href={SOCIALS.email}>
-              <img src={Mail} alt="" />
-            </a>
-          </div>
-          <div className="social-icon">
-            <a rel="noreferrer" target="_blank" href={SOCIALS.twitter}>
-              <img src={Twitter} alt="" />
-            </a>
-          </div>
+      <footer>
+    <div class="content">
+      <div class="top">
+        <div class="logo-details">
+          <img src={logo} className="imgfooter" />
+          <span class="logo_name">&nbsp;DUHacks</span>
         </div>
-        <div className="Register_a">
-          <a
-            href="#link for devfolio"
-            rel="noreferrer"
-            target="_blank"
-          >
-          </a>
-          {FOOTER.VOLUNTEERING_FORM.required && (
-            <a href={FOOTER.VOLUNTEERING_FORM.src}>
-              <Btn type="Volunteer" class="Volunteer" overlay="Fill the form" />
-            </a>
-          )}
+        <div class="media-icons">
+          <a target="_blank" href={SOCIALS.discord}><i class="iconlink fab fa-discord"></i></a>
+          <a target="_blank" href={SOCIALS.twitter}><i class="iconlink fab fa-twitter"></i></a>
+          <a target="_blank" href={SOCIALS.instagram}><i class="iconlink fab fa-instagram"></i></a>
+          <a target="_blank" href={SOCIALS.linkedin}><i class="iconlink fab fa-linkedin-in"></i></a>
+          <a target="_blank"href={SOCIALS.email}><i class="iconlink fa-solid fa-envelope"></i></a>
         </div>
-        <div className="footer_info">
-          <p>
-            Contact us <a href={SOCIALS.email}>{SOCIALS.mail}</a>{" "}
-          </p>
-
-          {/*{FOOTER.Privacy_policy.required && (
-            <a
-              href={PrivacyPolicy}
-              download
-              target="blank"
-              className="privacy-policy"
-            >
-              <p>Privacy Policy</p>
-            </a>
-          )}
-          {FOOTER.Terms_of_use.required && (
-            <a
-              href={TermsOfUse}
-              download
-              target="blank"
-              className="privacy-policy"
-            >
-              <p>Terms of Use</p>
-            </a>
-          )}
-           <p>Made with ❤️</p> */}
-        </div>
-        {template && viewTemplate && (
-          <template hidetemplate={() => setViewTemplate(false)} />
-        )}
       </div>
+      <div class="link-boxes">
+        <ul class="box1 input-box1">
+          {/*<li class="link_name">Subscribe</li>*/}
+          <img src={dsc} className="imgfooterdsc" />
+        </ul>
+      </div>
+    </div>
+    <div class="bottom-details">
+      <div class="bottom_text">
+        <span class="copyright_text">Copyright © 2022 <a href="#">DUHacks.</a>All rights reserved</span>
+        <span class="policy_terms">
+          Made with ❤️
+        </span>
+      </div>
+    </div>
+  </footer>
+
     </div>
   );
 }
