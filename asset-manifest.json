@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.cb8b9e6f.chunk.css",
-    "main.js": "/static/js/main.daf1071b.chunk.js",
-    "main.js.map": "/static/js/main.daf1071b.chunk.js.map",
+    "main.js": "/static/js/main.f999fdbe.chunk.js",
+    "main.js.map": "/static/js/main.f999fdbe.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.488acc42.js",
     "runtime-main.js.map": "/static/js/runtime-main.488acc42.js.map",
     "static/js/2.eb9ea485.chunk.js": "/static/js/2.eb9ea485.chunk.js",
@@ -26,6 +26,7 @@
     "static/media/Vashishth_Patel.76a0cdb8.jpg": "/static/media/Vashishth_Patel.76a0cdb8.jpg",
     "static/media/Zenisha_Savaliya.1539d965.jpeg": "/static/media/Zenisha_Savaliya.1539d965.jpeg",
     "static/media/cfc.18f32e55.png": "/static/media/cfc.18f32e55.png",
+    "static/media/digilogo.7389bd69.png": "/static/media/digilogo.7389bd69.png",
     "static/media/dsc.b6ddf0b3.png": "/static/media/dsc.b6ddf0b3.png",
     "static/media/echoAR.4b8bc90d.png": "/static/media/echoAR.4b8bc90d.png",
     "static/media/egg.f445ea46.png": "/static/media/egg.f445ea46.png",
@@ -52,6 +53,6 @@
     "static/js/runtime-main.488acc42.js",
     "static/js/2.eb9ea485.chunk.js",
     "static/css/main.cb8b9e6f.chunk.css",
-    "static/js/main.daf1071b.chunk.js"
+    "static/js/main.f999fdbe.chunk.js"
   ]
 }
