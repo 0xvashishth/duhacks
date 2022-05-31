@@ -8,6 +8,7 @@ import glimpse from "./Assets/sponsorsLogos/glimpse.png";
 import interviewC from "./Assets/sponsorsLogos/interview-cake.jpg";
 import ll from "./Assets/sponsorsLogos/ll.png";
 import qoom from "./Assets/sponsorsLogos/qoom.svg";
+import digilogo from "./Assets/sponsorsLogos/digilogo.png";
 import Replit from "./Assets/sponsorsLogos/replit.png";
 import sublime from "./Assets/sponsorsLogos/sublime.png";
 import taskade from "./Assets/sponsorsLogos/taskade.png";
@@ -320,6 +321,10 @@ const sponsorLogos = [
   [{ src: egg }, { src: ll }, { src: ACF }] //Array 4
 ];
 
+const designlogo = [
+  [{ src: digilogo }]
+];
+
 
 const frequentlyAskedQuestions = [
   [
@@ -377,5 +382,6 @@ export {
   JudgesInfo,
   frequentlyAskedQuestions,
   schedule,
-  calenderStartingDate
+  calenderStartingDate,
+  designlogo
 };

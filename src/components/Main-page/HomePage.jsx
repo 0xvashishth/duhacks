@@ -23,7 +23,8 @@ import {
   TeamInfo,
   // JudgesInfo,
   sponsorLogos,
-  frequentlyAskedQuestions
+  frequentlyAskedQuestions,
+  designlogo
 } from "../../Module/General";
 
 // javascript Map for sponsors
@@ -229,9 +230,13 @@ export default function HomePage(props) {
         {/* ********Sponsors here ***** */}
 
         <Row className="sponsorSection" id="sponsors">
-          <h1 className="margfromsponsor1">Sponsors & Partners</h1>
-          {/* <SponsorUS /> */}
-          {sponsorLogos.map(SponsorGroup)}
+          <SponsorsHead />
+          <h3 className="">coming soon</h3>
+          {/*{sponsorLogos.map(SponsorGroup)}*/}
+
+          {/* <SponsorUS /> */}<br/><br/>
+          <h1 className="">Design Partner</h1>
+          {designlogo.map(SponsorGroup)}
         </Row>
         {/* ********Sponsors ending here ***** */}
 
@@ -254,7 +259,7 @@ export default function HomePage(props) {
         {/* ********Team ending here ***** */}
 
         {/* ********Team ending here ***** */}
-        <br /><br />
+        <br />
         <h1 id="faqs">FAQs</h1>
         {/* ********Frequently asked Questions here ***** */}
         <div className="Myfaqs">
