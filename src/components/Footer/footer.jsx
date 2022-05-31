@@ -73,7 +73,7 @@ export default function Footer() {
     </div>
     <div class="bottom-details">
       <div class="bottom_text">
-        <span class="copyright_text">Copyright © 2022 DUHacks.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; All rights reserved</span>
+        <span class="copyright_text">Copyright © 2022 DUHacks</span>
         <span class="policy_terms">
           Made with ❤️
         </span>
