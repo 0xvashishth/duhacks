@@ -38,7 +38,7 @@ const TOP_SECTION = {
   SHORT_DESCRIPTION:
     "Join us on 16-17th July 2022 with over 400 students for 36 hours of creation, innovation, & fun.",
   IMG_SRC: team,
-  DISCORD_LINK: "https://discord.gg/NY7K3ph4",
+  DISCORD_LINK: "https://discord.gg/cvHPEK7U3v",
   JUDGES_FORM_LINK:
     "#Jugdes Form Link",
   HACKERS_REGISTRATION_FORM_LINK:
@@ -47,7 +47,7 @@ const TOP_SECTION = {
 
 const SOCIALS = {
   instagram: "https://instagram.com/duhacks2022?igshid=YmMyMTA2M2Y=",
-  discord: "https://discord.gg/NY7K3ph4",
+  discord: "https://discord.gg/cvHPEK7U3v",
   linkedin: "https://www.linkedin.com/company/duhacks/",
   twitter: "https://twitter.com/DuHacks?t=CPjNJmQX1JxhIHb_YI0Tuw&s=09",
   email: "mailto:contact@duhacks.tech",

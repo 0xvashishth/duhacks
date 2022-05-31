@@ -52,7 +52,7 @@ function Myinfo() {
       </a>
       &nbsp;&nbsp;
       <a
-        href="https://discord.gg/NY7K3ph4"  
+        href="https://discord.gg/cvHPEK7U3v"  
         rel="noreferrer"
         target="_blank"
       >
