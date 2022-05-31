@@ -8,6 +8,7 @@ import glimpse from "./Assets/sponsorsLogos/glimpse.png";
 import interviewC from "./Assets/sponsorsLogos/interview-cake.jpg";
 import ll from "./Assets/sponsorsLogos/ll.png";
 import qoom from "./Assets/sponsorsLogos/qoom.svg";
+import digilogo from "./Assets/sponsorsLogos/digilogo.png";
 import Replit from "./Assets/sponsorsLogos/replit.png";
 import sublime from "./Assets/sponsorsLogos/sublime.png";
 import taskade from "./Assets/sponsorsLogos/taskade.png";
@@ -35,9 +36,9 @@ const TOP_SECTION = {
   TITLE: "DUHacks",
   Typed_effect: ["36 hours of creation", "Win awesome prizes", "Events And Sessions"],
   SHORT_DESCRIPTION:
-    "Join us on 16-17th July 2022 with over 400 students for 36 hours of creation, innovation, & fun.",
+    "Join us on 16th and 17th of July 2022 for 36 hours of creation, innovation, & fun with over 500 students.",
   IMG_SRC: team,
-  DISCORD_LINK: "https://discord.gg/NY7K3ph4",
+  DISCORD_LINK: "https://discord.gg/cvHPEK7U3v",
   JUDGES_FORM_LINK:
     "#Jugdes Form Link",
   HACKERS_REGISTRATION_FORM_LINK:
@@ -46,8 +47,8 @@ const TOP_SECTION = {
 
 const SOCIALS = {
   instagram: "https://instagram.com/duhacks2022?igshid=YmMyMTA2M2Y=",
-  discord: "https://discord.gg/NY7K3ph4",
-  linkedin: "https://www.linkedin.com/in/du-hacks-878119240",
+  discord: "https://discord.gg/cvHPEK7U3v",
+  linkedin: "https://www.linkedin.com/company/duhacks/",
   twitter: "https://twitter.com/DuHacks?t=CPjNJmQX1JxhIHb_YI0Tuw&s=09",
   email: "mailto:contact@duhacks.tech",
   mail: "contact@duhacks.tech"
@@ -56,7 +57,7 @@ const SOCIALS = {
 const MIDDLE_SECTION = {
   TITLE: "What is DUHacks?",
   LONG_DESCRIPTION:
-    "It is an offline/hybrid hackathon in which all participants can sharpen their skills and connect with people to grow together. The Hackathon is designed to spark innovation, attract and educate new talent and create new channels for collaboration between performance and capacity professionals. We want to spread the idea that programming and is a useful skill that can be enjoyed by anyone. We are planning to host approximately 150 students offline in the college with proper arrangement and 100+ students online .",
+    "It is a hybrid mode hackathon in which all participants can sharpen their skills and connect with people to grow together. The Hackathon is designed to spark innovation, attract and educate new talent and create new channels for collaboration between performance and capacity professionals. We want to spread the idea that programming is a useful skill that can be enjoyed by anyone. We are planning to host approximately 150 students offline in the college with proper arrangement and 100+ students online.",
   LOGO_EFFECT: true,
   LOGO: ""
 };
@@ -79,14 +80,6 @@ const FOOTER = {
     src: ""
   }
 };
-
-
-/** SCHEDULE
- *  
- * INSTRUCTIONS
- * 
- * Date format : 8-11-2021, 18-11-2021 (without trailing zeros)
- */
 
 const calenderStartingDate = {
   month: 7,
@@ -147,20 +140,6 @@ const schedule = [
   },
 ]
 
-
-
-/** ICON
- *
- * icons are from fontawesome visit = https://fontawesome.com
- * and just copy paste icon links and update icon in Prizeinfo
- *
- * INSTRUCTIONS
- *
- * Insert only 3 or less then 3 prizes per array in `Prizeinfo`, you can
- * create as many arrays you want all prizes will be rendered
- * in a group of 3.
- */
-
 const Prizeinfo = [
   [
     //Array 1
@@ -168,19 +147,19 @@ const Prizeinfo = [
       icon: <i className="first fas fa-4x fa-trophy"></i>,
       type: "Overall First",
       content:
-        "First Overall prize will be given to a project that outstands all other submissions"
+        "The first overall prize will be given to a project that outstands all other submissions."
     },
     {
       icon: <i className=" second fas fa-4x fa-medal"></i>,
       type: "Overall Second",
       content:
-        "Second Overall prize will be given to the second best project of the hackathon"
+        "The second overall prize will be given to the second-best project in the hackathon."
     },
     {
       icon: <i className=" third fas fa-4x fa-skiing-nordic"></i>,
       type: "Overall Third",
       content:
-        "Best third overall project of the hackathon will win some awesome prizes"
+        "The third overall prize will be given to the third-best project in the hackathon."
     }
   ],
   [
@@ -242,7 +221,7 @@ const TeamInfo = [
     },
     {
       Name: "Parshwa Mehta",
-      role: "Manager & Content",
+      role: "Manager & Content Writer",
       github: "https://github.com/PARSHWA0510",
       linkedin: "https://www.linkedin.com/in/parshwa-mehta-949306205",
       img: parshwa
@@ -335,13 +314,6 @@ const JudgesInfo = [
   ]
 ];
 
-
-// /** Instructions
-//  * Only put 3 logos per array inside `sponsorLogos`, you can
-//  * create as many arrays you want all logos will be rendered
-//  * in a group of 3.
-//  */
-
 const sponsorLogos = [
   [{ src: cfc }, { src: sublime }, { src: echoAR }], //Array 1
   [{ src: taskade }, { src: Replit }, { src: qoom }], //Array 2
@@ -349,9 +321,11 @@ const sponsorLogos = [
   [{ src: egg }, { src: ll }, { src: ACF }] //Array 4
 ];
 
-/** Instructions
- * Follow the strcuture provided below to add as many as FAQ's you want
- */
+const designlogo = [
+  [{ src: digilogo }]
+];
+
+
 const frequentlyAskedQuestions = [
   [
     [
@@ -362,21 +336,21 @@ const frequentlyAskedQuestions = [
       },
       {
         label: "Who can attend?",
-        content: "DUHacks is open to all undergraduate, high school students and middle school students from all schools. Unfortunately only DDU students can attend this event offline. For rest of others event would be online."
+        content: "DUHacks is open to all undergraduate, high school students, and middle school students from all schools. Unfortunately, only DDU students can attend this event offline. For the rest of the other students, the event would be online."
       },
       {
         label: "I am a first time hacker, what should I do?",
-        content: "No worries, we love to welcome first time hackers and start their hacking journey from a hackathon. We have some awesome workshops and events which will help you get started with hackathon and hacking in general."
+        content: "No worries, we love to welcome first-time hackers and start their hacking journey from a hackathon. We have some awesome workshops and events which will help you get started with hackathons and hacking in general."
       },
       {
         label: "How team formation works?",
-        content: "You can form team with 4 members in it at maximum. If you don't have a team, there'll be plenty of opportunities for you to meet hackers and form a team!"
+        content: "You can form a team with 4 members in it at maximum. If you don't have a team, there'll be plenty of opportunities for you to meet hackers and form a team."
       }
     ],
     [
       {
         label: "How to register myself in the hackathon?",
-        content: "All you need is to register yourself on devfolio and join Discord, we will guide you through everything there"
+        content: "All you need is to register yourself on devfolio and join discord, we will guide you through everything there."
       },
       {
         label: "I have more questions?",
@@ -385,12 +359,12 @@ const frequentlyAskedQuestions = [
       ,
       {
         label: "Can I volunteer?",
-        content: "Yes we are actively looking for volunteers, fill the form (in footer section) we will be glad to have you."
+        content: "Yes, we are actively looking for volunteers, contact us on contact@duhacks.tech, we will be glad to have you."
       }
       ,
       {
         label: "Will there be swag?",
-        content: "Yes! Participants and winners will recieve swags, certificates, promo codes, and much more!."
+        content: "Yes, Participants and winners will receive swags, certificates, promo codes, and much more!"
       }
     ]
   ],
@@ -408,5 +382,6 @@ export {
   JudgesInfo,
   frequentlyAskedQuestions,
   schedule,
-  calenderStartingDate
+  calenderStartingDate,
+  designlogo
 };

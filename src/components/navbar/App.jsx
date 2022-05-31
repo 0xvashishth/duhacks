@@ -87,7 +87,7 @@ const NAVBAR = () => {
         <Wrapper toggle={toggle} className="nav-wrapper">
 
           <div className="nav-content" ref={navigation}>
-            <ul>
+            <ul className="ulnav">
               <li className="headerlogo_container">
                 <div className="header_logo">
                   <img alt="img" className="percentlogomain"  src={mainlogo} />
@@ -96,32 +96,32 @@ const NAVBAR = () => {
               <div className="padd">
                 
               </div>
-              <li className=" list--general">
+              <li className="liw list--general">
                 <Link to={`#about`}>
                   <span className="links">About </span>{" "}
                 </Link>
               </li>
-              <li className="list--general">
+              <li className="liw list--general">
                 <Link to={`#themes`}>
                   <span className="links">Themes </span>{" "}
                 </Link>
               </li>
-              <li className="list--general">
+              <li className="liw list--general">
                 <Link to={`#prizes`}>
                   <span className="links">Prizes </span>{" "}
                 </Link>
               </li>
-              <li className="list--general">
+              <li className="liw list--general">
                 <Link to={`#sponsors`}>
                   <span className="links">Sponsors </span>{" "}
                 </Link>
               </li>
-              <li className="list--general">
+              <li className="liw list--general">
                 <Link to={`#teams`}>
                   <span className="links">Team </span>{" "}
                 </Link>
               </li>
-             <li className="list--general">
+             <li className="liw list--general">
                 <Link to={`#faqs`}>
                   <span className="links">FAQ </span>{" "}
                 </Link>

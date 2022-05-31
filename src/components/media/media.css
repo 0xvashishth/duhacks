@@ -8,8 +8,8 @@
 }
 .single a {
   color: rgba(231, 228, 228);
-  position: relative;
-  top: 0px;
+  /* position: relative; */
+  /* top: 0px; */
   transition: top 0.2s linear;
 }
 .single a:hover {
