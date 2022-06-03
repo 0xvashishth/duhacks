@@ -1,17 +1,11 @@
 import team from "./Assets/team.gif";
-import pass from "./Assets/sponsorsLogos/1pass.png";
-import ACF from "./Assets/sponsorsLogos/ACF.png";
-import cfc from "./Assets/sponsorsLogos/cfc.png";
-import echoAR from "./Assets/sponsorsLogos/echoAR.png";
-import egg from "./Assets/sponsorsLogos/egg.png";
-import glimpse from "./Assets/sponsorsLogos/glimpse.png";
-import interviewC from "./Assets/sponsorsLogos/interview-cake.jpg";
-import ll from "./Assets/sponsorsLogos/ll.png";
-import qoom from "./Assets/sponsorsLogos/qoom.svg";
 import digilogo from "./Assets/sponsorsLogos/digilogo.png";
-import Replit from "./Assets/sponsorsLogos/replit.png";
-import sublime from "./Assets/sponsorsLogos/sublime.png";
-import taskade from "./Assets/sponsorsLogos/taskade.png";
+import devfolio from "./Assets/sponsorsLogos/devfolio.png";
+import filecoin from "./Assets/sponsorsLogos/filecoin.png";
+import polygon from "./Assets/sponsorsLogos/polygon.png";
+import tezos from "./Assets/sponsorsLogos/tezos.png";
+import celo from "./Assets/sponsorsLogos/celo.png";
+
 import zenisha from "./Assets/teami/Zenisha_Savaliya.jpeg";
 import dhruvi from "./Assets/teami/Dhruvi_Sherathiya.jpg";
 
@@ -20,6 +14,7 @@ import dharmesh from "./Assets/teami/Dharmesh_Poriya.jpg";
 import Ryah from "./Assets/teami/Ryah.jpg";
 import nirali from "./Assets/teami/Nirali.jpeg";
 import smit from "./Assets/teami/smit.jpeg";
+import manav from "./Assets/teami/manav.jpg";
 import ruchit from "./Assets/teami/Ruchit_Parekh.jpg";
 import parshwa from "./Assets/teami/Parshwa_Mehta.jpg";
 import ayush from "./Assets/teami/Ayush_Rudani.jpg";
@@ -261,8 +256,15 @@ const TeamInfo = [
   [
     // Array 2
     {
+      Name: "Manav Shah",
+      role: "Content Writer",
+      github: "https://github.com/manavshah25",
+      linkedin: "https://www.linkedin.com/in/manav-shah-28a521212",
+      img: manav
+    },
+    {
       Name: "Ruchit Parekh",
-      role: "Web Developer",
+      role: "Support Team",
       github: "https://github.com/ruchit2106",
       linkedin: "https://www.linkedin.com/in/ruchit-parekh-37a6a3212/",
       img: ruchit
@@ -315,10 +317,43 @@ const JudgesInfo = [
 ];
 
 const sponsorLogos = [
-  [{ src: cfc }, { src: sublime }, { src: echoAR }], //Array 1
-  [{ src: taskade }, { src: Replit }, { src: qoom }], //Array 2
-  [{ src: interviewC }, { src: pass }, { src: glimpse }], //Array 3
-  [{ src: egg }, { src: ll }, { src: ACF }] //Array 4
+  // [{ src: cfc }, { src: sublime }, { src: echoAR }], //Array 1
+  // [{ src: taskade }, { src: Replit }, { src: qoom }], //Array 2
+  // [{ src: interviewC }, { src: pass }, { src: glimpse }], //Array 3
+  // [{ src: egg }, { src: ll }, { src: ACF }] //Array 4
+
+];
+
+const titlesponsorLogos = [
+  [{ src: devfolio }], //Array 1
+  // [{ src: taskade }, { src: Replit }, { src: qoom }], //Array 2
+  // [{ src: interviewC }, { src: pass }, { src: glimpse }], //Array 3
+  // [{ src: egg }, { src: ll }, { src: ACF }] //Array 4
+  
+];
+
+const goldsponsorLogos = [
+  [{ src: polygon }, { src: celo }, { src: filecoin }], //Array 1
+  [{ src: tezos  }], //Array 2
+  // [{ src: interviewC }, { src: pass }, { src: glimpse }], //Array 3
+  // [{ src: egg }, { src: ll }, { src: ACF }] //Array 4
+  
+];
+
+const silversponsorLogos = [
+  // [{ src: cfc }, { src: sublime }, { src: echoAR }], //Array 1
+  // [{ src: taskade }, { src: Replit }, { src: qoom }], //Array 2
+  // [{ src: interviewC }, { src: pass }, { src: glimpse }], //Array 3
+  // [{ src: egg }, { src: ll }, { src: ACF }] //Array 4
+  
+];
+
+const bronzeponsorLogos = [
+  // [{ src: cfc }, { src: sublime }, { src: echoAR }], //Array 1
+  // [{ src: taskade }, { src: Replit }, { src: qoom }], //Array 2
+  // [{ src: interviewC }, { src: pass }, { src: glimpse }], //Array 3
+  // [{ src: egg }, { src: ll }, { src: ACF }] //Array 4
+  
 ];
 
 const designlogo = [
@@ -378,6 +413,10 @@ export {
   FOOTER,
   Prizeinfo,
   sponsorLogos,
+  titlesponsorLogos,
+  goldsponsorLogos,
+  silversponsorLogos,
+  bronzeponsorLogos,
   TeamInfo,
   JudgesInfo,
   frequentlyAskedQuestions,
