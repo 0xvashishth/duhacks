@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.cb8b9e6f.chunk.css",
-    "main.js": "/static/js/main.11ca91bb.chunk.js",
-    "main.js.map": "/static/js/main.11ca91bb.chunk.js.map",
+    "main.js": "/static/js/main.1171aa2f.chunk.js",
+    "main.js.map": "/static/js/main.1171aa2f.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.488acc42.js",
     "runtime-main.js.map": "/static/js/runtime-main.488acc42.js.map",
     "static/js/2.eb9ea485.chunk.js": "/static/js/2.eb9ea485.chunk.js",
@@ -10,8 +10,6 @@
     "index.html": "/index.html",
     "static/css/main.cb8b9e6f.chunk.css.map": "/static/css/main.cb8b9e6f.chunk.css.map",
     "static/js/2.eb9ea485.chunk.js.LICENSE.txt": "/static/js/2.eb9ea485.chunk.js.LICENSE.txt",
-    "static/media/1pass.5ab4b9e8.png": "/static/media/1pass.5ab4b9e8.png",
-    "static/media/ACF.6971b921.png": "/static/media/ACF.6971b921.png",
     "static/media/Aneri_Sonani.d5df10ac.jpg": "/static/media/Aneri_Sonani.d5df10ac.jpg",
     "static/media/Ayush_Rudani.17653f0c.jpg": "/static/media/Ayush_Rudani.17653f0c.jpg",
     "static/media/Dharmesh_Poriya.f860073d.jpg": "/static/media/Dharmesh_Poriya.f860073d.jpg",
@@ -26,12 +24,9 @@
     "static/media/Terms of use.c2255556.pdf": "/static/media/Terms of use.c2255556.pdf",
     "static/media/Vashishth_Patel.6c8ceb92.jpg": "/static/media/Vashishth_Patel.6c8ceb92.jpg",
     "static/media/Zenisha_Savaliya.0a108545.jpeg": "/static/media/Zenisha_Savaliya.0a108545.jpeg",
-    "static/media/cfc.18f32e55.png": "/static/media/cfc.18f32e55.png",
+    "static/media/celo.cacc574d.png": "/static/media/celo.cacc574d.png",
     "static/media/digilogo.7389bd69.png": "/static/media/digilogo.7389bd69.png",
     "static/media/dsc.4d098269.png": "/static/media/dsc.4d098269.png",
-    "static/media/echoAR.4b8bc90d.png": "/static/media/echoAR.4b8bc90d.png",
-    "static/media/egg.f445ea46.png": "/static/media/egg.f445ea46.png",
-    "static/media/glimpse.b6f31993.png": "/static/media/glimpse.b6f31993.png",
     "static/media/ham-c.8ab7632d.svg": "/static/media/ham-c.8ab7632d.svg",
     "static/media/ham.a63ab4de.svg": "/static/media/ham.a63ab4de.svg",
     "static/media/icons8-dev-post.15a5555a.svg": "/static/media/icons8-dev-post.15a5555a.svg",
@@ -40,20 +35,16 @@
     "static/media/icons8-linkedin-2.524f8b6e.svg": "/static/media/icons8-linkedin-2.524f8b6e.svg",
     "static/media/icons8-mail.650ff70b.svg": "/static/media/icons8-mail.650ff70b.svg",
     "static/media/icons8-twitter.0521e950.svg": "/static/media/icons8-twitter.0521e950.svg",
-    "static/media/interview-cake.37432cbb.jpg": "/static/media/interview-cake.37432cbb.jpg",
-    "static/media/ll.fd735495.png": "/static/media/ll.fd735495.png",
+    "static/media/manav.b3c19e26.jpg": "/static/media/manav.b3c19e26.jpg",
     "static/media/pattern4.4b9f3314.png": "/static/media/pattern4.4b9f3314.png",
     "static/media/preloader.efefe51c.gif": "/static/media/preloader.efefe51c.gif",
-    "static/media/qoom.fb09f9e6.svg": "/static/media/qoom.fb09f9e6.svg",
-    "static/media/replit.3c3b0ba7.png": "/static/media/replit.3c3b0ba7.png",
     "static/media/smit.3a874758.jpeg": "/static/media/smit.3a874758.jpeg",
-    "static/media/sublime.f9991326.png": "/static/media/sublime.f9991326.png",
     "static/media/team.aebd8338.gif": "/static/media/team.aebd8338.gif"
   },
   "entrypoints": [
     "static/js/runtime-main.488acc42.js",
     "static/js/2.eb9ea485.chunk.js",
     "static/css/main.cb8b9e6f.chunk.css",
-    "static/js/main.11ca91bb.chunk.js"
+    "static/js/main.1171aa2f.chunk.js"
   ]
 }
