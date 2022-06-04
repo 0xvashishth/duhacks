@@ -135,6 +135,7 @@ export default function HomePage(props) {
       document.body.removeChild(script);
     };
   }, []);
+  
   return (
     <div id="top" className="Whole_div" style={{ backgroundImage: `url(${pattern})` }}>
       <div className="color_sectiom">

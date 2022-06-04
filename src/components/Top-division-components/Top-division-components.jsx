@@ -24,6 +24,8 @@ function About() {
   );
 }
 
+
+
 function Myinfo() {
   return (
     <div className="Myinfo">
