@@ -325,7 +325,7 @@ const sponsorLogos = [
 ];
 
 const titlesponsorLogos = [
-  [{ src: devfolio }], //Array 1
+  [{ src: devfolio, link: "https://devfolio.co/" }], //Array 1
   // [{ src: taskade }, { src: Replit }, { src: qoom }], //Array 2
   // [{ src: interviewC }, { src: pass }, { src: glimpse }], //Array 3
   // [{ src: egg }, { src: ll }, { src: ACF }] //Array 4
@@ -333,8 +333,8 @@ const titlesponsorLogos = [
 ];
 
 const goldsponsorLogos = [
-  [{ src: polygon }, { src: celo }, { src: filecoin }], //Array 1
-  [{ src: tezos  }], //Array 2
+  [{ src: polygon, link: "https://polygon.technology/" }, { src: celo, link: "https://celo.org/" }, { src: filecoin, link: "https://filecoin.io/" }], //Array 1
+  [{ src: tezos, link: "https://tezos.com/" }], //Array 2
   // [{ src: interviewC }, { src: pass }, { src: glimpse }], //Array 3
   // [{ src: egg }, { src: ll }, { src: ACF }] //Array 4
   
@@ -357,7 +357,7 @@ const bronzeponsorLogos = [
 ];
 
 const designlogo = [
-  [{ src: digilogo }]
+  [{ src: digilogo, link: "https://www.instagram.com/digicosmic_studio/" }]
 ];
 
 

@@ -276,6 +276,13 @@ export default function HomePage(props) {
           {/* ********Frequently asked Questions ending here ***** */}
         </div>
       </Container>
+<br/>
+              <center><div 
+  class="apply-button" 
+  data-hackathon-slug="duhacks" 
+  data-button-theme="light"
+  // style="height: 44px; width: 312px"
+></div></center>
 
       <Footer />
       <div class="backtotop" id="back-to-up"><a onClick={scrollToTop}><p><i class="fa-solid fa-arrow-up"></i></p></a></div>

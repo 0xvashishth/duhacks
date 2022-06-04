@@ -29,6 +29,24 @@
   border-radius: 4px;
   color: #fff;
   display: inline-flex;
+  /* font-size: px; */
+  font-weight: 600;
+  height: 45px;
+  top: -9px;
+  justify-content: center;
+  outline: none;
+  padding: 0 0px;
+  transition: all 0.1s ease-in 0s;
+  white-space: nowrap;
+  width: 10%;
+}
+
+/* .dis-button {
+  align-items: center;
+  background-color: #7289da;
+  border-radius: 4px;
+  color: #fff;
+  display: inline-flex;
   font-size: px;
   font-weight: 600;
   height: 60px;
@@ -38,7 +56,7 @@
   transition: all 0.1s ease-in 0s;
   white-space: nowrap;
   width: 10%;
-}
+} */
 button {
   width: 22rem;
   height: 6rem;
@@ -218,6 +236,7 @@ button:hover .overlay {
   }
   .dis-button{
       width: 25%;
+      top: 10px;
   }
   .svgbtn{
     height: "12px";
