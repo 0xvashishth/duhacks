@@ -17,6 +17,10 @@ import { Member } from "../team/team.jsx";
 import pattern from "./pattern4.png";
 import Media from "../media/media.jsx";
 import ThemeType from "../Themes/theme.jsx";
+import filecoin from "../../Module/Assets/sponsorsLogos/filecoin.png";
+import polygon from "../../Module/Assets/sponsorsLogos/polygon.png";
+import tezos from "../../Module/Assets/sponsorsLogos/tezos.png";
+import celo from "../../Module/Assets/sponsorsLogos/celo.png";
 
 import {
   TOP_SECTION,
@@ -24,7 +28,11 @@ import {
   // JudgesInfo,
   sponsorLogos,
   frequentlyAskedQuestions,
-  designlogo
+  designlogo,
+  titlesponsorLogos,
+  bronzeponsorLogos,
+  silversponsorLogos,
+  goldsponsorLogos
 } from "../../Module/General";
 
 // javascript Map for sponsors
@@ -175,17 +183,17 @@ export default function HomePage(props) {
 
           <div class="box red">
             <h2>Overall First</h2><img class="imgright" src="https://img.icons8.com/emoji/96/000000/1st-place-medal-emoji.png" alt="" />
-            <p>First Overall prize will be given to a project that outstands all other submissions.</p>
+            <h4><b>Prize</b>: Rs. 7000 <br/>Swags & Promo Codes</h4>
           </div>
 
           <div class="box box-down cyan">
             <h2>Overall Second</h2><img className="imgright" src="https://img.icons8.com/emoji/96/000000/2nd-place-medal-emoji.png" alt="" />
-            <p>Second Overall prize will be given to the second best project of the hackathon.</p>
+            <h4><b>Prize</b>: Rs. 3000 <br/>Swags & Promo Codes</h4>
           </div>
 
           <div class="box box-down blue">
             <h2>Overall Third</h2><img class="imgright" src="https://img.icons8.com/emoji/96/000000/3rd-place-medal-emoji.png" alt="" />
-            <p>Third Overall prize will be given to the third best project of the hackathon.</p>
+            <h4><b>Prize</b>: Rs. 2000 <br/>Swags & Promo Codes</h4>
           </div>
         </div>
         {/*      <div class="row2-container">
@@ -198,21 +206,88 @@ export default function HomePage(props) {
         <div class="row1-container margfromsponsor">
           <div class="box box-down color2">
             <h2>Best Women Team</h2><img class="imgright" src="https://img.icons8.com/cute-clipart/64/000000/granny-lesbian.png" alt="" />
-            <p>Your project will qualify for this category if your all team members are women.</p>
+            <h4><b>Prize</b>: Rs. 1500 <br/>Swags & Promo Codes</h4>
           </div>
 
           <div class="box color1">
             <h2>Best DDU Team</h2><img class="imgright" src="https://img.icons8.com/emoji/96/000000/sports-medal-emoji.png" alt="" />
-            <p>Your project will qualify for this category if your all team members are from DDU.</p>
+             <h4><b>Prize</b>: Rs. 1500 <br/>Swags & Promo Codes</h4>
           </div>
 
           <div class="box box-down orange">
-            <h2>More prizes</h2><img class="imgright" src="https://img.icons8.com/external-flaticons-lineal-color-flat-icons/64/000000/external-prizes-circus-flaticons-lineal-color-flat-icons.png" alt="" />
-            <p>More prizes will be revealed soon !</p>
+            <h2>All Participants</h2><img class="imgright" src="https://img.icons8.com/external-flaticons-lineal-color-flat-icons/64/000000/external-prizes-circus-flaticons-lineal-color-flat-icons.png" alt="" />
+            <h4><b>Participation Certificate</b><br/>Promo Codes & More..</h4>
           </div>
         </div>
 
+<center>
+<div class="containertrack">
+  <div class="cardtrack">
+    <div class="boxtrack">
+      <div class="contenttrack">
+        {/*<h1>Polygon</h1>*/}
+        <img className="imgtrack" src={polygon} />
+        <br/><br/>
+        <b><lu>
+        <li>₹10,000 for the best hack built on Ethereum,</li>
+        <li>or ₹15,000 for the best hack built on Ethereum + Polygon.</li>
+        <li>Eligibility to apply for internship/full-time roles and seed funding of up to 5,000 USD for winners!</li>
+        </lu></b>
+        <a href="https://www.notion.so/Polygon-Devfolio-Hackathon-Season-Prize-de8961d5eeff4780963749da0b75037c">Read More</a>
+      </div>
+    </div>
+  </div>
 
+    <div class="cardtrack">
+    <div class="boxtrack">
+      <div class="contenttrack">
+        {/*<h1>Tezos</h1>*/}
+        <img className="imgtrack" src={tezos} />
+        <br/><br/>
+        <b>
+          
+          <lu>
+            
+            <li>₹20,000 for best Dapp built on Tezos.</li>
+            <li>Continuity grant opportunity up to 5,000 USD for an outstanding project.</li>
+
+          </lu>
+
+        </b>
+        <a href="https://www.notion.so/Tezos-Devfolio-Hackathon-Season-Prize-e90b6811b0df43e5a7dadf534fc000ff">Read More</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="cardtrack">
+    <div class="boxtrack">
+      <div class="contenttrack">
+        {/*<h1>Filecoin</h1>*/}
+        <img className="imgtrack" src={filecoin} />
+        <br/><br/>
+        <b><lu>
+        <li>₹20000 for best use of IPFS and/or Filecoin.</li>
+        </lu></b>
+        <a href="https://devfolio.notion.site/Filecoin-Devfolio-Hackathon-Season-Prize-998fc3fe477e474086ae1d5ed1685203">Read More</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="cardtrack">
+    <div class="boxtrack">
+      <div class="contenttrack">
+        {/*<h1>Celo</h1>*/}
+         <img className="imgtrack" src={celo} />
+         <br/><br/>
+         <b><lu>
+           <li>₹20000 for best Dapp built on Celo.</li>
+         </lu></b>
+        <a href="https://www.notion.so/Celo-Devfolio-Hackathon-Season-Prize-8b98dac17f134abeae863d5d98c01ff0">Read More</a>
+      </div>
+    </div>
+  </div>
+</div>
+</center>
         {/*Theme end*/}
 
         <Birds top="200vh" left="0vh" type="" />
@@ -231,11 +306,16 @@ export default function HomePage(props) {
 
         <Row className="sponsorSection" id="sponsors">
           <SponsorsHead />
-          <h3 className="">coming soon</h3>
-          {/*{sponsorLogos.map(SponsorGroup)}*/}
-
+          <h1 className="">Title Sponsors</h1>
+          <br/>
+          {titlesponsorLogos.map(SponsorGroup)}
+          <br/><br/>
+          <h1 className="">Gold Sponsors</h1>
+          <br/>
+          {goldsponsorLogos.map(SponsorGroup)}
+          <br/><br/>
           {/* <SponsorUS /> */}<br/><br/>
-          <h1 className="">Design Partner</h1>
+          <h1 className="">Design & Media Partners</h1>
           {designlogo.map(SponsorGroup)}
         </Row>
         {/* ********Sponsors ending here ***** */}
@@ -267,6 +347,13 @@ export default function HomePage(props) {
           {/* ********Frequently asked Questions ending here ***** */}
         </div>
       </Container>
+<br/>
+              <center><div 
+  class="apply-button" 
+  data-hackathon-slug="duhacks" 
+  data-button-theme="light"
+  // style="height: 44px; width: 312px"
+></div></center>
 
       <Footer />
       <div class="backtotop" id="back-to-up"><a onClick={scrollToTop}><p><i class="fa-solid fa-arrow-up"></i></p></a></div>
