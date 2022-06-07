@@ -5,6 +5,10 @@ import filecoin from "./Assets/sponsorsLogos/filecoin.png";
 import polygon from "./Assets/sponsorsLogos/polygon.png";
 import tezos from "./Assets/sponsorsLogos/tezos.png";
 import celo from "./Assets/sponsorsLogos/celo.png";
+import echo3d from "./Assets/sponsorsLogos/echo3d.png";
+import streamyard from "./Assets/sponsorsLogos/streamyard1.JPG";
+import wolfram from "./Assets/sponsorsLogos/wolfram.jpg";
+
 
 import zenisha from "./Assets/teami/Zenisha_Savaliya.jpeg";
 import dhruvi from "./Assets/teami/Dhruvi_Sherathiya.jpg";
@@ -341,7 +345,7 @@ const goldsponsorLogos = [
 ];
 
 const silversponsorLogos = [
-  // [{ src: cfc }, { src: sublime }, { src: echoAR }], //Array 1
+  [{ src: echo3d, link: "https://www.echo3d.co/" }, {src: wolfram, link: "https://www.wolfram.com/"}], //Array 1
   // [{ src: taskade }, { src: Replit }, { src: qoom }], //Array 2
   // [{ src: interviewC }, { src: pass }, { src: glimpse }], //Array 3
   // [{ src: egg }, { src: ll }, { src: ACF }] //Array 4
@@ -357,7 +361,7 @@ const bronzeponsorLogos = [
 ];
 
 const designlogo = [
-  [{ src: digilogo, link: "https://www.instagram.com/digicosmic_studio/" }]
+  [{ src: digilogo, link: "https://www.instagram.com/digicosmic_studio/" }, {src: streamyard, link: "https://streamyard.com/"}]
 ];
 
 
