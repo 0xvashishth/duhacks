@@ -8,6 +8,7 @@ import celo from "./Assets/sponsorsLogos/celo.png";
 import echo3d from "./Assets/sponsorsLogos/echo3d.png";
 import streamyard from "./Assets/sponsorsLogos/streamyard1.JPG";
 import wolfram from "./Assets/sponsorsLogos/wolfram.jpg";
+import gfg from "./Assets/sponsorsLogos/gfg.png";
 
 
 import zenisha from "./Assets/teami/Zenisha_Savaliya.jpeg";
@@ -329,7 +330,7 @@ const sponsorLogos = [
 ];
 
 const titlesponsorLogos = [
-  [{ src: devfolio, link: "https://devfolio.co/" }], //Array 1
+  [{ src: devfolio, link: "https://devfolio.co/" }, { src: polygon, link: "https://polygon.technology/" }], //Array 1
   // [{ src: taskade }, { src: Replit }, { src: qoom }], //Array 2
   // [{ src: interviewC }, { src: pass }, { src: glimpse }], //Array 3
   // [{ src: egg }, { src: ll }, { src: ACF }] //Array 4
@@ -337,8 +338,8 @@ const titlesponsorLogos = [
 ];
 
 const goldsponsorLogos = [
-  [{ src: polygon, link: "https://polygon.technology/" }, { src: celo, link: "https://celo.org/" }, { src: filecoin, link: "https://filecoin.io/" }], //Array 1
-  [{ src: tezos, link: "https://tezos.com/" }], //Array 2
+  [{ src: celo, link: "https://celo.org/" }, { src: filecoin, link: "https://filecoin.io/" }, { src: tezos, link: "https://tezos.com/" }, { src: gfg, link: "https://www.geeksforgeeks.org/" }], //Array 1
+  // [], //Array 2
   // [{ src: interviewC }, { src: pass }, { src: glimpse }], //Array 3
   // [{ src: egg }, { src: ll }, { src: ACF }] //Array 4
   
