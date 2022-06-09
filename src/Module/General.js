@@ -9,6 +9,7 @@ import echo3d from "./Assets/sponsorsLogos/echo3d.png";
 import streamyard from "./Assets/sponsorsLogos/streamyard1.JPG";
 import wolfram from "./Assets/sponsorsLogos/wolfram.jpg";
 import gfg from "./Assets/sponsorsLogos/gfg.png";
+import certopus from "./Assets/sponsorsLogos/certopus.png";
 
 
 import zenisha from "./Assets/teami/Zenisha_Savaliya.jpeg";
@@ -354,7 +355,7 @@ const silversponsorLogos = [
 ];
 
 const bronzeponsorLogos = [
-  // [{ src: cfc }, { src: sublime }, { src: echoAR }], //Array 1
+  [{ src: certopus, link: "https://certopus.com/" }], //Array 1
   // [{ src: taskade }, { src: Replit }, { src: qoom }], //Array 2
   // [{ src: interviewC }, { src: pass }, { src: glimpse }], //Array 3
   // [{ src: egg }, { src: ll }, { src: ACF }] //Array 4

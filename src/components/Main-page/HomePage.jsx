@@ -319,6 +319,10 @@ export default function HomePage(props) {
           <br/>
           {silversponsorLogos.map(SponsorGroup)}
           <br/><br/>
+          <h1 className="">Bronze Sponsors</h1>
+          <br/>
+          {bronzeponsorLogos.map(SponsorGroup)}
+          <br/><br/>
           {/* <SponsorUS /> */}<br/><br/>
           <h1 className="">Design & Media Partners</h1>
           <br/>
