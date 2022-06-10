@@ -72,6 +72,7 @@ function Myinfo() {
         </button>
       </a>
       <br /><br /><br />
+      <a href="https://org.devfolio.co/duhacks" target="_blank"><button>Learn More</button></a>
     </div>
 
 
