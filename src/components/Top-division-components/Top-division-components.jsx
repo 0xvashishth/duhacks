@@ -8,7 +8,7 @@ function Btn(props) {
   return (
     <div
       className="apply-button"
-      data-hackathon-slug="duhacks"
+      data-hackathon-slug="DUHacks"
       data-button-theme="light"
       style={{ height: "44px", width: "312px" }}
     ></div>
@@ -56,7 +56,7 @@ function Myinfo() {
 
       <div
         class="apply-button"
-        data-hackathon-slug="duhacks.devfolio.co"
+        data-hackathon-slug="duhacks"
         data-button-theme="light"
       // style="height: 44px; width: 312px"
       ></div>
@@ -73,6 +73,8 @@ function Myinfo() {
       </a>
       <br /><br /><br />
     </div>
+
+
   );
 }
 
