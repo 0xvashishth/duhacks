@@ -35,7 +35,7 @@ import aneri from "./Assets/teami/Aneri_Sonani.jpg";
 
 const TOP_SECTION = {
   TITLE: "DUHacks",
-  Typed_effect: ["36 hours of creation", "Win awesome prizes", "Events And Sessions"],
+  Typed_effect: ["16 July - 17 July", "36 hours of creation", "Win awesome prizes", "Events And Sessions"],
   SHORT_DESCRIPTION:
     "Join us on 16th and 17th of July 2022 for 36 hours of creation, innovation, & fun with over 500 students.",
   IMG_SRC: team,
@@ -335,7 +335,7 @@ const titlesponsorLogos = [
   // [{ src: taskade }, { src: Replit }, { src: qoom }], //Array 2
   // [{ src: interviewC }, { src: pass }, { src: glimpse }], //Array 3
   // [{ src: egg }, { src: ll }, { src: ACF }] //Array 4
-  
+
 ];
 
 const goldsponsorLogos = [
@@ -343,15 +343,15 @@ const goldsponsorLogos = [
   // [], //Array 2
   // [{ src: interviewC }, { src: pass }, { src: glimpse }], //Array 3
   // [{ src: egg }, { src: ll }, { src: ACF }] //Array 4
-  
+
 ];
 
 const silversponsorLogos = [
-  [{ src: echo3d, link: "https://www.echo3d.co/" }, {src: wolfram, link: "https://www.wolfram.com/"}], //Array 1
+  [{ src: echo3d, link: "https://www.echo3d.co/" }, { src: wolfram, link: "https://www.wolfram.com/" }], //Array 1
   // [{ src: taskade }, { src: Replit }, { src: qoom }], //Array 2
   // [{ src: interviewC }, { src: pass }, { src: glimpse }], //Array 3
   // [{ src: egg }, { src: ll }, { src: ACF }] //Array 4
-  
+
 ];
 
 const bronzeponsorLogos = [
@@ -359,11 +359,11 @@ const bronzeponsorLogos = [
   // [{ src: taskade }, { src: Replit }, { src: qoom }], //Array 2
   // [{ src: interviewC }, { src: pass }, { src: glimpse }], //Array 3
   // [{ src: egg }, { src: ll }, { src: ACF }] //Array 4
-  
+
 ];
 
 const designlogo = [
-  [{ src: digilogo, link: "https://www.instagram.com/digicosmic_studio/" }, {src: streamyard, link: "https://streamyard.com/"}]
+  [{ src: digilogo, link: "https://www.instagram.com/digicosmic_studio/" }, { src: streamyard, link: "https://streamyard.com/" }]
 ];
 
 
