@@ -10,6 +10,8 @@ import streamyard from "./Assets/sponsorsLogos/streamyard1.JPG";
 import wolfram from "./Assets/sponsorsLogos/wolfram.jpg";
 import gfg from "./Assets/sponsorsLogos/gfg.png";
 import certopus from "./Assets/sponsorsLogos/certopus.png";
+import replit from "./Assets/sponsorsLogos/replit.png";
+import taskade from "./Assets/sponsorsLogos/taskade.png";
 
 
 import zenisha from "./Assets/teami/Zenisha_Savaliya.jpeg";
@@ -355,7 +357,7 @@ const silversponsorLogos = [
 ];
 
 const bronzeponsorLogos = [
-  [{ src: certopus, link: "https://certopus.com/" }], //Array 1
+  [{ src: replit, link: "https://replit.com/" },{ src: certopus, link: "https://certopus.com/" },{ src: taskade, link: "https://www.taskade.com/" }], //Array 1
   // [{ src: taskade }, { src: Replit }, { src: qoom }], //Array 2
   // [{ src: interviewC }, { src: pass }, { src: glimpse }], //Array 3
   // [{ src: egg }, { src: ll }, { src: ACF }] //Array 4
