@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.273eb46a.chunk.css",
-    "main.js": "/static/js/main.6c27aad3.chunk.js",
-    "main.js.map": "/static/js/main.6c27aad3.chunk.js.map",
+    "main.js": "/static/js/main.54d0cd70.chunk.js",
+    "main.js.map": "/static/js/main.54d0cd70.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.488acc42.js",
     "runtime-main.js.map": "/static/js/runtime-main.488acc42.js.map",
     "static/js/2.eb9ea485.chunk.js": "/static/js/2.eb9ea485.chunk.js",
@@ -39,6 +39,7 @@
     "static/media/manav.b3c19e26.jpg": "/static/media/manav.b3c19e26.jpg",
     "static/media/pattern4.4b9f3314.png": "/static/media/pattern4.4b9f3314.png",
     "static/media/preloader.efefe51c.gif": "/static/media/preloader.efefe51c.gif",
+    "static/media/replit.b53d3186.png": "/static/media/replit.b53d3186.png",
     "static/media/smit.3a874758.jpeg": "/static/media/smit.3a874758.jpeg",
     "static/media/streamyard1.88e959f1.JPG": "/static/media/streamyard1.88e959f1.JPG",
     "static/media/team.aebd8338.gif": "/static/media/team.aebd8338.gif",
@@ -48,6 +49,6 @@
     "static/js/runtime-main.488acc42.js",
     "static/js/2.eb9ea485.chunk.js",
     "static/css/main.273eb46a.chunk.css",
-    "static/js/main.6c27aad3.chunk.js"
+    "static/js/main.54d0cd70.chunk.js"
   ]
 }
