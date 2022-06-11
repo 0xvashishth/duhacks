@@ -35,13 +35,13 @@
   .Sponsor img{
  
    -webkit-animation: mover 1s infinite  alternate;
-   animation: mover 1s infinite  alternate;
+   animation: mover 2s infinite  alternate;
   }
   @-webkit-keyframes mover {
     0% { transform: translateY(0); }
-    100% { transform: translateY(-20px); }
+    100% { transform: translateY(8px); }
   }
   @keyframes mover {
     0% { transform: translateY(0); }
-    100% { transform: translateY(-20px); }
+    100% { transform: translateY(8px); }
   }

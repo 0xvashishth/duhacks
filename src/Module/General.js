@@ -5,6 +5,12 @@ import filecoin from "./Assets/sponsorsLogos/filecoin.png";
 import polygon from "./Assets/sponsorsLogos/polygon.png";
 import tezos from "./Assets/sponsorsLogos/tezos.png";
 import celo from "./Assets/sponsorsLogos/celo.png";
+import echo3d from "./Assets/sponsorsLogos/echo3d.png";
+import streamyard from "./Assets/sponsorsLogos/streamyard1.JPG";
+import wolfram from "./Assets/sponsorsLogos/wolfram.jpg";
+import gfg from "./Assets/sponsorsLogos/gfg.png";
+import certopus from "./Assets/sponsorsLogos/certopus.png";
+
 
 import zenisha from "./Assets/teami/Zenisha_Savaliya.jpeg";
 import dhruvi from "./Assets/teami/Dhruvi_Sherathiya.jpg";
@@ -29,7 +35,7 @@ import aneri from "./Assets/teami/Aneri_Sonani.jpg";
 
 const TOP_SECTION = {
   TITLE: "DUHacks",
-  Typed_effect: ["36 hours of creation", "Win awesome prizes", "Events And Sessions"],
+  Typed_effect: ["16 July - 17 July", "36 hours of creation", "Win awesome prizes", "Events And Sessions"],
   SHORT_DESCRIPTION:
     "Join us on 16th and 17th of July 2022 for 36 hours of creation, innovation, & fun with over 500 students.",
   IMG_SRC: team,
@@ -325,39 +331,39 @@ const sponsorLogos = [
 ];
 
 const titlesponsorLogos = [
-  [{ src: devfolio, link: "https://devfolio.co/" }], //Array 1
+  [{ src: devfolio, link: "https://devfolio.co/" }, { src: polygon, link: "https://polygon.technology/" }], //Array 1
   // [{ src: taskade }, { src: Replit }, { src: qoom }], //Array 2
   // [{ src: interviewC }, { src: pass }, { src: glimpse }], //Array 3
   // [{ src: egg }, { src: ll }, { src: ACF }] //Array 4
-  
+
 ];
 
 const goldsponsorLogos = [
-  [{ src: polygon, link: "https://polygon.technology/" }, { src: celo, link: "https://celo.org/" }, { src: filecoin, link: "https://filecoin.io/" }], //Array 1
-  [{ src: tezos, link: "https://tezos.com/" }], //Array 2
+  [{ src: celo, link: "https://celo.org/" }, { src: filecoin, link: "https://filecoin.io/" }, { src: tezos, link: "https://tezos.com/" }, { src: gfg, link: "https://www.geeksforgeeks.org/" }], //Array 1
+  // [], //Array 2
   // [{ src: interviewC }, { src: pass }, { src: glimpse }], //Array 3
   // [{ src: egg }, { src: ll }, { src: ACF }] //Array 4
-  
+
 ];
 
 const silversponsorLogos = [
-  // [{ src: cfc }, { src: sublime }, { src: echoAR }], //Array 1
+  [{ src: echo3d, link: "https://www.echo3d.co/" }, { src: wolfram, link: "https://www.wolfram.com/" }], //Array 1
   // [{ src: taskade }, { src: Replit }, { src: qoom }], //Array 2
   // [{ src: interviewC }, { src: pass }, { src: glimpse }], //Array 3
   // [{ src: egg }, { src: ll }, { src: ACF }] //Array 4
-  
+
 ];
 
 const bronzeponsorLogos = [
-  // [{ src: cfc }, { src: sublime }, { src: echoAR }], //Array 1
+  [{ src: certopus, link: "https://certopus.com/" }], //Array 1
   // [{ src: taskade }, { src: Replit }, { src: qoom }], //Array 2
   // [{ src: interviewC }, { src: pass }, { src: glimpse }], //Array 3
   // [{ src: egg }, { src: ll }, { src: ACF }] //Array 4
-  
+
 ];
 
 const designlogo = [
-  [{ src: digilogo, link: "https://www.instagram.com/digicosmic_studio/" }]
+  [{ src: digilogo, link: "https://www.instagram.com/digicosmic_studio/" }, { src: streamyard, link: "https://streamyard.com/" }]
 ];
 
 

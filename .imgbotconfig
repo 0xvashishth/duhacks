@@ -1,0 +1,8 @@
+{
+    "schedule": "daily",
+    "ignoredFiles": [
+        "src/Module/Assets/sponsorsLogos/*"
+    ],
+    "prTitle": "[ImgBot] Optimize images",
+    "prBody": "{optimization_ratio}   {optimization_details}"
+}
