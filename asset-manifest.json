@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.273eb46a.chunk.css",
-    "main.js": "/static/js/main.54d0cd70.chunk.js",
-    "main.js.map": "/static/js/main.54d0cd70.chunk.js.map",
+    "main.js": "/static/js/main.2b526685.chunk.js",
+    "main.js.map": "/static/js/main.2b526685.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.488acc42.js",
     "runtime-main.js.map": "/static/js/runtime-main.488acc42.js.map",
     "static/js/2.eb9ea485.chunk.js": "/static/js/2.eb9ea485.chunk.js",
@@ -24,31 +24,31 @@
     "static/media/Terms of use.c2255556.pdf": "/static/media/Terms of use.c2255556.pdf",
     "static/media/Vashishth_Patel.6c8ceb92.jpg": "/static/media/Vashishth_Patel.6c8ceb92.jpg",
     "static/media/Zenisha_Savaliya.0a108545.jpeg": "/static/media/Zenisha_Savaliya.0a108545.jpeg",
-    "static/media/celo.cacc574d.png": "/static/media/celo.cacc574d.png",
-    "static/media/certopus.ce096af1.png": "/static/media/certopus.ce096af1.png",
-    "static/media/digilogo.ba2529e1.png": "/static/media/digilogo.ba2529e1.png",
+    "static/media/celo.10c49767.png": "/static/media/celo.10c49767.png",
+    "static/media/certopus.76bdd21b.png": "/static/media/certopus.76bdd21b.png",
+    "static/media/digilogo.fce122b1.png": "/static/media/digilogo.fce122b1.png",
     "static/media/dsc.4d098269.png": "/static/media/dsc.4d098269.png",
     "static/media/ham-c.8ab7632d.svg": "/static/media/ham-c.8ab7632d.svg",
     "static/media/ham.a63ab4de.svg": "/static/media/ham.a63ab4de.svg",
+    "static/media/ib.4a43ef23.png": "/static/media/ib.4a43ef23.png",
     "static/media/icons8-dev-post.15a5555a.svg": "/static/media/icons8-dev-post.15a5555a.svg",
     "static/media/icons8-discord.4ccbeee9.svg": "/static/media/icons8-discord.4ccbeee9.svg",
     "static/media/icons8-instagram.89b88306.svg": "/static/media/icons8-instagram.89b88306.svg",
     "static/media/icons8-linkedin-2.524f8b6e.svg": "/static/media/icons8-linkedin-2.524f8b6e.svg",
     "static/media/icons8-mail.650ff70b.svg": "/static/media/icons8-mail.650ff70b.svg",
     "static/media/icons8-twitter.0521e950.svg": "/static/media/icons8-twitter.0521e950.svg",
-    "static/media/manav.b3c19e26.jpg": "/static/media/manav.b3c19e26.jpg",
+    "static/media/manav.3d32f659.jpg": "/static/media/manav.3d32f659.jpg",
     "static/media/pattern4.4b9f3314.png": "/static/media/pattern4.4b9f3314.png",
     "static/media/preloader.efefe51c.gif": "/static/media/preloader.efefe51c.gif",
-    "static/media/replit.b53d3186.png": "/static/media/replit.b53d3186.png",
     "static/media/smit.3a874758.jpeg": "/static/media/smit.3a874758.jpeg",
     "static/media/streamyard1.88e959f1.JPG": "/static/media/streamyard1.88e959f1.JPG",
     "static/media/team.aebd8338.gif": "/static/media/team.aebd8338.gif",
-    "static/media/wolfram.f13c0abf.jpg": "/static/media/wolfram.f13c0abf.jpg"
+    "static/media/wolfram.f6eeae5c.jpg": "/static/media/wolfram.f6eeae5c.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.488acc42.js",
     "static/js/2.eb9ea485.chunk.js",
     "static/css/main.273eb46a.chunk.css",
-    "static/js/main.54d0cd70.chunk.js"
+    "static/js/main.2b526685.chunk.js"
   ]
 }
