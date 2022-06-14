@@ -13,7 +13,7 @@ import certopus from "./Assets/sponsorsLogos/certopus.png";
 import replit from "./Assets/sponsorsLogos/replit.png";
 import taskade from "./Assets/sponsorsLogos/taskade.png";
 import interviewbuddy from './Assets/sponsorsLogos/ib.png'
-
+import digitalocean from './Assets/sponsorsLogos/do.png'
 
 import zenisha from "./Assets/teami/Zenisha_Savaliya.jpeg";
 import dhruvi from "./Assets/teami/Dhruvi_Sherathiya.jpg";
@@ -342,8 +342,8 @@ const titlesponsorLogos = [
 ];
 
 const goldsponsorLogos = [
-  [{ src: celo, link: "https://celo.org/" }, { src: filecoin, link: "https://filecoin.io/" }, { src: tezos, link: "https://tezos.com/" }, { src: gfg, link: "https://www.geeksforgeeks.org/" }], //Array 1
-  // [], //Array 2
+  [{ src: celo, link: "https://celo.org/" }, { src: filecoin, link: "https://filecoin.io/" }, { src: tezos, link: "https://tezos.com/" }], //Array 1
+  [{ src: gfg, link: "https://www.geeksforgeeks.org/" }, { src: digitalocean, link: "https://www.digitalocean.com/" }], //Array 2
   // [{ src: interviewC }, { src: pass }, { src: glimpse }], //Array 3
   // [{ src: egg }, { src: ll }, { src: ACF }] //Array 4
 

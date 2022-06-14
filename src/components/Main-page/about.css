@@ -395,8 +395,8 @@ body .containertrack .cardtrack:nth-child(4) .boxtrack .contenttrack a {
 body .containertrack .cardtrack .boxtrack {
   position: absolute;
   top: 20px;
-  left: 20px;
-  right: 20px;
+  left: 15px;
+  right: 15px;
   bottom: 20px;
   background:  #f0efef;
   border-radius: 15px;
