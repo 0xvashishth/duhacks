@@ -184,17 +184,17 @@ export default function HomePage(props) {
 
           <div class="box red">
             <h2>Overall First</h2><img class="imgright" src="https://img.icons8.com/emoji/96/000000/1st-place-medal-emoji.png" alt="" />
-            <h4><b>Prize</b>: Rs. 7000 <br />Swags & Promo Codes</h4>
+            <h4><b>Prize</b>: Rs. 7000 <br />Swags & Promo Codes<br /><br /><a href="https://duhacks.devfolio.co/#prizes">Load More</a></h4>
           </div>
 
           <div class="box box-down cyan">
             <h2>Overall Second</h2><img className="imgright" src="https://img.icons8.com/emoji/96/000000/2nd-place-medal-emoji.png" alt="" />
-            <h4><b>Prize</b>: Rs. 3000 <br />Swags & Promo Codes</h4>
+            <h4><b>Prize</b>: Rs. 3000 <br />Swags & Promo Codes<br /><br /><a href="https://duhacks.devfolio.co/#prizes">Load More</a></h4>
           </div>
 
           <div class="box box-down blue">
             <h2>Overall Third</h2><img class="imgright" src="https://img.icons8.com/emoji/96/000000/3rd-place-medal-emoji.png" alt="" />
-            <h4><b>Prize</b>: Rs. 2000 <br />Swags & Promo Codes</h4>
+            <h4><b>Prize</b>: Rs. 2000 <br />Swags & Promo Codes<br /><br /><a href="https://duhacks.devfolio.co/#prizes">Load More</a></h4>
           </div>
         </div>
         {/*      <div class="row2-container">
@@ -207,17 +207,17 @@ export default function HomePage(props) {
         <div class="row1-container margfromsponsor">
           <div class="box box-down color2">
             <h2>Best Women Team</h2><img class="imgright" src="https://img.icons8.com/cute-clipart/64/000000/granny-lesbian.png" alt="" />
-            <h4><b>Prize</b>: Rs. 1500 <br />Swags & Promo Codes</h4>
+            <h4><b>Prize</b>: Rs. 1500 <br />Swags & Promo Codes<br /><br /><a href="https://duhacks.devfolio.co/#prizes">Load More</a></h4>
           </div>
 
           <div class="box color1">
             <h2>Best DDU Team</h2><img class="imgright" src="https://img.icons8.com/emoji/96/000000/sports-medal-emoji.png" alt="" />
-            <h4><b>Prize</b>: Rs. 1500 <br />Swags & Promo Codes</h4>
+            <h4><b>Prize</b>: Rs. 1500 <br />Swags & Promo Codes<br /><br /><a href="https://duhacks.devfolio.co/#prizes">Load More</a></h4>
           </div>
 
           <div class="box box-down orange">
             <h2>All Participants</h2><img class="imgright" src="https://img.icons8.com/external-flaticons-lineal-color-flat-icons/64/000000/external-prizes-circus-flaticons-lineal-color-flat-icons.png" alt="" />
-            <h4><b>Participation Certificate</b><br />Promo Codes & More..</h4>
+            <h4><b>Participation Certificate</b><br />Promo Codes<br /><br /><a href="https://duhacks.devfolio.co/#prizes">Load More</a></h4>
           </div>
         </div>
 
