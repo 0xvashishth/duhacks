@@ -402,8 +402,8 @@ const frequentlyAskedQuestions = [
       }
       ,
       {
-        label: "Can I volunteer?",
-        content: "Yes, we are actively looking for volunteers, contact us on contact@duhacks.tech, we will be glad to have you."
+        label: "Can I participate as a individual?",
+        content: "No, Because our goal is collaborative learning, we encourage everyone to participate as a team of at least two people."
       }
       ,
       {
