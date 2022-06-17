@@ -241,10 +241,9 @@ export default function HomePage(props) {
               </div>
             </div>
 
-            <div class="cardtrack">
+            {/*<div class="cardtrack">
               <div class="boxtrack">
-                <div class="contenttrack">
-                  {/*<h1>Tezos</h1>*/}
+                <div class="contenttrack">  
                   <img className="imgtrack" src={tezos} />
                   <br /><br />
                   <b>
@@ -260,7 +259,7 @@ export default function HomePage(props) {
                   <a href="https://www.notion.so/Tezos-Devfolio-Hackathon-Season-Prize-e90b6811b0df43e5a7dadf534fc000ff">Read More</a>
                 </div>
               </div>
-            </div>
+            </div>*/}
 
             <div class="cardtrack">
               <div class="boxtrack">
@@ -276,10 +275,9 @@ export default function HomePage(props) {
               </div>
             </div>
 
-            <div class="cardtrack">
+            {/*<div class="cardtrack">
               <div class="boxtrack">
                 <div class="contenttrack">
-                  {/*<h1>Celo</h1>*/}
                   <img className="imgtrack" src={celo} />
                   <br /><br />
                   <b><lu>
@@ -288,7 +286,7 @@ export default function HomePage(props) {
                   <a href="https://www.notion.so/Celo-Devfolio-Hackathon-Season-Prize-8b98dac17f134abeae863d5d98c01ff0">Read More</a>
                 </div>
               </div>
-            </div>
+            </div>*/}
           </div>
         </center>
         {/*Theme end*/}

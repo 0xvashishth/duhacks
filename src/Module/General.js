@@ -3,8 +3,8 @@ import digilogo from "./Assets/sponsorsLogos/digilogo.png";
 import devfolio from "./Assets/sponsorsLogos/devfolio.png";
 import filecoin from "./Assets/sponsorsLogos/filecoin.png";
 import polygon from "./Assets/sponsorsLogos/polygon.png";
-import tezos from "./Assets/sponsorsLogos/tezos.png";
-import celo from "./Assets/sponsorsLogos/celo.png";
+// import tezos from "./Assets/sponsorsLogos/tezos.png";
+// import celo from "./Assets/sponsorsLogos/celo.png";
 import echo3d from "./Assets/sponsorsLogos/echo3d.png";
 import streamyard from "./Assets/sponsorsLogos/streamyard1.JPG";
 import wolfram from "./Assets/sponsorsLogos/wolfram.jpg";
@@ -342,8 +342,8 @@ const titlesponsorLogos = [
 ];
 
 const goldsponsorLogos = [
-  [{ src: celo, link: "https://celo.org/" }, { src: filecoin, link: "https://filecoin.io/" }, { src: tezos, link: "https://tezos.com/" }], //Array 1
-  [{ src: gfg, link: "https://www.geeksforgeeks.org/" }, { src: digitalocean, link: "https://www.digitalocean.com/" }], //Array 2
+  // [  ], //Array 1
+  [{ src: filecoin, link: "https://filecoin.io/" },{ src: gfg, link: "https://www.geeksforgeeks.org/" }, { src: digitalocean, link: "https://www.digitalocean.com/" }], //Array 2
   // [{ src: interviewC }, { src: pass }, { src: glimpse }], //Array 3
   // [{ src: egg }, { src: ll }, { src: ACF }] //Array 4
 
