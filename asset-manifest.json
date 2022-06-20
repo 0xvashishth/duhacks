@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.0f09cfcb.chunk.css",
-    "main.js": "/static/js/main.32f56cf9.chunk.js",
-    "main.js.map": "/static/js/main.32f56cf9.chunk.js.map",
+    "main.js": "/static/js/main.cc454b42.chunk.js",
+    "main.js.map": "/static/js/main.cc454b42.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.488acc42.js",
     "runtime-main.js.map": "/static/js/runtime-main.488acc42.js.map",
     "static/js/2.eb9ea485.chunk.js": "/static/js/2.eb9ea485.chunk.js",
@@ -19,7 +19,6 @@
     "static/media/Nirali.eb2ce902.jpeg": "/static/media/Nirali.eb2ce902.jpeg",
     "static/media/Parshwa_Mehta.93b710a1.jpg": "/static/media/Parshwa_Mehta.93b710a1.jpg",
     "static/media/Privacy policy.9854a808.pdf": "/static/media/Privacy policy.9854a808.pdf",
-    "static/media/Ruchit_Parekh.c8c9134b.jpg": "/static/media/Ruchit_Parekh.c8c9134b.jpg",
     "static/media/Ryah.6f561055.jpg": "/static/media/Ryah.6f561055.jpg",
     "static/media/Terms of use.c2255556.pdf": "/static/media/Terms of use.c2255556.pdf",
     "static/media/Vashishth_Patel.6c8ceb92.jpg": "/static/media/Vashishth_Patel.6c8ceb92.jpg",
@@ -49,6 +48,6 @@
     "static/js/runtime-main.488acc42.js",
     "static/js/2.eb9ea485.chunk.js",
     "static/css/main.0f09cfcb.chunk.css",
-    "static/js/main.32f56cf9.chunk.js"
+    "static/js/main.cc454b42.chunk.js"
   ]
 }
