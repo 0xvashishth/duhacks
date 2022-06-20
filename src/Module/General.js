@@ -24,7 +24,7 @@ import Ryah from "./Assets/teami/Ryah.jpg";
 import nirali from "./Assets/teami/Nirali.jpeg";
 import smit from "./Assets/teami/smit.jpeg";
 import manav from "./Assets/teami/manav.jpg";
-import ruchit from "./Assets/teami/Ruchit_Parekh.jpg";
+// import ruchit from "./Assets/teami/Ruchit_Parekh.jpg";
 import parshwa from "./Assets/teami/Parshwa_Mehta.jpg";
 import ayush from "./Assets/teami/Ayush_Rudani.jpg";
 import aneri from "./Assets/teami/Aneri_Sonani.jpg";
@@ -270,13 +270,6 @@ const TeamInfo = [
       github: "https://github.com/manavshah25",
       linkedin: "https://www.linkedin.com/in/manav-shah-28a521212",
       img: manav
-    },
-    {
-      Name: "Ruchit Parekh",
-      role: "Support Team",
-      github: "https://github.com/ruchit2106",
-      linkedin: "https://www.linkedin.com/in/ruchit-parekh-37a6a3212/",
-      img: ruchit
     }
   ]
 ];
