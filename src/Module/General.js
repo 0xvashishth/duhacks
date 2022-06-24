@@ -3,8 +3,8 @@ import digilogo from "./Assets/sponsorsLogos/digilogo.png";
 import devfolio from "./Assets/sponsorsLogos/devfolio.png";
 import filecoin from "./Assets/sponsorsLogos/filecoin.png";
 import polygon from "./Assets/sponsorsLogos/polygon.png";
-import tezos from "./Assets/sponsorsLogos/tezos.png";
-import celo from "./Assets/sponsorsLogos/celo.png";
+import shutterbugs from "./Assets/sponsorsLogos/shutterbugs.png";
+// import celo from "./Assets/sponsorsLogos/celo.png";
 import echo3d from "./Assets/sponsorsLogos/echo3d.png";
 import streamyard from "./Assets/sponsorsLogos/streamyard1.JPG";
 import wolfram from "./Assets/sponsorsLogos/wolfram.jpg";
@@ -24,7 +24,7 @@ import Ryah from "./Assets/teami/Ryah.jpg";
 import nirali from "./Assets/teami/Nirali.jpeg";
 import smit from "./Assets/teami/smit.jpeg";
 import manav from "./Assets/teami/manav.jpg";
-import ruchit from "./Assets/teami/Ruchit_Parekh.jpg";
+// import ruchit from "./Assets/teami/Ruchit_Parekh.jpg";
 import parshwa from "./Assets/teami/Parshwa_Mehta.jpg";
 import ayush from "./Assets/teami/Ayush_Rudani.jpg";
 import aneri from "./Assets/teami/Aneri_Sonani.jpg";
@@ -270,14 +270,7 @@ const TeamInfo = [
       github: "https://github.com/manavshah25",
       linkedin: "https://www.linkedin.com/in/manav-shah-28a521212",
       img: manav
-    },
-    {
-      Name: "Ruchit Parekh",
-      role: "Support Team",
-      github: "https://github.com/ruchit2106",
-      linkedin: "https://www.linkedin.com/in/ruchit-parekh-37a6a3212/",
-      img: ruchit
-    }
+    } 
   ]
 ];
 
@@ -342,8 +335,8 @@ const titlesponsorLogos = [
 ];
 
 const goldsponsorLogos = [
-  [{ src: celo, link: "https://celo.org/" }, { src: filecoin, link: "https://filecoin.io/" }, { src: tezos, link: "https://tezos.com/" }], //Array 1
-  [{ src: gfg, link: "https://www.geeksforgeeks.org/" }, { src: digitalocean, link: "https://www.digitalocean.com/" }], //Array 2
+  // [  ], //Array 1
+  [{ src: filecoin, link: "https://filecoin.io/" },{ src: gfg, link: "https://www.geeksforgeeks.org/" }, { src: digitalocean, link: "https://www.digitalocean.com/" }], //Array 2
   // [{ src: interviewC }, { src: pass }, { src: glimpse }], //Array 3
   // [{ src: egg }, { src: ll }, { src: ACF }] //Array 4
 
@@ -366,7 +359,7 @@ const bronzeponsorLogos = [
 ];
 
 const designlogo = [
-  [{ src: digilogo, link: "https://www.instagram.com/digicosmic_studio/" }, { src: streamyard, link: "https://streamyard.com/" }]
+  [{ src: digilogo, link: "https://www.instagram.com/digicosmic_studio/" }, { src: streamyard, link: "https://streamyard.com/" }, { src: shutterbugs, link: "https://www.instagram.com/shutterbugs_ddu/?hl=en" }]
 ];
 
 
@@ -402,8 +395,8 @@ const frequentlyAskedQuestions = [
       }
       ,
       {
-        label: "Can I volunteer?",
-        content: "Yes, we are actively looking for volunteers, contact us on contact@duhacks.tech, we will be glad to have you."
+        label: "Can I participate as a individual?",
+        content: "No, Because our goal is collaborative learning, we encourage everyone to participate as a team of at least two people."
       }
       ,
       {

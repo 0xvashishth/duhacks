@@ -77,6 +77,10 @@ h1 {
   color: white;
 }
 
+.links{
+  /* cursor: pointer; */
+}
+
 /* .single_row{
 display: flex;
 align-content: center;
@@ -198,7 +202,7 @@ align-items: center;
 .box {
   border-radius: 5px;
   box-shadow: 0px 30px 40px -20px var(--grayishBlue);
-  padding: 30px;
+  padding: 15px;
   margin: 20px;
   /* background-color: rgb(255, 253, 248); */
 }
@@ -361,7 +365,7 @@ body .containertrack {
 
 body .containertrack .cardtrack {
   position: relative;
-  min-width: 280px;
+  min-width: 320px;
   height: 440px;
 /*   box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.2),
     inset -5px -5px 15px rgba(255, 255, 255, 0.1),

@@ -189,7 +189,7 @@ export default function HomePage(props) {
 
           <div class="box box-down cyan">
             <h2>Overall Second</h2><img className="imgright" src="https://img.icons8.com/emoji/96/000000/2nd-place-medal-emoji.png" alt="" />
-            <h4><b>Prize</b>: Rs. 3000 <br />Swags & Promo Codes<br /><br /><a href="https://duhacks.devfolio.co/#prizes">Load More</a></h4>
+            <h4><b>Prize</b>: Rs. 3000 <br />Swags & Promo Codes<br /><br /><a href="https://duhacks.devfolio.co/#prizes"zz>Load More</a></h4>
           </div>
 
           <div class="box box-down blue">
@@ -241,10 +241,9 @@ export default function HomePage(props) {
               </div>
             </div>
 
-            <div class="cardtrack">
+            {/*<div class="cardtrack">
               <div class="boxtrack">
-                <div class="contenttrack">
-                  {/*<h1>Tezos</h1>*/}
+                <div class="contenttrack">  
                   <img className="imgtrack" src={tezos} />
                   <br /><br />
                   <b>
@@ -260,7 +259,7 @@ export default function HomePage(props) {
                   <a href="https://www.notion.so/Tezos-Devfolio-Hackathon-Season-Prize-e90b6811b0df43e5a7dadf534fc000ff">Read More</a>
                 </div>
               </div>
-            </div>
+            </div>*/}
 
             <div class="cardtrack">
               <div class="boxtrack">
@@ -276,10 +275,9 @@ export default function HomePage(props) {
               </div>
             </div>
 
-            <div class="cardtrack">
+            {/*<div class="cardtrack">
               <div class="boxtrack">
                 <div class="contenttrack">
-                  {/*<h1>Celo</h1>*/}
                   <img className="imgtrack" src={celo} />
                   <br /><br />
                   <b><lu>
@@ -288,14 +286,14 @@ export default function HomePage(props) {
                   <a href="https://www.notion.so/Celo-Devfolio-Hackathon-Season-Prize-8b98dac17f134abeae863d5d98c01ff0">Read More</a>
                 </div>
               </div>
-            </div>
+            </div>*/}
           </div>
         </center>
         {/*Theme end*/}
 
-        <Birds top="200vh" left="0vh" type="" />
+        <Birds top="100vh" left="0vh" type="" />
 
-        {/* ********Prizes here ***** */}
+        {/* *******Prizes here ***** */}
         {/*        <Row className="prizesection" id="prizes">
           <PrizeHeading type="Prizes" /><br/>
           <div className="prize--cards">
