@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.0f09cfcb.chunk.css",
-    "main.js": "/static/js/main.cc454b42.chunk.js",
-    "main.js.map": "/static/js/main.cc454b42.chunk.js.map",
+    "main.css": "/static/css/main.f1c8afe8.chunk.css",
+    "main.js": "/static/js/main.cc1fb32f.chunk.js",
+    "main.js.map": "/static/js/main.cc1fb32f.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.488acc42.js",
     "runtime-main.js.map": "/static/js/runtime-main.488acc42.js.map",
     "static/js/2.eb9ea485.chunk.js": "/static/js/2.eb9ea485.chunk.js",
     "static/js/2.eb9ea485.chunk.js.map": "/static/js/2.eb9ea485.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.0f09cfcb.chunk.css.map": "/static/css/main.0f09cfcb.chunk.css.map",
+    "static/css/main.f1c8afe8.chunk.css.map": "/static/css/main.f1c8afe8.chunk.css.map",
     "static/js/2.eb9ea485.chunk.js.LICENSE.txt": "/static/js/2.eb9ea485.chunk.js.LICENSE.txt",
     "static/media/Aneri_Sonani.d5df10ac.jpg": "/static/media/Aneri_Sonani.d5df10ac.jpg",
     "static/media/Ayush_Rudani.17653f0c.jpg": "/static/media/Ayush_Rudani.17653f0c.jpg",
@@ -47,7 +47,7 @@
   "entrypoints": [
     "static/js/runtime-main.488acc42.js",
     "static/js/2.eb9ea485.chunk.js",
-    "static/css/main.0f09cfcb.chunk.css",
-    "static/js/main.cc454b42.chunk.js"
+    "static/css/main.f1c8afe8.chunk.css",
+    "static/js/main.cc1fb32f.chunk.js"
   ]
 }
