@@ -3,7 +3,7 @@ import digilogo from "./Assets/sponsorsLogos/digilogo.png";
 import devfolio from "./Assets/sponsorsLogos/devfolio.png";
 import filecoin from "./Assets/sponsorsLogos/filecoin.png";
 import polygon from "./Assets/sponsorsLogos/polygon.png";
-// import tezos from "./Assets/sponsorsLogos/tezos.png";
+import shutterbugs from "./Assets/sponsorsLogos/shutterbugs.png";
 // import celo from "./Assets/sponsorsLogos/celo.png";
 import echo3d from "./Assets/sponsorsLogos/echo3d.png";
 import streamyard from "./Assets/sponsorsLogos/streamyard1.JPG";
@@ -359,7 +359,7 @@ const bronzeponsorLogos = [
 ];
 
 const designlogo = [
-  [{ src: digilogo, link: "https://www.instagram.com/digicosmic_studio/" }, { src: streamyard, link: "https://streamyard.com/" }]
+  [{ src: digilogo, link: "https://www.instagram.com/digicosmic_studio/" }, { src: streamyard, link: "https://streamyard.com/" }, { src: shutterbugs, link: "https://www.instagram.com/shutterbugs_ddu/?hl=en" }]
 ];
 
 
