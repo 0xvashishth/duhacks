@@ -77,6 +77,10 @@ h1 {
   color: white;
 }
 
+.links{
+  /* cursor: pointer; */
+}
+
 /* .single_row{
 display: flex;
 align-content: center;

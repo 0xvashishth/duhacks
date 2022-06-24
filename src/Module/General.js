@@ -270,7 +270,7 @@ const TeamInfo = [
       github: "https://github.com/manavshah25",
       linkedin: "https://www.linkedin.com/in/manav-shah-28a521212",
       img: manav
-    }
+    } 
   ]
 ];
 

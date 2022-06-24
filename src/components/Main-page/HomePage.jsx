@@ -189,7 +189,7 @@ export default function HomePage(props) {
 
           <div class="box box-down cyan">
             <h2>Overall Second</h2><img className="imgright" src="https://img.icons8.com/emoji/96/000000/2nd-place-medal-emoji.png" alt="" />
-            <h4><b>Prize</b>: Rs. 3000 <br />Swags & Promo Codes<br /><br /><a href="https://duhacks.devfolio.co/#prizes">Load More</a></h4>
+            <h4><b>Prize</b>: Rs. 3000 <br />Swags & Promo Codes<br /><br /><a href="https://duhacks.devfolio.co/#prizes"zz>Load More</a></h4>
           </div>
 
           <div class="box box-down blue">
@@ -291,9 +291,9 @@ export default function HomePage(props) {
         </center>
         {/*Theme end*/}
 
-        <Birds top="200vh" left="0vh" type="" />
+        <Birds top="100vh" left="0vh" type="" />
 
-        {/* ********Prizes here ***** */}
+        {/* *******Prizes here ***** */}
         {/*        <Row className="prizesection" id="prizes">
           <PrizeHeading type="Prizes" /><br/>
           <div className="prize--cards">
