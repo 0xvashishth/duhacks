@@ -194,7 +194,7 @@ const TeamInfo = [
     // Array 1
     {
       Name: "Vashishth Patel",
-      role: "Organizer",
+      role: "Lead Organizer",
       github: "https://github.com/vasu-1",
       linkedin: "https://www.linkedin.com/in/vashishth-patel-312a52204/",
       img: me
@@ -225,7 +225,7 @@ const TeamInfo = [
     },
     {
       Name: "Parshwa Mehta",
-      role: "Manager & Content Writer",
+      role: "Manager & Content",
       github: "https://github.com/PARSHWA0510",
       linkedin: "https://www.linkedin.com/in/parshwa-mehta-949306205",
       img: parshwa
@@ -266,7 +266,7 @@ const TeamInfo = [
     // Array 2
     {
       Name: "Manav Shah",
-      role: "Content Writer",
+      role: "Content Lead",
       github: "https://github.com/manavshah25",
       linkedin: "https://www.linkedin.com/in/manav-shah-28a521212",
       img: manav
