@@ -17,10 +17,9 @@ import { Member } from "../team/team.jsx";
 import pattern from "./pattern4.png";
 import Media from "../media/media.jsx";
 import ThemeType from "../Themes/theme.jsx";
+import TimeLine from "../Timeline/Timeline.jsx";
 import filecoin from "../../Module/Assets/sponsorsLogos/filecoin.png";
 import polygon from "../../Module/Assets/sponsorsLogos/polygon.png";
-import tezos from "../../Module/Assets/sponsorsLogos/tezos.png";
-import celo from "../../Module/Assets/sponsorsLogos/celo.png";
 
 import {
   TOP_SECTION,
@@ -176,6 +175,13 @@ export default function HomePage(props) {
           <ThemeType />
         </Row>
 
+         {/*TimeLine Section*/}
+         <Row className="timeline" id="timeline">
+        <PrizeHeading type="Hackathon TimeLine" />
+          <TimeLine />
+        </Row>
+   
+
 
         <Row className="prizesection" id="prizes">
           <PrizeHeading type="Prizes" />
@@ -220,6 +226,8 @@ export default function HomePage(props) {
             <h4><b>Participation Certificate</b><br />Promo Codes<br /><br /><a href="https://duhacks.devfolio.co/#prizes">Load More</a></h4>
           </div>
         </div>
+
+         
 
 
         <center>
