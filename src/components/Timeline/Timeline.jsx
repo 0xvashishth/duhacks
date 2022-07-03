@@ -13,32 +13,32 @@ function TimeLine() {
       <section>
         <i class="icon fas fa-home"></i>
         <div class="details">
-          <span class="title">Title of Section 1</span>
-          <span>1st Jan 2021</span>
+          <span class="title">Start Registrations</span>
+          <span>1st June 2022</span>
         </div>
-        <p>Lorem ipsum dolor sit ameters consectetur adipisicing elit. Sed qui veroes praesentium maiores, sint eos vero sapiente voluptas debitis dicta dolore.</p>
-        
+        {/*<p className="timeline_text" style={{fontSize: "14px"}}>Lorem ipsum dolor sit ameters consectetur adipisicing elit. Sed qui veroes praesentium maiores, sint eos vero sapiente voluptas debitis dicta dolore.</p>
+        */}
       </section>
     </div>
     <div class="row row-2">
       <section>
         <i class="icon fas fa-star"></i>
         <div class="details">
-          <span class="title">Title of Section 2</span>
-          <span>2nd Jan 2021</span>
+          <span class="title">End Registrations</span>
+          <span>14th Jul 2022</span>
         </div>
-        <p>Lorem ipsum dolor sit ameters consectetur adipisicing elit. Sed qui veroes praesentium maiores, sint eos vero sapiente voluptas debitis dicta dolore.</p>
-       
+        {/*<p  className="timeline_text" style={{fontSize: "14px"}}>Lorem ipsum dolor sit ameters consectetur adipisicing elit. Sed qui veroes praesentium maiores, sint eos vero sapiente voluptas debitis dicta dolore.</p>
+       */}
       </section>
     </div>
     <div class="row row-1">
       <section>
         <i class="icon fas fa-rocket"></i>
         <div class="details">
-          <span class="title">Title of Section 3</span>
-          <span>3rd Jan 2021</span>
+          <span class="title">Opening Ceremony</span>
+          <span>16th July 2022</span>
         </div>
-        <p>Lorem ipsum dolor sit ameters consectetur adipisicing elit. Sed qui veroes praesentium maiores, sint eos vero sapiente voluptas debitis dicta dolore.</p>
+        <p className="timeline_text" style={{fontSize: "14px"}}>Hackathon opening ceremony will start 9:00 AM onwards.</p>
         
       </section>
     </div>
@@ -46,10 +46,10 @@ function TimeLine() {
       <section>
         <i class="icon fas fa-globe"></i>
         <div class="details">
-          <span class="title">Title of Section 4</span>
-          <span>4th Jan 2021</span>
+          <span class="title">Hackathon Starts</span>
+          <span>16th July 2022</span>
         </div>
-        <p>Lorem ipsum dolor sit ameters consectetur adipisicing elit. Sed qui veroes praesentium maiores, sint eos vero sapiente voluptas debitis dicta dolore.</p>
+        <p className="timeline_text" style={{fontSize: "14px"}}>Hackathon coding period will start from 10:30 AM onwards.</p>
        
       </section>
     </div>
@@ -57,21 +57,32 @@ function TimeLine() {
       <section>
         <i class="icon fas fa-paper-plane"></i>
         <div class="details">
-          <span class="title">Title of Section 5</span>
-          <span>5th Jan 2021</span>
+          <span class="title">Session from GeeksforGeeks</span>
+          <span>16th July 2022</span>
         </div>
-        <p>Lorem ipsum dolor sit ameters consectetur adipisicing elit. Sed qui veroes praesentium maiores, sint eos vero sapiente voluptas debitis dicta dolore.</p>
+        <p className="timeline_text" style={{fontSize: "14px"}}>Session on Complete Interview Preperation by GeeksForGeeks on 11.30 AM Onwards.</p>
         
       </section>
     </div>
     <div class="row row-2">
       <section>
-        <i class="icon fas fa-map-marker-alt"></i>
+        <i class="icon fas fa-paper-plane"></i>
         <div class="details">
-          <span class="title">Title of Section 6</span>
-          <span>6th Jan 2021</span>
+          <span class="title">Coming Soon</span>
+          <span>16th-17th July 2022</span>
         </div>
-        <p>Lorem ipsum dolor sit ameters consectetur adipisicing elit. Sed qui veroes praesentium maiores, sint eos vero sapiente voluptas debitis dicta dolore.</p>
+        <p className="timeline_text" style={{fontSize: "14px"}}>Coming soon.</p>
+        
+      </section>
+    </div>
+    <div class="row row-1">
+      <section>
+        <i class="icon fas fa-globe"></i>
+        <div class="details">
+          <span class="title">Hackathon Ends</span>
+          <span>17th July 2022</span>
+        </div>
+        <p className="timeline_text" style={{fontSize: "14px"}}>Hackathon coding period will end on 10:30 PM.</p>
         
       </section>
     </div>
