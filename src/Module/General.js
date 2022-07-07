@@ -4,6 +4,8 @@ import devfolio from "./Assets/sponsorsLogos/devfolio.png";
 import filecoin from "./Assets/sponsorsLogos/filecoin.png";
 import polygon from "./Assets/sponsorsLogos/polygon.png";
 import shutterbugs from "./Assets/sponsorsLogos/shutterbugs.png";
+import alan from "./Assets/sponsorsLogos/alan.png";
+import koii from "./Assets/sponsorsLogos/koii.png";
 // import celo from "./Assets/sponsorsLogos/celo.png";
 import echo3d from "./Assets/sponsorsLogos/echo3d.png";
 import streamyard from "./Assets/sponsorsLogos/streamyard1.JPG";
@@ -14,6 +16,7 @@ import replit from "./Assets/sponsorsLogos/replit.png";
 import taskade from "./Assets/sponsorsLogos/taskade.png";
 import interviewbuddy from './Assets/sponsorsLogos/ib.png'
 import digitalocean from './Assets/sponsorsLogos/do.png'
+
 
 import zenisha from "./Assets/teami/Zenisha_Savaliya.jpeg";
 import dhruvi from "./Assets/teami/Dhruvi_Sherathiya.jpg";
@@ -344,6 +347,7 @@ const goldsponsorLogos = [
 
 const silversponsorLogos = [
   [{ src: echo3d, link: "https://www.echo3d.co/" }, { src: wolfram, link: "https://www.wolfram.com/" }, { src: interviewbuddy, link: "https://interviewbuddy.in/" }], //Array 1
+  [{ src: alan, link: "https://alan.app/" }], 
   // [{ src: taskade }, { src: Replit }, { src: qoom }], //Array 2
   // [{ src: interviewC }, { src: pass }, { src: glimpse }], //Array 3
   // [{ src: egg }, { src: ll }, { src: ACF }] //Array 4
@@ -352,6 +356,7 @@ const silversponsorLogos = [
 
 const bronzeponsorLogos = [
   [{ src: replit, link: "https://replit.com/" }, { src: certopus, link: "https://certopus.com/" }, { src: taskade, link: "https://www.taskade.com/" },], //Array 1
+  [{ src: koii, link: "https://www.koii.network/" }, {src: "https://www.postman.com/_mk-www-v7.3.0/assets/logos/pm-orange-logo-horiz.svg", link: "https://postman.com/"}], 
   // [{ src: taskade }, { src: Replit }, { src: qoom }], //Array 2
   // [{ src: interviewC }, { src: pass }, { src: glimpse }], //Array 3
   // [{ src: egg }, { src: ll }, { src: ACF }] //Array 4
