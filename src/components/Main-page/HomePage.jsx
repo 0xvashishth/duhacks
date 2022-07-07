@@ -20,6 +20,7 @@ import ThemeType from "../Themes/theme.jsx";
 import TimeLine from "../Timeline/Timeline.jsx";
 import filecoin from "../../Module/Assets/sponsorsLogos/filecoin.png";
 import polygon from "../../Module/Assets/sponsorsLogos/polygon.png";
+import alan from "../../Module/Assets/sponsorsLogos/alan.png";
 
 import {
   TOP_SECTION,
@@ -249,17 +250,24 @@ export default function HomePage(props) {
               </div>
             </div>
 
-            {/*<div class="cardtrack">
+            <div class="cardtrack">
               <div class="boxtrack">
                 <div class="contenttrack">  
-                  <img className="imgtrack" src={tezos} />
+                  <img className="imgtrack" src={alan} />
                   <br /><br />
                   <b>
 
                     <lu>
 
-                      <li>₹20,000 for best Dapp built on Tezos.</li>
-                      <li>Continuity grant opportunity up to 5,000 USD for an outstanding project.</li>
+                      <li>Alan track prize winner ₹7,500</li>
+                      <h5>Guidelines:</h5>
+                      <lu>
+                        
+                        <li>UI must be responsive.</li>
+                        <li>Project must use the Alan Ai slots method in the project.</li>
+                        <li>Project should be live.</li>
+                      </lu>
+                      
 
                     </lu>
 
@@ -267,7 +275,7 @@ export default function HomePage(props) {
                   <a href="https://www.notion.so/Tezos-Devfolio-Hackathon-Season-Prize-e90b6811b0df43e5a7dadf534fc000ff">Read More</a>
                 </div>
               </div>
-            </div>*/}
+            </div>
 
             <div class="cardtrack">
               <div class="boxtrack">
