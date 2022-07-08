@@ -273,7 +273,7 @@ const TeamInfo = [
       github: "https://github.com/manavshah25",
       linkedin: "https://www.linkedin.com/in/manav-shah-28a521212",
       img: manav
-    } 
+    }
   ]
 ];
 
@@ -339,7 +339,7 @@ const titlesponsorLogos = [
 
 const goldsponsorLogos = [
   // [  ], //Array 1
-  [{ src: filecoin, link: "https://filecoin.io/" },{ src: gfg, link: "https://www.geeksforgeeks.org/" }, { src: digitalocean, link: "https://www.digitalocean.com/" }], //Array 2
+  [{ src: filecoin, link: "https://filecoin.io/" }, { src: gfg, link: "https://www.geeksforgeeks.org/" }, { src: digitalocean, link: "https://www.digitalocean.com/" }], //Array 2
   // [{ src: interviewC }, { src: pass }, { src: glimpse }], //Array 3
   // [{ src: egg }, { src: ll }, { src: ACF }] //Array 4
 
