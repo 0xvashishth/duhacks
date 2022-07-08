@@ -14,6 +14,7 @@ import { Sponsor, SponsorsHead } from "../Sponsors/sponsors.jsx";
 import Birds from "../Birds/birds.jsx";
 import Footer from "../Footer/footer.jsx";
 import { Member } from "../team/team.jsx";
+import koii from "../../Module/Assets/sponsorsLogos/koii.png";
 import pattern from "./pattern4.png";
 import Media from "../media/media.jsx";
 import ThemeType from "../Themes/theme.jsx";
@@ -246,6 +247,33 @@ export default function HomePage(props) {
                     <li>Eligibility to apply for internship/full-time roles and seed funding of up to 5,000 USD for winners!</li>
                   </lu></b>
                   <a href="https://www.notion.so/Polygon-Devfolio-Hackathon-Season-Prize-de8961d5eeff4780963749da0b75037c">Read More</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="cardtrack">
+              <div class="boxtrack">
+                <div class="contenttrack">  
+                  <img className="imgtrack" src={koii} />
+                  <br /><br />
+                  <b>
+
+                    <lu>
+
+                      <li>$200 prize for best use of koii network.</li>
+                      <li>$100 prize for second best use of koii network.</li>
+                      <h5>Guidelines:</h5>
+                      <lu>
+                        
+                        <li>UI must be responsive.</li>
+                        <li>Prizes may vary based on the project complexity.</li>
+                      </lu>
+                      
+
+                    </lu>
+
+                  </b>
+                  {/*<a href="https://www.notion.so/Tezos-Devfolio-Hackathon-Season-Prize-e90b6811b0df43e5a7dadf534fc000ff">Read More</a>*/}
                 </div>
               </div>
             </div>
