@@ -16,7 +16,7 @@ import replit from "./Assets/sponsorsLogos/replit.png";
 import taskade from "./Assets/sponsorsLogos/taskade.png";
 import interviewbuddy from './Assets/sponsorsLogos/ib.png'
 import digitalocean from './Assets/sponsorsLogos/do.png'
-
+import postman from './Assets/sponsorsLogos/pm.svg'
 
 import zenisha from "./Assets/teami/Zenisha_Savaliya.jpeg";
 import dhruvi from "./Assets/teami/Dhruvi_Sherathiya.jpg";
@@ -273,7 +273,7 @@ const TeamInfo = [
       github: "https://github.com/manavshah25",
       linkedin: "https://www.linkedin.com/in/manav-shah-28a521212",
       img: manav
-    } 
+    }
   ]
 ];
 
@@ -339,7 +339,7 @@ const titlesponsorLogos = [
 
 const goldsponsorLogos = [
   // [  ], //Array 1
-  [{ src: filecoin, link: "https://filecoin.io/" },{ src: gfg, link: "https://www.geeksforgeeks.org/" }, { src: digitalocean, link: "https://www.digitalocean.com/" }], //Array 2
+  [{ src: filecoin, link: "https://filecoin.io/" }, { src: gfg, link: "https://www.geeksforgeeks.org/" }, { src: digitalocean, link: "https://www.digitalocean.com/" }], //Array 2
   // [{ src: interviewC }, { src: pass }, { src: glimpse }], //Array 3
   // [{ src: egg }, { src: ll }, { src: ACF }] //Array 4
 
@@ -347,7 +347,7 @@ const goldsponsorLogos = [
 
 const silversponsorLogos = [
   [{ src: echo3d, link: "https://www.echo3d.co/" }, { src: wolfram, link: "https://www.wolfram.com/" }, { src: interviewbuddy, link: "https://interviewbuddy.in/" }], //Array 1
-  [{ src: alan, link: "https://alan.app/" }], 
+  [{ src: alan, link: "https://alan.app/" }],
   // [{ src: taskade }, { src: Replit }, { src: qoom }], //Array 2
   // [{ src: interviewC }, { src: pass }, { src: glimpse }], //Array 3
   // [{ src: egg }, { src: ll }, { src: ACF }] //Array 4
@@ -356,7 +356,7 @@ const silversponsorLogos = [
 
 const bronzeponsorLogos = [
   [{ src: replit, link: "https://replit.com/" }, { src: certopus, link: "https://certopus.com/" }, { src: taskade, link: "https://www.taskade.com/" },], //Array 1
-  [{ src: koii, link: "https://www.koii.network/" }, {src: "https://www.postman.com/_mk-www-v7.3.0/assets/logos/pm-orange-logo-horiz.svg", link: "https://postman.com/"}], 
+  [{ src: koii, link: "https://www.koii.network/" }, { src: postman, link: "https://postman.com/" }],
   // [{ src: taskade }, { src: Replit }, { src: qoom }], //Array 2
   // [{ src: interviewC }, { src: pass }, { src: glimpse }], //Array 3
   // [{ src: egg }, { src: ll }, { src: ACF }] //Array 4
