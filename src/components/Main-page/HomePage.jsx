@@ -272,7 +272,7 @@ export default function HomePage(props) {
                     </lu>
 
                   </b>
-                  <a href="https://www.notion.so/Tezos-Devfolio-Hackathon-Season-Prize-e90b6811b0df43e5a7dadf534fc000ff">Read More</a>
+                  {/*<a href="https://www.notion.so/Tezos-Devfolio-Hackathon-Season-Prize-e90b6811b0df43e5a7dadf534fc000ff">Read More</a>*/}
                 </div>
               </div>
             </div>
