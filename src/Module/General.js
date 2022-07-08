@@ -4,6 +4,8 @@ import devfolio from "./Assets/sponsorsLogos/devfolio.png";
 import filecoin from "./Assets/sponsorsLogos/filecoin.png";
 import polygon from "./Assets/sponsorsLogos/polygon.png";
 import shutterbugs from "./Assets/sponsorsLogos/shutterbugs.png";
+import alan from "./Assets/sponsorsLogos/alan.png";
+import koii from "./Assets/sponsorsLogos/koii.png";
 // import celo from "./Assets/sponsorsLogos/celo.png";
 import echo3d from "./Assets/sponsorsLogos/echo3d.png";
 import streamyard from "./Assets/sponsorsLogos/streamyard1.JPG";
@@ -14,6 +16,7 @@ import replit from "./Assets/sponsorsLogos/replit.png";
 import taskade from "./Assets/sponsorsLogos/taskade.png";
 import interviewbuddy from './Assets/sponsorsLogos/ib.png'
 import digitalocean from './Assets/sponsorsLogos/do.png'
+import postman from './Assets/sponsorsLogos/pm.svg'
 
 import zenisha from "./Assets/teami/Zenisha_Savaliya.jpeg";
 import dhruvi from "./Assets/teami/Dhruvi_Sherathiya.jpg";
@@ -40,7 +43,7 @@ const TOP_SECTION = {
   TITLE: "DUHacks",
   Typed_effect: ["16 July - 17 July", "36 hours of creation", "Win awesome prizes", "Events And Sessions"],
   SHORT_DESCRIPTION:
-    "Join us on 16th and 17th of July 2022 for 36 hours of creation, innovation, & fun with over 500 students.",
+    "Join us on 16th and 17th of July 2022 for 36 hours of creation, innovation, & fun with over 1000+ students.",
   IMG_SRC: team,
   DISCORD_LINK: "https://discord.gg/cvHPEK7U3v",
   JUDGES_FORM_LINK:
@@ -61,7 +64,7 @@ const SOCIALS = {
 const MIDDLE_SECTION = {
   TITLE: "What is DUHacks?",
   LONG_DESCRIPTION:
-    "It is a hybrid mode hackathon in which all participants can sharpen their skills and connect with people to grow together. The Hackathon is designed to spark innovation, attract and educate new talent and create new channels for collaboration between performance and capacity professionals. We want to spread the idea that programming is a useful skill that can be enjoyed by anyone. We are planning to host approximately 150 students offline in the college with proper arrangement and 100+ students online.",
+    "It is a hybrid mode hackathon in which all participants can sharpen their skills and connect with people to grow together. The Hackathon is designed to spark innovation, attract and educate new talent and create new channels for collaboration between performance and capacity professionals. We want to spread the idea that programming is a useful skill that can be enjoyed by anyone. We are planning to host approximately 150+ students offline in the college with proper arrangement and 850+ students online.",
   LOGO_EFFECT: true,
   LOGO: ""
 };
@@ -194,7 +197,7 @@ const TeamInfo = [
     // Array 1
     {
       Name: "Vashishth Patel",
-      role: "Organizer",
+      role: "Lead Organizer",
       github: "https://github.com/vasu-1",
       linkedin: "https://www.linkedin.com/in/vashishth-patel-312a52204/",
       img: me
@@ -225,7 +228,7 @@ const TeamInfo = [
     },
     {
       Name: "Parshwa Mehta",
-      role: "Manager & Content Writer",
+      role: "Manager & Content",
       github: "https://github.com/PARSHWA0510",
       linkedin: "https://www.linkedin.com/in/parshwa-mehta-949306205",
       img: parshwa
@@ -266,11 +269,11 @@ const TeamInfo = [
     // Array 2
     {
       Name: "Manav Shah",
-      role: "Content Writer",
+      role: "Content Lead",
       github: "https://github.com/manavshah25",
       linkedin: "https://www.linkedin.com/in/manav-shah-28a521212",
       img: manav
-    } 
+    }
   ]
 ];
 
@@ -336,7 +339,7 @@ const titlesponsorLogos = [
 
 const goldsponsorLogos = [
   // [  ], //Array 1
-  [{ src: filecoin, link: "https://filecoin.io/" },{ src: gfg, link: "https://www.geeksforgeeks.org/" }, { src: digitalocean, link: "https://www.digitalocean.com/" }], //Array 2
+  [{ src: filecoin, link: "https://filecoin.io/" }, { src: gfg, link: "https://www.geeksforgeeks.org/" }, { src: digitalocean, link: "https://www.digitalocean.com/" }], //Array 2
   // [{ src: interviewC }, { src: pass }, { src: glimpse }], //Array 3
   // [{ src: egg }, { src: ll }, { src: ACF }] //Array 4
 
@@ -344,6 +347,7 @@ const goldsponsorLogos = [
 
 const silversponsorLogos = [
   [{ src: echo3d, link: "https://www.echo3d.co/" }, { src: wolfram, link: "https://www.wolfram.com/" }, { src: interviewbuddy, link: "https://interviewbuddy.in/" }], //Array 1
+  [{ src: alan, link: "https://alan.app/" }],
   // [{ src: taskade }, { src: Replit }, { src: qoom }], //Array 2
   // [{ src: interviewC }, { src: pass }, { src: glimpse }], //Array 3
   // [{ src: egg }, { src: ll }, { src: ACF }] //Array 4
@@ -352,6 +356,7 @@ const silversponsorLogos = [
 
 const bronzeponsorLogos = [
   [{ src: replit, link: "https://replit.com/" }, { src: certopus, link: "https://certopus.com/" }, { src: taskade, link: "https://www.taskade.com/" },], //Array 1
+  [{ src: koii, link: "https://www.koii.network/" }, { src: postman, link: "https://postman.com/" }],
   // [{ src: taskade }, { src: Replit }, { src: qoom }], //Array 2
   // [{ src: interviewC }, { src: pass }, { src: glimpse }], //Array 3
   // [{ src: egg }, { src: ll }, { src: ACF }] //Array 4

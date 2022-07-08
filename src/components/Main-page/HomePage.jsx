@@ -14,13 +14,14 @@ import { Sponsor, SponsorsHead } from "../Sponsors/sponsors.jsx";
 import Birds from "../Birds/birds.jsx";
 import Footer from "../Footer/footer.jsx";
 import { Member } from "../team/team.jsx";
+import koii from "../../Module/Assets/sponsorsLogos/koii.png";
 import pattern from "./pattern4.png";
 import Media from "../media/media.jsx";
 import ThemeType from "../Themes/theme.jsx";
+import TimeLine from "../Timeline/Timeline.jsx";
 import filecoin from "../../Module/Assets/sponsorsLogos/filecoin.png";
 import polygon from "../../Module/Assets/sponsorsLogos/polygon.png";
-import tezos from "../../Module/Assets/sponsorsLogos/tezos.png";
-import celo from "../../Module/Assets/sponsorsLogos/celo.png";
+import alan from "../../Module/Assets/sponsorsLogos/alan.png";
 
 import {
   TOP_SECTION,
@@ -176,6 +177,13 @@ export default function HomePage(props) {
           <ThemeType />
         </Row>
 
+         {/*TimeLine Section*/}
+         <Row className="timeline" id="timeline">
+        <PrizeHeading type="Hackathon TimeLine" />
+          <TimeLine />
+        </Row>
+   
+
 
         <Row className="prizesection" id="prizes">
           <PrizeHeading type="Prizes" />
@@ -221,6 +229,8 @@ export default function HomePage(props) {
           </div>
         </div>
 
+         
+
 
         <center>
 
@@ -241,25 +251,59 @@ export default function HomePage(props) {
               </div>
             </div>
 
-            {/*<div class="cardtrack">
+            <div class="cardtrack">
               <div class="boxtrack">
                 <div class="contenttrack">  
-                  <img className="imgtrack" src={tezos} />
+                  <img className="imgtrack" src={koii} />
                   <br /><br />
                   <b>
 
                     <lu>
 
-                      <li>₹20,000 for best Dapp built on Tezos.</li>
-                      <li>Continuity grant opportunity up to 5,000 USD for an outstanding project.</li>
+                      <li>$200 prize for best use of koii network.</li>
+                      <li>$100 prize for second best use of koii network.</li>
+                      <h5>Guidelines:</h5>
+                      <lu>
+                        
+                        <li>UI must be responsive.</li>
+                        <li>Prizes may vary based on the project complexity.</li>
+                      </lu>
+                      
 
                     </lu>
 
                   </b>
-                  <a href="https://www.notion.so/Tezos-Devfolio-Hackathon-Season-Prize-e90b6811b0df43e5a7dadf534fc000ff">Read More</a>
+                  {/*<a href="https://www.notion.so/Tezos-Devfolio-Hackathon-Season-Prize-e90b6811b0df43e5a7dadf534fc000ff">Read More</a>*/}
                 </div>
               </div>
-            </div>*/}
+            </div>
+
+            <div class="cardtrack">
+              <div class="boxtrack">
+                <div class="contenttrack">  
+                  <img className="imgtrack" src={alan} />
+                  <br /><br />
+                  <b>
+
+                    <lu>
+
+                      <li>Alan track prize winner ₹7,500</li>
+                      <h5>Guidelines:</h5>
+                      <lu>
+                        
+                        <li>UI must be responsive.</li>
+                        <li>Project must use the Alan Ai slots method in the project.</li>
+                        <li>Project should be live.</li>
+                      </lu>
+                      
+
+                    </lu>
+
+                  </b>
+                  {/*<a href="https://www.notion.so/Tezos-Devfolio-Hackathon-Season-Prize-e90b6811b0df43e5a7dadf534fc000ff">Read More</a>*/}
+                </div>
+              </div>
+            </div>
 
             <div class="cardtrack">
               <div class="boxtrack">
@@ -291,7 +335,7 @@ export default function HomePage(props) {
         </center>
         {/*Theme end*/}
 
-        <Birds top="100vh" left="0vh" type="" />
+        {/* <Birds top="100vh" left="0vh" type="" /> */}
 
         {/* *******Prizes here ***** */}
         {/*        <Row className="prizesection" id="prizes">
