@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.d5717e8d.chunk.css",
-    "main.js": "/static/js/main.9d2b484d.chunk.js",
-    "main.js.map": "/static/js/main.9d2b484d.chunk.js.map",
+    "main.js": "/static/js/main.f2f045e3.chunk.js",
+    "main.js.map": "/static/js/main.f2f045e3.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.488acc42.js",
     "runtime-main.js.map": "/static/js/runtime-main.488acc42.js.map",
     "static/js/2.5955ff62.chunk.js": "/static/js/2.5955ff62.chunk.js",
@@ -32,6 +32,7 @@
     "static/media/manav.8db9ea6e.jpg": "/static/media/manav.8db9ea6e.jpg",
     "static/media/pattern4.4b9f3314.png": "/static/media/pattern4.4b9f3314.png",
     "static/media/pm.2cf63900.svg": "/static/media/pm.2cf63900.svg",
+    "static/media/prayosys.3210f1f1.png": "/static/media/prayosys.3210f1f1.png",
     "static/media/preloader.efefe51c.gif": "/static/media/preloader.efefe51c.gif",
     "static/media/shutterbugs.446d7169.png": "/static/media/shutterbugs.446d7169.png",
     "static/media/smit.a70d5fa8.jpeg": "/static/media/smit.a70d5fa8.jpeg",
@@ -43,6 +44,6 @@
     "static/js/runtime-main.488acc42.js",
     "static/js/2.5955ff62.chunk.js",
     "static/css/main.d5717e8d.chunk.css",
-    "static/js/main.9d2b484d.chunk.js"
+    "static/js/main.f2f045e3.chunk.js"
   ]
 }
