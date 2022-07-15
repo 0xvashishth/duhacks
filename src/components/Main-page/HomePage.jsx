@@ -33,7 +33,8 @@ import {
   titlesponsorLogos,
   bronzeponsorLogos,
   silversponsorLogos,
-  goldsponsorLogos
+  goldsponsorLogos,
+  FoodLogos
 } from "../../Module/General";
 
 // javascript Map for sponsors
@@ -371,6 +372,10 @@ export default function HomePage(props) {
           <h1 className="">Design & Media Partners</h1>
           <br />
           {designlogo.map(SponsorGroup)}
+          <br /><br />
+          <h1 className="">Food Sponsors</h1>
+          <br />
+          {FoodLogos.map(SponsorGroup)}
         </Row>
         {/* ********Sponsors ending here ***** */}
 

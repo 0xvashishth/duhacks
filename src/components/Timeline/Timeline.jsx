@@ -38,7 +38,7 @@ function TimeLine() {
           <span class="title">Opening Ceremony</span>
           <span>16th July 2022</span>
         </div>
-        <p className="timeline_text" style={{fontSize: "14px"}}>Hackathon opening ceremony will start 9:00 AM onwards.</p>
+        <p className="timeline_text" style={{fontSize: "14px"}}>Hackathon opening ceremony will start 9:15 AM onwards.</p>
         
       </section>
     </div>
@@ -87,17 +87,6 @@ function TimeLine() {
       </section>
     </div>
     <div class="row row-2">
-      <section>
-        <i class="icon fas fa-paper-plane"></i>
-        <div class="details">
-          <span class="title">Coming Soon</span>
-          <span>16th-17th July 2022</span>
-        </div>
-        <p className="timeline_text" style={{fontSize: "14px"}}>Coming soon.</p>
-        
-      </section>
-    </div>
-    <div class="row row-1">
       <section>
         <i class="icon fas fa-globe"></i>
         <div class="details">
