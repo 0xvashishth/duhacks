@@ -38,7 +38,7 @@ function TimeLine() {
           <span class="title">Opening Ceremony</span>
           <span>16th July 2022</span>
         </div>
-        <p className="timeline_text" style={{fontSize: "14px"}}>Hackathon opening ceremony will start 9:00 AM onwards.</p>
+        <p className="timeline_text" style={{fontSize: "14px"}}>Hackathon opening ceremony will start 9:15 AM onwards.</p>
         
       </section>
     </div>
@@ -68,14 +68,25 @@ function TimeLine() {
       <section>
         <i class="icon fas fa-paper-plane"></i>
         <div class="details">
-          <span class="title">Coming Soon</span>
-          <span>16th-17th July 2022</span>
+          <span class="title">Session from Postman</span>
+          <span>16th July 2022</span>
         </div>
-        <p className="timeline_text" style={{fontSize: "14px"}}>Coming soon.</p>
+        <p className="timeline_text" style={{fontSize: "14px"}}>Session on APIs 101 using Postman on 4:00 PM Onwards.</p>
         
       </section>
     </div>
     <div class="row row-1">
+      <section>
+        <i class="icon fas fa-paper-plane"></i>
+        <div class="details">
+          <span class="title">Session from Alan AI</span>
+          <span>16th July 2022</span>
+        </div>
+        <p className="timeline_text" style={{fontSize: "14px"}}>Session on Building Voice Ai Powered App in React JS with Alan Ai on 06:30 PM Onwards.</p>
+        
+      </section>
+    </div>
+    <div class="row row-2">
       <section>
         <i class="icon fas fa-globe"></i>
         <div class="details">
