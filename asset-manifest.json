@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.d5717e8d.chunk.css",
-    "main.js": "/static/js/main.62202e34.chunk.js",
-    "main.js.map": "/static/js/main.62202e34.chunk.js.map",
+    "main.js": "/static/js/main.6b61a2ba.chunk.js",
+    "main.js.map": "/static/js/main.6b61a2ba.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.488acc42.js",
     "runtime-main.js.map": "/static/js/runtime-main.488acc42.js.map",
     "static/js/2.5955ff62.chunk.js": "/static/js/2.5955ff62.chunk.js",
@@ -19,23 +19,24 @@
     "static/media/Nirali.291938a9.jpeg": "/static/media/Nirali.291938a9.jpeg",
     "static/media/Parshwa_Mehta.7b413a37.jpg": "/static/media/Parshwa_Mehta.7b413a37.jpg",
     "static/media/Ryah.6f561055.jpg": "/static/media/Ryah.6f561055.jpg",
-    "static/media/Vashishth_Patel.f2cc31ca.jpg": "/static/media/Vashishth_Patel.f2cc31ca.jpg",
+    "static/media/Vashishth_Patel.abb35909.jpg": "/static/media/Vashishth_Patel.abb35909.jpg",
     "static/media/Zenisha_Savaliya.54beb014.jpeg": "/static/media/Zenisha_Savaliya.54beb014.jpeg",
     "static/media/alan.4077df7b.png": "/static/media/alan.4077df7b.png",
     "static/media/certopus.76bdd21b.png": "/static/media/certopus.76bdd21b.png",
+    "static/media/cuvette.d0d67a1c.png": "/static/media/cuvette.d0d67a1c.png",
     "static/media/digilogo.fce122b1.png": "/static/media/digilogo.fce122b1.png",
     "static/media/dsc.4d098269.png": "/static/media/dsc.4d098269.png",
     "static/media/ham-c.8ab7632d.svg": "/static/media/ham-c.8ab7632d.svg",
     "static/media/ham.a63ab4de.svg": "/static/media/ham.a63ab4de.svg",
     "static/media/ib.4a43ef23.png": "/static/media/ib.4a43ef23.png",
-    "static/media/jay_bhavani.7215de91.jpeg": "/static/media/jay_bhavani.7215de91.jpeg",
-    "static/media/jay_maharaj.d3341c45.jpeg": "/static/media/jay_maharaj.d3341c45.jpeg",
+    "static/media/jay_bhavani.b2d5a038.jpeg": "/static/media/jay_bhavani.b2d5a038.jpeg",
+    "static/media/jay_maharaj.f8ede424.jpeg": "/static/media/jay_maharaj.f8ede424.jpeg",
     "static/media/koii.df9b65b0.png": "/static/media/koii.df9b65b0.png",
     "static/media/manav.5b3ee183.jpg": "/static/media/manav.5b3ee183.jpg",
-    "static/media/maruti.3d7fb834.jpeg": "/static/media/maruti.3d7fb834.jpeg",
+    "static/media/maruti.e4545a1e.jpeg": "/static/media/maruti.e4545a1e.jpeg",
     "static/media/pattern4.4b9f3314.png": "/static/media/pattern4.4b9f3314.png",
     "static/media/pm.2cf63900.svg": "/static/media/pm.2cf63900.svg",
-    "static/media/prayosys.3210f1f1.png": "/static/media/prayosys.3210f1f1.png",
+    "static/media/prayosys.883046b2.png": "/static/media/prayosys.883046b2.png",
     "static/media/preloader.efefe51c.gif": "/static/media/preloader.efefe51c.gif",
     "static/media/shivalika.c71db3e9.JPG": "/static/media/shivalika.c71db3e9.JPG",
     "static/media/shivam.2d7b4d12.JPG": "/static/media/shivam.2d7b4d12.JPG",
@@ -49,6 +50,6 @@
     "static/js/runtime-main.488acc42.js",
     "static/js/2.5955ff62.chunk.js",
     "static/css/main.d5717e8d.chunk.css",
-    "static/js/main.62202e34.chunk.js"
+    "static/js/main.6b61a2ba.chunk.js"
   ]
 }
