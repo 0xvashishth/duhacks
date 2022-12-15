@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Navbar from "./components/Navbar/Navbar.jsx";
-import LOADER from './components/Loading/loading.jsx';
+import Navbar from "./components/Navbar/Navbar";
+import LOADER from './components/Loading/loading';
 
 const rootElement = document.getElementById("body");
 const footer = document.getElementById("footer");
