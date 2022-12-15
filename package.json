@@ -24,6 +24,7 @@
     "@types/react-dom": "^18.0.3",
     "babel": "^6.23.0",
     "bootstrap": "^4.6.0",
+    "caniuse-lite": "^1.0.30001439",
     "express": "^4.17.1",
     "node-sass": "^6.0.1",
     "prettier": "^2.3.2",
