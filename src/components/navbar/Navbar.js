@@ -1,5 +1,5 @@
-// import React, { useState, useEffect, useRef } from "react";
-import "./styles.scss";
+import React from "react";
+import "./styles.css";
 
 
 const Navbar = () => {
@@ -7,6 +7,5 @@ const Navbar = () => {
     <div>Hello Navbar</div>
   );
 };
-
 
 export default Navbar;
