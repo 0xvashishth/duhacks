@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App";
-import Loader from "./Components/Loading/loading";
+import Loader from "./components/Loading/loading";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 const load = ReactDOM.createRoot(document.getElementById("loadingDiv"));

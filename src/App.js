@@ -1,16 +1,16 @@
-import About from "./Components/About";
-import BackToTop from "./Components/BackToTop";
-import Blog from "./Components/Blog";
-import Contact from "./Components/Contact";
-import Counter from "./Components/Counter";
-import FAQS from "./Components/FAQS";
-import Footer from "./Components/Footer";
-import Header from "./Components/Header";
-import Prize from "./Components/Prize";
-import Query from "./Components/Query/Query";
-import Schedule from "./Components/Schedule";
-import Sponsers from "./Components/Sponsers";
-import Video from "./Components/Video";
+import About from "./components/About";
+import BackToTop from "./components/BackToTop";
+import Blog from "./components/Blog";
+import Contact from "./components/Contact";
+import Counter from "./components/Counter";
+import FAQS from "./components/FAQS";
+import Footer from "./components/Footer";
+import Header from "./components/Header";
+import Prize from "./components/Prize";
+import Query from "./components/Query/Query";
+import Schedule from "./components/Schedule";
+import Sponsers from "./components/Sponsers";
+import Video from "./components/Video";
 
 function App() {
   return (
