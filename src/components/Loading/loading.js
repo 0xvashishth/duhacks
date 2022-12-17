@@ -1,6 +1,6 @@
 import React from 'react';
 import loadergif from './preloader.gif';
-import './Loading.css';
+import './loading.css';
 
 export default function LOADER(props) {
   return (
