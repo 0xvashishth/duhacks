@@ -1,21 +1,17 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import Navbar from "./components/navbar/Navbar";
-import LOADER from './components/Loading/loading';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import App from "./App";
+import Loader from "./Components/Loading/loading";
 
-const rootElement = document.getElementById("body");
-const footer = document.getElementById("footer");
-
-ReactDOM.render(
-  <div>
-    <Navbar />
-  </div>,
-  rootElement
+const root = ReactDOM.createRoot(document.getElementById("root"));
+const load = ReactDOM.createRoot(document.getElementById("loadingDiv"));
+root.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
 );
-
-ReactDOM.render(
-  <React.Fragment>
-    <LOADER />
-  </React.Fragment>,
-  footer
+load.render(
+  <React.StrictMode>
+    <Loader />
+  </React.StrictMode>
 );

@@ -1,64 +1,84 @@
+<!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <title>DUHacks 2.0</title>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="apple-mobile-web-app-capable" content="yes" />
-  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
-  <meta name="author" content="DUHacks 2.0">
-  <meta name="description" content="Join us on 16-17th July 2022 with over 500 students for 36 hours of creation, innovation, & fun." />
-  <meta itemprop="name" content="DUHacks">
-  <meta property="og:title" content="DUHacks 2022" />
-  <meta property="og:type" content="website" />
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:site" content="@duhacks" />
-  <meta name="twitter:creator" content="@duhacks" />
-  <meta property="og:url" content="https://duhacks.tech" />
-  <meta property="og:image:type" content="image/jpeg" />
-  <meta property="og:image:width" content="851" />
-  <meta property="og:image:height" content="315" />
-  <meta property="og:image:alt" content="DUHacks" />
-  <script defer async src="https://apply.devfolio.co/v2/sdk.js"></script>
-  <meta property="og:image" content="https://user-images.githubusercontent.com/76911582/171133278-0eac7d43-fca2-43fa-b90a-e8907ce346c3.png" width="16" height="60" />
-  <meta property="og:image:secure_url" content="https://user-images.githubusercontent.com/76911582/171133278-0eac7d43-fca2-43fa-b90a-e8907ce346c3.png" />
-  <meta name="twitter:image" content="https://user-images.githubusercontent.com/76911582/171133278-0eac7d43-fca2-43fa-b90a-e8907ce346c3.png" />
-  <meta property="og:description" content="Join us on 16-17th July 2022 with over 500 students for 36 hours of creation, innovation, & fun." />
-  <link rel="icon" type="image/png" href="https://user-images.githubusercontent.com/76911582/171133278-0eac7d43-fca2-43fa-b90a-e8907ce346c3.png">
-  <link rel="stylesheet" href="./index.css" />
-  <title>DUHacks</title>
-</head>
-
-<body onload="removeLoader()" class="day-mode">
-  <div id="loader"></div>
-  <div id="body"></div>
-  <div id="footer"></div>
-  <style>
-    body {
-      position: relative;
-      background-repeat: no-repeat;
-    }
-
-    #body {
-      position: relative;
-      overflow: hidden;
-    }
-
-    @media (max-width: 900px) {
-      body {
-        text-align: center;
-        position: relative;
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <title>duhacks2.0</title>
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="assets/css/bootstrap.min.css"
+    />
+    <!-- Icon -->
+    <link rel="stylesheet" type="text/css" href="assets/fonts/line-icons.css" />
+    <!-- Nivo Lightbox -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="assets/css/nivo-lightbox.css"
+    />
+    <!-- Animate -->
+    <link rel="stylesheet" type="text/css" href="assets/css/animate.css" />
+    <!-- Main Style -->
+    <link rel="stylesheet" type="text/css" href="assets/css/main.css" />
+    <!-- Responsive Style -->
+    <link rel="stylesheet" type="text/css" href="assets/css/responsive.css" />
+    <link rel="shortcut icon" type="image/jpg" href="assets/img/LOGO.png" />
+  </head>
+  <body>
+    <div id="root">hiii</div>
+    <!-- Header Area wrapper Starts -->
+    <!-- Header Area wrapper End -->
+    <!-- About Section Start -->
+    <!-- About Section End -->
+    <!-- Video Section Start -->
+    <!-- Video Section End -->
+    <!-- Information Bar Start -->
+    <!-- Information Bar End -->
+    <!-- Prizes Section Start -->
+    <!-- Prizes Section End -->
+    <!-- Counter Area Start-->
+    <!-- Counter Area End-->
+    <!-- Schedule Section Start -->
+    <!-- Schedule Section End -->
+    <!-- Blog Section Start -->
+    <!-- Blog Section End -->
+    <!-- Sponsors Section Start -->
+    <!-- Sponsors Section End -->
+    <!-- FAQ Section Start -->
+    <!-- FAQ Section End -->
+    <!-- Contact text Start -->
+    <!-- Contact text End -->
+    <!-- Go to Top Link -->
+    <!-- <a href="#" class="back-to-top">
+      <i class="lni-chevron-up"></i>
+    </a> -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <div id="loadingDiv"></div>
+    <script>
+      function removeLoader() {
+        setTimeout(() => {
+          document.getElementById("loadingDiv").style.display = "none";
+        }, 3000);
       }
-    }
-  </style>
-  <script src="../js/main.js"></script>
-  <script>
-    function removeLoader() {
-      setTimeout(() => {
-        document.getElementById("footer").style.display = "none";
-      }, 200);
-    }
-  </script>
-</body>
-
+      removeLoader();
+    </script>
+    <script src="assets/js/jquery-min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/jquery.countdown.min.js"></script>
+    <script src="assets/js/waypoints.min.js"></script>
+    <script src="assets/js/jquery.counterup.min.js"></script>
+    <script src="assets/js/jquery.nav.js"></script>
+    <script src="assets/js/jquery.easing.min.js"></script>
+    <script src="assets/js/wow.js"></script>
+    <script src="assets/js/nivo-lightbox.js"></script>
+    <script src="assets/js/video.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>
