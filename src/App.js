@@ -7,7 +7,7 @@ import FAQS from "./components/FAQS";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Prize from "./components/Prize";
-import Query from "./components/Query/Query";
+// import Query from "./components/Query/Query";
 import Schedule from "./components/Schedule";
 import Sponsers from "./components/Sponsers";
 import Video from "./components/Video";
@@ -25,7 +25,6 @@ function App() {
       <Sponsers />
       <FAQS />
       <Contact />
-      <Query />
       <Footer />
       <BackToTop />
     </div>
