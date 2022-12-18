@@ -1465,7 +1465,7 @@ h1 {
   border-radius: 4px;
   box-shadow: 0 8px 24px #e2e8ed;
   margin-bottom: -35px;
-  margin-top: -35px;
+  margin-top:35px;
   padding: 45px 0;
   position: relative;
   top: -40px;
