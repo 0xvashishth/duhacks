@@ -7,7 +7,7 @@ const Video = () => {
       <ReactPlayer
         style={{margin: 'auto'}}
         className="react-player"
-        controls="true"
+        // controls="true"
         url="https://youtu.be/BUCFX36MMBM"
         height="100%"
         width="100%"

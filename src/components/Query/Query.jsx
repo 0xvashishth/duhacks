@@ -1,10 +1,10 @@
-import React, { useRef, useState } from "react";
-import "./Query.css";
-import emailjs from "@emailjs/browser";
+import React, {useRef, useState} from 'react';
+import './Query.css';
+import emailjs from '@emailjs/browser';
 const Query = () => {
   const form = useRef();
   const [done, setDone] = useState(false);
-  const sendEmail = (e) => {
+  const sendEmail = e => {
     e.preventDefault();
     let formData = form.current;
     if (formData.user_name && formData.user_email && formData.message) {
@@ -16,12 +16,12 @@ const Query = () => {
           process.env.REACT_APP_EMAILSJS_PUBLIC_KEY
         )
         .then(
-          (result) => {
+          result => {
             console.log(result.text);
             setDone(true);
-            document.getElementsByClassName("user").value = "";
+            document.getElementsByClassName('user').value = '';
           },
-          (error) => {
+          error => {
             console.log(error.text);
           }
         );
@@ -29,14 +29,14 @@ const Query = () => {
   };
 
   return (
-    <div className="contact-form" style={{ paddingTop: "70px" }} id="contact">
+    <div className="contact-form" style={{paddingTop: '70px'}} id="contact">
       <div className="c-right">
         <form ref={form} onSubmit={sendEmail}>
           <h2 className="section-title wow fadeInUp" data-wow-delay="0.2s">
             Submit Your Queries
           </h2>
           <input
-            style={{ height: "2.5rem" }}
+            style={{height: '2.5rem'}}
             type="text"
             name="user_name"
             className="user"
@@ -44,7 +44,7 @@ const Query = () => {
             required
           />
           <input
-            style={{ height: "2.5rem" }}
+            style={{height: '2.5rem'}}
             type="email"
             name="user_email"
             className="user"
@@ -58,7 +58,7 @@ const Query = () => {
             placeholder="Message"
           />
           <input type="submit" value="Send" className="btn btn-common" />
-          <p>{done && "Thanks For Contacting Us"}</p>
+          <p>{done && 'Thanks For Contacting Us'}</p>
         </form>
       </div>
     </div>
