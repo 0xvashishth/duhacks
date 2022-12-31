@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.d5717e8d.chunk.css",
-    "main.js": "/static/js/main.6b61a2ba.chunk.js",
-    "main.js.map": "/static/js/main.6b61a2ba.chunk.js.map",
+    "main.js": "/static/js/main.8cb10695.chunk.js",
+    "main.js.map": "/static/js/main.8cb10695.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.488acc42.js",
     "runtime-main.js.map": "/static/js/runtime-main.488acc42.js.map",
     "static/js/2.5955ff62.chunk.js": "/static/js/2.5955ff62.chunk.js",
@@ -19,11 +19,11 @@
     "static/media/Nirali.291938a9.jpeg": "/static/media/Nirali.291938a9.jpeg",
     "static/media/Parshwa_Mehta.7b413a37.jpg": "/static/media/Parshwa_Mehta.7b413a37.jpg",
     "static/media/Ryah.6f561055.jpg": "/static/media/Ryah.6f561055.jpg",
-    "static/media/Vashishth_Patel.abb35909.jpg": "/static/media/Vashishth_Patel.abb35909.jpg",
+    "static/media/Vashishth_Patel.c668b58f.jpg": "/static/media/Vashishth_Patel.c668b58f.jpg",
     "static/media/Zenisha_Savaliya.54beb014.jpeg": "/static/media/Zenisha_Savaliya.54beb014.jpeg",
     "static/media/alan.4077df7b.png": "/static/media/alan.4077df7b.png",
     "static/media/certopus.76bdd21b.png": "/static/media/certopus.76bdd21b.png",
-    "static/media/cuvette.d0d67a1c.png": "/static/media/cuvette.d0d67a1c.png",
+    "static/media/cuvette.1ca2b509.png": "/static/media/cuvette.1ca2b509.png",
     "static/media/digilogo.fce122b1.png": "/static/media/digilogo.fce122b1.png",
     "static/media/dsc.4d098269.png": "/static/media/dsc.4d098269.png",
     "static/media/ham-c.8ab7632d.svg": "/static/media/ham-c.8ab7632d.svg",
@@ -50,6 +50,6 @@
     "static/js/runtime-main.488acc42.js",
     "static/js/2.5955ff62.chunk.js",
     "static/css/main.d5717e8d.chunk.css",
-    "static/js/main.6b61a2ba.chunk.js"
+    "static/js/main.8cb10695.chunk.js"
   ]
 }
