@@ -2,7 +2,6 @@
   "name": "duhacks",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://duhacks.tech/",
   "dependencies": {
     "@devexpress/dx-core": "^2.7.6",
     "@devexpress/dx-react-core": "^2.7.6",
