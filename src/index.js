@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import NAV from "./components/Navbar/App";
+import NAV from "./components/navbar/App";
 import LOADER from './components/Loading/loading';
 
 // const rootElement = document.getElementById('body');
