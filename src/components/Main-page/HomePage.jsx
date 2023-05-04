@@ -12,7 +12,7 @@ import { Accordion } from "../FAQ/faq.jsx";
 // import {Sponsor, SponsorsHead, SponsorUS} from "../Sponsors/sponsors.jsx";
 import { Sponsor, SponsorsHead } from "../Sponsors/sponsors.jsx";
 import Birds from "../Birds/birds.jsx";
-import Footer from "../Footer/footer.jsx";
+import Footer from "../Footer/footer";
 import { Member } from "../team/team.jsx";
 import koii from "../../Module/Assets/sponsorsLogos/koii.png";
 import pattern from "./pattern4.png";
